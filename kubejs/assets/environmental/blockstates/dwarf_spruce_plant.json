@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "bottom=false": { "model": "remix:block/spiring_fern_middle" },
+        "bottom=true": { "model": "remix:block/spiring_fern_bottom" }
+    }
+}

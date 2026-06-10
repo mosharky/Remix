@@ -1,0 +1,7 @@
+{
+  "parent": "remix:block/mirrored_tinted_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "remix:block/sky_grass_sprouts_gray"
+  }
+}

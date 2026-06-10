@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "remix:block/sky_grass",
+        "weight": 1
+      },
+      {
+        "model": "remix:block/sky_grass_mirrored",
+        "weight": 1
+      }
+    ]
+  }
+}

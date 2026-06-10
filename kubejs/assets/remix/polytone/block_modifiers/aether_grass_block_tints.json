@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "aether:aether_grass_block"
+  ],
+  "colormap": {
+    "0": "remix:aether_dirt_color",
+    "2": "remix:aether_grass_color"
+  },
+  "tinted_breaking_particles": true
+}

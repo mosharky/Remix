@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:short_grass",
+    "nomansland:grass_sprouts"
+  ],
+  "colormap": {
+    "0": "remix:aether_grass_color"
+  },
+  "tinted_breaking_particles": true
+}
