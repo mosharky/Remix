@@ -29,4 +29,4 @@ git clone --recursive https://github.com/mosharky/Remix
 - [Remix](https://github.com/mosharky/Remix)
 - [RemixMods](https://github.com/mosharky/RemixMods)
 - [RemixCore](https://github.com/mosharky/RemixCore)
-- [Design/Todo Doc]()
+- [Design/Todo Doc](https://docs.google.com/document/d/1hka_Jc9ERbga4rCrYldCqWPgjGGWzk_xVklEtIDDh74)
