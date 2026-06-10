@@ -135,3 +135,4 @@ minecraftinstance.json
 # !kubejs/assets/special-*.zip
 # kubejs/data/*.zip
 # !kubejs/data/special-*.zip
+user-prefs.json
