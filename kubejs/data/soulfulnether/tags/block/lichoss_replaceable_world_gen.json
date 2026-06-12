@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "aether:holystone",
+    "aether:mossy_holystone",
+    "darkerdepths:grime_ground"
+  ]
+}

@@ -6,7 +6,7 @@
 	#Disables the cloud rendering in the Aether
 	"Disables Aether's clouds" = true
 	#Removes warm-tinting of the lightmap in the Aether, giving the lighting a colder feel
-	"Makes lightmap colder" = true
+	"Makes lightmap colder" = false
 	#Enables a green-tinted sunrise and sunset in the Aether, similar to the original mod
 	"Enables green sunrise/sunset" = true
 

@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#soulfulnether:lichoss_replaceable_world_gen",
+    "#minecraft:moss_replaceable"
+  ]
+}

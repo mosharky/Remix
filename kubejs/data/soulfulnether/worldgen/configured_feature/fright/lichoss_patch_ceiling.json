@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 3
+    },
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.3,
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "soulfulnether:lichoss_block"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "aether:mossy_holystone"
+          }
+        }
+      ]
+    },
+    "replaceable": "#soulfulnether:lichoss_replaceable_world_gen",
+    "surface": "ceiling",
+    "vegetation_chance": 0.8,
+    "vegetation_feature": {
+      "feature": "soulfulnether:fright/hanging_lichoss_vegetation",
+      "placement": []
+    },
+    "vertical_range": 5,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 5,
+      "min_inclusive": 3
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "targets": [
+        "#minecraft:is_overworld",
+        "#aether:is_aether"
+    ],
+    "fog_fade": 10.5
+}
