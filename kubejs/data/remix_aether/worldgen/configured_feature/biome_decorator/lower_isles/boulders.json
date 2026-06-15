@@ -1,0 +1,28 @@
+{
+  "type": "lithostitched:weighted_selector",
+  "config": {
+    "features": [
+      {
+        "data": {
+          "feature": "remix_aether:boulder/quartz",
+          "placement": []
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "feature": "remix_aether:boulder/mossy_holystone",
+          "placement": []
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "feature": "remix_aether:boulder/hailrock",
+          "placement": []
+        },
+        "weight": 2
+      }
+    ]
+  }
+}

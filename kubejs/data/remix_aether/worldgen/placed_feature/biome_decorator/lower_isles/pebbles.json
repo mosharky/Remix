@@ -1,0 +1,29 @@
+{
+  "feature": "remix_aether:patch/holystone_pebbles_dense",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 11,
+      "below_noise": 4,
+      "noise_level": -0.8
+    },
+    {
+      "type": "aether:improved_layer_placement",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 1,
+        "min_inclusive": 0
+      },
+      "heightmap": "MOTION_BLOCKING",
+      "verticalBounds": 4
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

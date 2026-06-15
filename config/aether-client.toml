@@ -2,7 +2,7 @@
 	#Changes Zephyr and Aerwhale rendering to use their old models from the b1.7.3 version of the mod
 	"Switches to legacy mob models" = false
 	#Disables the Aether's custom skybox in case you have a shader that is incompatible with custom skyboxes
-	"Disables Aether custom skybox" = false
+	"Disables Aether custom skybox" = true
 	#Disables the cloud rendering in the Aether
 	"Disables Aether's clouds" = true
 	#Removes warm-tinting of the lightmap in the Aether, giving the lighting a colder feel

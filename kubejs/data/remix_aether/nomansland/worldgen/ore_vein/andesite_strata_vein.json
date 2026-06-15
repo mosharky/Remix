@@ -1,0 +1,116 @@
+{
+  "spacing": 64,
+  "separation": 48,
+  "probability": 0.5,
+  "generation_order": 30,
+
+  "radius": {
+    "type": "uniform",
+    "min_inclusive": 8,
+    "max_inclusive": 16
+  },
+  "target_condition": {
+         "type": "matching_block_tag",
+         "tag": "aether:holystone"
+  },
+  "min_height": {
+    "type": "constant",
+    "value": {
+      "above_bottom": 75
+    }
+  },
+  "max_height": {
+    "type": "constant",
+    "value": {
+      "below_top": 64
+    }
+  },
+
+  "vein_radius": {
+    "type": "constant",
+    "value": 120.0
+  },
+  "inverted": true,
+
+  "filler": {
+    "state_provider": {
+      "type": "nomansland:strata_state_provider",
+      "layers": [
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:calcite" }
+          },
+          "height": 2
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "aether:holystone" }
+          },
+          "height": 2
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:calcite" }
+          },
+          "height": 2
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "aether:holystone" }
+          },
+          "height": 2
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:calcite" }
+          },
+          "height": 1
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "aether:holystone" }
+          },
+          "height": 1
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:calcite" }
+          },
+          "height": 3
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "aether:holystone" }
+          },
+          "height": 3
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:calcite" }
+          },
+          "height": 2
+        },
+        {
+          "data": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "aether:holystone" }
+          },
+          "height": 2
+        }
+      ],
+      "noise_intensity": 2.0,
+      "randomize": false
+    },
+    "probability": 1.0,
+    "incoherence": 0.0
+  }
+}

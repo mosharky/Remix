@@ -56,7 +56,7 @@
 	#Sets the Aether's time cycle to be the same length as the Overworld's
 	"Overworld-length Aether time cycle" = false
 	#Syncs the Aether's time cycle to the Overworld's
-	"Syncs time cycles" = false
+	"Syncs time cycles" = true
 	#Sets the ID of the dimension that the Aether Portal will send the player to
 	"Sets portal destination dimension" = "aether:the_aether"
 	#Sets the ID of the dimension that the Aether Portal will return the player to

@@ -3,7 +3,7 @@
     "aether:aether_dirt"
   ],
   "colormap": {
-    "0": "remix:aether_dirt_color"
+    "0": "remix:aether/aether_dirt_color"
   },
   "tinted_breaking_particles": true
 }

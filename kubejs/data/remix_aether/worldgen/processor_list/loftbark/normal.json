@@ -1,0 +1,43 @@
+{
+  "processors": [
+        {
+      "processor_type": "elysium_api:protect_non_replaceable",
+      "blacklist": "#soulfulnether:simple_protector_blacklist"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "elysium_api:structure_stamp_anchor"
+          },
+          "output_state": {
+            "Name": "aether:skyroot_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "aether:skyroot_leaves"
+          },
+          "output_state": {
+            "Name": "aether:skyroot_leaves",
+            "Properties": {
+              "persistent": "false"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

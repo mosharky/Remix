@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 6,
+    "xz_spread": 3,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "elysium_api:structure_stamp",
+        "config": {
+          "templates": [
+            {
+              "data": "remix_aether:ruin/suspicious_gravel",
+              "weight": 1
+            }
+          ],
+          "can_place_on": [
+            "minecraft:gravel"
+          ],
+          "origin_type": "anchored",
+          "origin_offset": -2,
+          "processors": "remix_aether:ruin/suspicious_gravel",
+          "liquid_settings": "apply_waterlogging"
+        }
+      },
+      "placement": []
+    }
+  }
+}

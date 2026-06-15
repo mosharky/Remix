@@ -18,22 +18,10 @@
           }
         },
         {
-          "biome": "remix_aether:lower_isle",
+          "biome": "remix_aether:lower_isles",
           "parameters": {
             "continentalness": [-2.0, 2.0],
             "depth": [0.55, 0.9],
-            "erosion": [-2.0, 2.0],
-            "humidity": [-2.0, 2.0],
-            "offset": 0.0,
-            "temperature": [-2.0, 2.0],
-            "weirdness": [-2.0, 2.0]
-          }
-        },
-        {
-          "biome": "remix_aether:underhang",
-          "parameters": {
-            "continentalness": [-2.0, 2.0],
-            "depth": [0.9, 2.0],
             "erosion": [-2.0, 2.0],
             "humidity": [-2.0, 2.0],
             "offset": 0.0,

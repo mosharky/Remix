@@ -1,9 +1,12 @@
 {
-  "carvers": {},
+  "carvers": {
+    "air": [
+      "remix_aether:aether_cave"
+    ]
+  },
   "creature_spawn_probability": 0.25,
   "downfall": 0.0,
   "effects": {
-    "fog_color": 9671612,
     "foliage_color": 11665355,
     "grass_color": 11665355,
     "music": {
@@ -12,7 +15,8 @@
       "replace_current_music": false,
       "sound": "aether:music.aether"
     },
-    "sky_color": 12632319,
+    "sky_color": 12962303,
+    "fog_color": 12895199,
     "water_color": 8040890,
     "water_fog_color": 8040890
   },
@@ -23,14 +27,17 @@
       "remix_aether:holystone_cliffs_supplement"
     ],
     [
-      "aether:water_lake"
+      "aether:water_lake",
+      "remix_aether:aether_pond_common"
     ],
     [],
     [],
     [],
     [],
     [
-      "aether:icestone_ore",
+      "remix_aether:biome_decorator/lofty_clearings/ruins",
+      "remix_aether:biome_decorator/lofty_clearings/boulders",
+      "remix_aether:ore/hailrock",
       "aether:ambrosium_ore",
       "aether:zanite_ore",
       "aether:gravitite_ore_buried",
@@ -39,8 +46,9 @@
     [],
     [],
     [
-      "aether:skyroot_grove_trees",
-      "aether:holiday_tree",
+      "remix_aether:biome_decorator/lofty_clearings/trees",
+      "remix_aether:biome_decorator/lofty_clearings/fallen_trees",
+      "remix_aether:patch/holystone_pebbles",
       "remix_aether:patch/skygrass",
       "remix_aether:patch/skygrass_sprouts",
       "aether:white_flower_patch",

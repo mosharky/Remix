@@ -1,0 +1,68 @@
+{
+  "carvers": {
+        "air": [
+      "remix_aether:aether_cave"
+    ]
+  },
+  "creature_spawn_probability": 0.25,
+  "downfall": 0.0,
+  "effects": {
+    "foliage_color": 11665355,
+    "grass_color": 11665355,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "aether:music.aether"
+    },
+    "sky_color": 12962303,
+    "fog_color": 12895199,
+    "water_color": 8040890,
+    "water_fog_color": 8040890
+  },
+  "features": [
+    [
+      "aether:quicksoil_shelf"
+    ],
+    [
+      "aether:water_lake",
+      "remix_aether:aether_pond_common"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "remix_aether:biome_decorator/lower_isles/ruins",
+      "remix_aether:biome_decorator/lower_isles/boulders",
+      "remix_aether:ore/hailrock",
+      "aether:ambrosium_ore",
+      "aether:zanite_ore",
+      "aether:gravitite_ore_buried",
+      "aether:gravitite_ore"
+    ],
+    [],
+    [],
+    [
+      "remix_aether:biome_decorator/lower_isles/pebbles",
+      "remix_aether:patch/holystone_pebbles",
+      "remix_aether:patch/gustmoss_holystone",
+      "remix_aether:patch/gustmoss_undershale",
+      "remix_aether:patch/glow_lichen"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.8
+}

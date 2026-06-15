@@ -1,0 +1,89 @@
+{
+  "type": "soulfulnether:feature_column",
+  "config": {
+    "base_y_offset": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0,
+      "max_inclusive": 2
+    },
+    "layers": [
+      {
+        "y_offset": 0,
+        "feature": {
+          "feature": {
+            "type": "elysium_api:structure_stamp",
+            "config": {
+              "origin_offset": -1,
+              "origin_type": "anchored",
+              "templates": [
+                { "data": "remix_aether:tree/loftbark/normal/1", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/2", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/3", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/4", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/5", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/6", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/7", "weight": 1 },
+                { "data": "remix_aether:tree/loftbark/normal/8", "weight": 1 }
+              ],
+              "processors": "remix_aether:loftbark/normal"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "y_offset": -1,
+        "feature": {
+          "feature": {
+            "config": {
+              "direction": "up",
+              "allowed_placement": {
+                "type": "not",
+                "predicate": {
+                  "type": "matching_blocks",
+                  "blocks": "aether:skyroot_leaves"
+                }
+              },
+              "prioritize_tip": false,
+              "layers": [
+                {
+                  "height": 3,
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "aether:skyroot_log",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": []
+        },
+        "offset_by_base_offset": false
+      },
+      {
+        "y_offset": -1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "aether:aether_dirt"
+                }
+              }
+            }
+          },
+          "placement": []
+        },
+        "offset_by_base_offset": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "feature": "remix_aether:aether_crag_rock",
+  "placement": [
+    {
+      "type": "nomansland:density_function_based_count",
+      "noise_function": "nomansland:default",
+
+      "noise_scale": 1.0,
+
+      "noise_minimum": 0.1,                   
+      "noise_maximum": 0.9,  
+
+      "count_minimum": 0,          
+      "count_maximum": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "aether:improved_layer_placement",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 1,
+        "min_inclusive": 0
+      },
+      "heightmap": "MOTION_BLOCKING",
+      "verticalBounds": 4
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -45,9 +45,9 @@
 			"opacity": 0.099999994,
 			"opacity_factor": 0.85,
 			"opacity_exponent": 1.85,
-			"tint_red": 1.1,
+			"tint_red": 1.2,
 			"tint_green": 1.175,
-			"tint_blue": 1.125,
+			"tint_blue": 1.225,
 			"world_curvature_size": 0
 		},
 		{

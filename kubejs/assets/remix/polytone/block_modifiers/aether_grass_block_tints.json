@@ -3,8 +3,13 @@
     "aether:aether_grass_block"
   ],
   "colormap": {
-    "0": "remix:aether_dirt_color",
-    "2": "remix:aether_grass_color"
+    "0": "remix:aether/aether_dirt_color",
+    "2": {
+      "biomes": {
+        "remix_aether:lofty_clearings": "remix:aether/lofty_clearings_grass"
+      },
+      "default": "remix:aether/aether_grass_color"
+    }
   },
   "tinted_breaking_particles": true
 }
