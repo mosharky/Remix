@@ -4,7 +4,7 @@
     "base_y_offset": {
       "type": "minecraft:uniform",
       "min_inclusive": 0,
-      "max_inclusive": 2
+      "max_inclusive": 3
     },
     "layers": [
       {
@@ -47,7 +47,7 @@
               "prioritize_tip": false,
               "layers": [
                 {
-                  "height": 3,
+                  "height": 4,
                   "provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {

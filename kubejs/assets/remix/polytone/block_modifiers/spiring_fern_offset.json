@@ -1,7 +1,0 @@
-{
-  "targets": [
-    "environmental:dwarf_spruce",
-    "environmental:dwarf_spruce_plant"
-  ],
-  "offset_type": "xz"
-}

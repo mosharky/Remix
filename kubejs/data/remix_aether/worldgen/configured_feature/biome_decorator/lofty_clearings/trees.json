@@ -8,13 +8,6 @@
           "placement": []
         },
         "weight": 4
-      },
-      {
-        "data": {
-          "feature": "remix_aether:tree/loftbark/large",
-          "placement": []
-        },
-        "weight": 1
       }
     ]
   }

@@ -13,21 +13,6 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:block_match",
-            "block": "elysium_api:structure_stamp_anchor"
-          },
-          "output_state": {
-            "Name": "aether:skyroot_log",
-            "Properties": {
-              "axis": "y"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:block_match",
             "block": "aether:skyroot_leaves"
           },
           "output_state": {
