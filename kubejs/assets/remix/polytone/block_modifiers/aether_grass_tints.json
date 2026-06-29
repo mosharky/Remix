@@ -1,7 +1,7 @@
 {
   "targets": [
-    "minecraft:short_grass",
-    "nomansland:grass_sprouts"
+    "remixcore:short_skygrass",
+    "remixcore:skygrass_sprouts"
   ],
   "colormap": {
     "biomes": {

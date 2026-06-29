@@ -1,6 +1,0 @@
-{
-    "parent": "block/cross",
-    "textures": {
-        "cross": "remix:block/spiring_fern_bottom"
-    }
-}

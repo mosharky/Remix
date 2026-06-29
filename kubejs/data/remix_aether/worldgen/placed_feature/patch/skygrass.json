@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:patch_grass",
+  "feature": "remix_aether:patch/skygrass",
   "placement": [
     {
       "type": "minecraft:noise_threshold_count",
