@@ -1,7 +1,7 @@
 {
   "targets": [
-    "remixcore:short_skygrass",
-    "remixcore:skygrass_sprouts"
+    "remix_core:short_skygrass",
+    "remix_core:skygrass_sprouts"
   ],
   "colormap": {
     "biomes": {
