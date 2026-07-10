@@ -74,5 +74,8 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": false
+  },
+  "balm": {
+    "jade": true
   }
 }
