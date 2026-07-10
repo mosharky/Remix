@@ -1,7 +1,7 @@
 {
 	"migrationVersion": 2,
 	"enabled": true,
-	"distance": 3.3000001,
+	"distance": 3.3,
 	"randomPlacement": 1.0,
 	"fuzziness": 0.75,
 	"shuffle": false,
@@ -39,15 +39,15 @@
 			"sunrise_end_time": 1163,
 			"sunset_start_time": 10837,
 			"sunset_end_time": 39000,
-			"day_brightness": 0.90,
+			"day_brightness": 0.9,
 			"night_brightness": 1.0,
 			"saturation": 1.0,
 			"opacity": 0.099999994,
 			"opacity_factor": 0.85,
 			"opacity_exponent": 1.85,
-			"tint_red": 1.2,
-			"tint_green": 1.175,
-			"tint_blue": 1.225,
+			"tint_red": 1.0,
+			"tint_green": 1.0,
+			"tint_blue": 1.0,
 			"world_curvature_size": 0
 		},
 		{
@@ -69,7 +69,7 @@
 			"opacity_exponent": 1.5,
 			"tint_red": 1.0,
 			"tint_green": 1.0,
-			"tint_blue": 1.5,
+			"tint_blue": 1.0,
 			"world_curvature_size": 0
 		},
 		{
