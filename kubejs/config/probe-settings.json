@@ -1,0 +1,11 @@
+{
+    "probejs.newGame": false,
+    "probejs.generateBeans": true,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "neoforge",
+        "lootjs",
+        "morejs"
+    ]
+}
