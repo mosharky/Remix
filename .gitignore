@@ -31,6 +31,9 @@ config/axiom/*
 config/sodium-options.json
 config/sodium-fingerprint.json
 config/fml.toml
+config/emi-accelerator/stack-cache.emic
+config/emi-accelerator/reload-timings.json
+config/catalogue_favourites.txt
 
 # mods
 # mods/.connector/
