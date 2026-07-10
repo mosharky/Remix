@@ -82,6 +82,7 @@ shaderpacks/*EuphoriaPatches*
 /fieldguide_cache/
 /.sable/
 /debug/
+/blueprint-online-image-cache/
 
 # root files
 knownkeys.txt
@@ -136,6 +137,3 @@ minecraftinstance.json
 # kubejs/data/*.zip
 # !kubejs/data/special-*.zip
 user-prefs.json
-blueprint-online-image-cache/4ab6e0a6c8dc9126d1e86cd14fe659e9
-blueprint-online-image-cache/8fcb8d61292d56e9315b3586e9cf61e8
-.gitignore
