@@ -3,11 +3,11 @@ ServerEvents.tags('item', e => {
     // itemTags_Core(e)
     // itemTags_Neapolitan(e)
 
-    if (!global.DEBUG_MODE) {
-        e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
+    // if (!global.DEBUG_MODE) {
+        // e.add('c:hidden_from_recipe_viewers', global.REMOVALS.arr.concat([
             // /excavated_variants:.*/,
-        ]))
-    }
+        // ]))
+    // }
 })
 
 ServerEvents.tags('block', e => {
