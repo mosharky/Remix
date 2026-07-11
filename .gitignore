@@ -34,6 +34,7 @@ config/fml.toml
 config/emi-accelerator/stack-cache.emic
 config/emi-accelerator/reload-timings.json
 config/catalogue_favourites.txt
+/config/spark/
 
 # mods
 # mods/.connector/

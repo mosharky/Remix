@@ -1,2 +1,2 @@
-showCfgButton:true
-tooltipLineLength:280
+showCfgButton:false
+tooltipLineLength:170
