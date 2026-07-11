@@ -114,6 +114,7 @@ observable_announce
 command_history.txt
 imgui.ini
 ponders_watched.json
+ponders_watched_azimuth.json
 
 # dev environment stuff
 /.probe/
