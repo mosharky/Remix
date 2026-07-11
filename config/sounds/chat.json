@@ -20,7 +20,9 @@
 		"id": "mention",
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
-	"mentionKeywords": [],
+	"mentionKeywords": [
+		"@mo_mods"
+	],
 	"ignoreSystemChats": true,
 	"enableChatSoundCooldown": false,
 	"chatSoundCooldown": 0.5
