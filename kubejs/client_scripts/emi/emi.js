@@ -1,4 +1,4 @@
-/** @param {$GenerateClientAssetsEventJS_} e */
+/** @param {$KubeAssetGenerator} e */
 function clientData_EMI(e) {
     e.json('emi:category/properties/emi', {
         'emi:info':                     { order: -1001 },

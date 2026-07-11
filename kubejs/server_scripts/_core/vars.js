@@ -3,12 +3,12 @@
 // JSDoc IntelliSense
 /**
  * Base KJS events
- * @import {$TagKubeEvent} from "dev.latvian.mods.kubejs.server.tag.TagKubeEvent" 
- * @import {$RecipesKubeEvent} from "dev.latvian.mods.kubejs.recipe.RecipesKubeEvent"
- * @import {$KubeDataGenerator} from "dev.latvian.mods.kubejs.generator.KubeDataGenerator"
+ * @import {$TagKubeEvent} from "@package/dev/latvian/mods/kubejs/server/tag" 
+ * @import {$RecipesKubeEvent} from "@package/dev/latvian/mods/kubejs/recipe"
+ * @import {$KubeDataGenerator} from "@package/dev/latvian/mods/kubejs/generator"
  * LootJS events/builder
- * @import {$LootModificationEvent} from "com.almostreliable.lootjs.loot.LootModificationEvent"
- * @import {$LootModifier$Builder} from "com.almostreliable.lootjs.loot.modifier.LootModifier$Builder"
+ * @import {$LootModificationEvent} from "@package/com/almostreliable/lootjs/loot"
+ * @import {$LootModifier$Builder} from "@package/com/almostreliable/lootjs/loot/modifier"
  * MoreJS events
 */
 

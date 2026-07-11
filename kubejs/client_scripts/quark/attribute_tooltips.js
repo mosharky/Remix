@@ -1,4 +1,4 @@
-/** @param {$GenerateClientAssetsEventJS_} e */
+/** @param {$KubeAssetGenerator} e */
 function clientData_Quark(e) {
     e.json('quark:attribute_tooltips', {
         'minecraft:generic.max_health': {
