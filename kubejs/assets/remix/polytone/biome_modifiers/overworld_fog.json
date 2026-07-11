@@ -1,0 +1,9 @@
+{
+    "targets": [
+        "#minecraft:is_overworld",
+        "#minecraft:is_nether",
+        "#aether:is_aether",
+        "remix_aether:lofty_clearings"
+    ],
+    "fog_fade": 8.0
+}
