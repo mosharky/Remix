@@ -31,6 +31,10 @@ config/axiom/*
 config/sodium-options.json
 config/sodium-fingerprint.json
 config/fml.toml
+config/emi-accelerator/stack-cache.emic
+config/emi-accelerator/reload-timings.json
+config/catalogue_favourites.txt
+/config/spark/
 
 # mods
 # mods/.connector/
@@ -82,6 +86,7 @@ shaderpacks/*EuphoriaPatches*
 /fieldguide_cache/
 /.sable/
 /debug/
+/blueprint-online-image-cache/
 
 # root files
 knownkeys.txt
@@ -110,6 +115,7 @@ observable_announce
 command_history.txt
 imgui.ini
 ponders_watched.json
+ponders_watched_azimuth.json
 
 # dev environment stuff
 /.probe/
@@ -136,6 +142,3 @@ minecraftinstance.json
 # kubejs/data/*.zip
 # !kubejs/data/special-*.zip
 user-prefs.json
-blueprint-online-image-cache/4ab6e0a6c8dc9126d1e86cd14fe659e9
-blueprint-online-image-cache/8fcb8d61292d56e9315b3586e9cf61e8
-.gitignore

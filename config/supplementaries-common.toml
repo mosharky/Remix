@@ -321,7 +321,11 @@
 	[building.blackboard]
 		enabled = true
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
+<<<<<<< HEAD
 		colored_blackboard = false
+=======
+		colored_blackboard = true
+>>>>>>> c303ab8e1473fac44344d3457f7963f3aeee7ae7
 		#Interaction mode for blackboards
 		#Allowed Values: BOTH, GUI, MANUAL
 		interaction_mode = "BOTH"
