@@ -55,6 +55,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "spawn": {
+    "stickbug_as_item": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
