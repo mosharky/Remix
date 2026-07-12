@@ -1,0 +1,10 @@
+{
+  "type": "biome",
+  "biomes": [
+    "remix_aether:lofty_clearings",
+    "remix_aether:lower_isles"
+  ],
+  "sky_light_color": "#eafefc",
+  "block_light_color": "#acffe3",
+  "ambient_brightness": 0.0
+}
