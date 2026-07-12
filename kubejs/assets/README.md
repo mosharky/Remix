@@ -9,3 +9,4 @@
 - [Botania Revamped](https://www.curseforge.com/minecraft/texture-packs/botania-revamped)
 - [Twilight Forest: JAPPA Pack (official addon)](https://www.curseforge.com/minecraft/texture-packs/twilight-forest-jappa-pack)
 - [Jappafied Aethers](https://modrinth.com/resourcepack/jappafied-aethers)
+- [More Quark Tooltip Attributes](https://modrinth.com/resourcepack/more-quark-tooltip-attributes)

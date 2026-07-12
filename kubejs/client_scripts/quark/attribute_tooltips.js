@@ -187,7 +187,6 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/armor_toughness',
             compare: 'higher_better'
         },
-        /*
         'galosphere:illager_resistance': {
             display: {
                 mainhand: 'flat',
@@ -201,7 +200,6 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/illager_resist',
             compare: 'higher_better'
         },
-        */
         'caverns_and_chasms:lifesteal': {
             display: {
                 mainhand: 'percentage',
@@ -254,6 +252,7 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/slowness',
             compare: 'higher_better'
         },
+        /*
         'caverns_and_chasms:weakness_aura': {
             display: {
                 mainhand: 'flat',
@@ -267,7 +266,7 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/aoe_effect',
             compare: 'higher_better'
         },
-        /*
+        */
         'malum:soul_ward_capacity': {
             display: {
                 mainhand: 'flat',
@@ -320,7 +319,6 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/magic_proficiency',
             compare: 'higher_better'
         },
-        */
         /*
         'irons_spellbooks:max_mana': {
             display: {
@@ -388,8 +386,7 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/luck',
             compare: 'higher_better'
         },
-        /*
-        'forge:swim_speed': {
+        'neoforge:swim_speed': {
             display: {
                 mainhand: 'multiplier',
                 offhand: 'multiplier',
@@ -402,7 +399,7 @@ function clientData_Quark(e) {
             texture: 'quark:attribute/swim_speed',
             compare: 'higher_better'
         },
-        'forge:entity_gravity': {
+        'minecraft:generic.gravity': {
             display: {
                 mainhand: 'multiplier',
                 offhand: 'multiplier',
@@ -414,45 +411,44 @@ function clientData_Quark(e) {
             },
             texture: 'quark:attribute/gravity'
         },
-        'forge:block_reach': {
+        'minecraft:player.block_interaction_range': {
             display: {
-                mainhand: 'difference',
-                offhand: 'difference',
-                feet: 'difference',
-                legs: 'difference',
-                chest: 'difference',
-                head: 'difference',
-                potion: 'difference'
+                mainhand: 'flat',
+                offhand: 'flat',
+                feet: 'flat',
+                legs: 'flat',
+                chest: 'flat',
+                head: 'flat',
+                potion: 'flat'
             },
             texture: 'quark:attribute/reach_distance',
             compare: 'higher_better'
         },
-        'forge:entity_reach': {
+        'minecraft:player.entity_interaction_range': {
             display: {
-                mainhand: 'difference',
-                offhand: 'difference',
-                feet: 'difference',
-                legs: 'difference',
-                chest: 'difference',
-                head: 'difference',
-                potion: 'difference'
+                mainhand: 'flat',
+                offhand: 'flat',
+                feet: 'flat',
+                legs: 'flat',
+                chest: 'flat',
+                head: 'flat',
+                potion: 'flat'
             },
             texture: 'quark:attribute/attack_range',
             compare: 'higher_better'
         },
-        'forge:step_height_addition': {
+        'minecraft:generic.step_height': {
             display: {
-                mainhand: 'difference',
-                offhand: 'difference',
-                feet: 'difference',
-                legs: 'difference',
-                chest: 'difference',
-                head: 'difference',
-                potion: 'difference'
+                mainhand: 'flat',
+                offhand: 'flat',
+                feet: 'flat',
+                legs: 'flat',
+                chest: 'flat',
+                head: 'flat',
+                potion: 'flat'
             },
             texture: 'quark:attribute/step_height',
             compare: 'higher_better'
-        },
-        */
+        }
     })
 }

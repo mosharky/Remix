@@ -1,4 +1,12 @@
 // priority: -1
+
+// this only works in server scripts and not client scripts apparently?
+// https://github.com/kube-mods/kubejs/issues/1135#issuecomment-4683058051
+RecipeViewerEvents.removeCategories(e => {
+    e.remove('woodworks:sawmill')
+    e.remove('twilightforest:uncrafting')
+})
+
 ServerEvents.tags('item', e => {
     // itemTags_Core(e)
     // itemTags_Neapolitan(e)
