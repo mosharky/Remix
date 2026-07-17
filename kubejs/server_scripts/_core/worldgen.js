@@ -1134,7 +1134,6 @@ function structures_Core(e) {
         repaletter: [],
     }
 
-    /* Won't be needed because of running python script now
     global.BLOCK_SWAPPER.forEach((replacesWith, replacesBlock) => {
         if (Block.getBlock(replacesWith) == null || !Block.getBlock(replacesBlock) == null) {
             console.error(`BLOCKSWAP ERROR - One of these blocks don't exist: ${replacesWith} : ${replacesBlock}`)
@@ -1148,7 +1147,6 @@ function structures_Core(e) {
     })
 
     e.json('kubejs:blueprint/structure_repaletters/block_swapper', repaletterJson)
-    */
 
 
     global.STRUCTURE_BLOCK_SWAPPER.forEach((swapMap, structure) => {
