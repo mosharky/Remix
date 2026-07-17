@@ -50,7 +50,6 @@
         ".lazyyyyy/": true,
         "cache/": true,
         ".cache/": true,
-        "mod_data/": true,
         ".mixin.out/": true,
         "xaero/": true,
         "ESM/": true,
