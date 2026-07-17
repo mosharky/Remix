@@ -96,7 +96,7 @@
 [building]
 	"Celebratory Lamps" = false
 	"Compressed Blocks" = false
-	"Duskbound Blocks" = false
+	"Duskbound Blocks" = true
 	"Framed Glass" = true
 	"Glass Item Frame" = true
 	"Gold Bars" = false
