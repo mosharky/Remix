@@ -1,3 +1,4 @@
+/*
 ServerEvents.registry('neoforge:biome_modifier', e => {
     const blacklist = new Set([
         'almostunified',
@@ -16,6 +17,7 @@ ServerEvents.registry('neoforge:biome_modifier', e => {
         }
     })
 })
+*/
 
 /** @param {$KubeDataGenerator} e  */
 function worldgen_Core(e) {
