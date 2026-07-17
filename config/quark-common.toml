@@ -1658,7 +1658,7 @@
 	#Big Stone Clusters for Granite, Diorite, and Andesite, like Quark pre-1.18
 	"Vanilla Stone Clusters" = false
 	#Allows placing variant blocks automatically via a selector menu triggered from a keybind
-	"Variant Selector" = true
+	"Variant Selector" = false
 	"Villager Rerolling Rework" = false
 
 	[experimental.adjustable_chat]
