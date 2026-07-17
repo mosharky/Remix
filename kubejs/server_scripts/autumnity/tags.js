@@ -1,5 +1,6 @@
 /** @param {$TagKubeEvent} e */
 function biomeTags_Autumnity(e) {
+    /*
     e.add('autumnity:has_animal/turkey', [
         '#natures_spirit:is_autumn',
         '#natures_spirit:is_alpine',
@@ -54,4 +55,5 @@ function biomeTags_Autumnity(e) {
         'windswept:pine_barrens',
         'windswept:snowy_pine_barrens'
     ])
+    */
 }

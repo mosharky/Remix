@@ -43,7 +43,7 @@ function constructWoodTypes() {
 
             let woodworksCompatId               = `everycomp:abnww/${mod}/`
             let quarkCompatId                   = `everycomp:q/${mod}/`
-            let verticalSlabCompatId            = `v_slab_compat:${mod}/`
+            let verticalSlabCompatId            = `everycomp:q/${mod}/`
             let createCompatId                  = `everycomp:c/${mod}/`
             let farmersDelightCompatId          = `everycomp:fd/${mod}/`
             let suppSquaredCompatId             = `suppsquared:${mod}/`
@@ -53,6 +53,7 @@ function constructWoodTypes() {
             let anotherFurnitureCompatId        = `everycomp:af/${mod}/`
             let backpackedCompatId              = `everycomp:bp/${mod}/`
             let decorativeBlocksCompatId        = `everycomp:db/${mod}/`
+            let noMansLandCompatId              = `everycomp:nml/${mod}/`
 
             switch (mod) {
                 case 'minecraft': {
@@ -91,6 +92,7 @@ function constructWoodTypes() {
                 case 'darkerdepths': {
                     quarkCompatId = mod + ':'
                     verticalSlabCompatId = mod + ':'
+                    noMansLandCompatId = mod + ':'
                     break
                 }
                 case 'mynethersdelight': {
@@ -105,6 +107,10 @@ function constructWoodTypes() {
                 case 'natures_spirit': {
                     farmersDelightCompatId = 'natures_delight:'
                     break
+                }
+                case 'nomansland': {
+                    noMansLandCompatId = mod + ':'
+                    farmersDelightCompatId = mod + ':'
                 }
             }
 
@@ -137,13 +143,13 @@ function constructWoodTypes() {
                     bookshelf:              woodworksCompatId + woodType + '_bookshelf',
                     chiseled_bookshelf:     woodworksCompatId + 'chiseled_' + woodType + '_bookshelf',
                 },
-                // quark: {
-                    // vertical_slab:          verticalSlabCompatId + woodType + plankSuffix + '_vertical_slab',
+                quark: {
+                    vertical_slab:          verticalSlabCompatId + woodType + plankSuffix + '_vertical_slab',
                     // vertical_planks:        quarkCompatId + 'vertical_' + woodType + '_planks',
-                    // post:                   quarkCompatId + woodType + '_post',
-                    // stripped_post:          quarkCompatId + 'stripped_' + woodType + '_post',
-                    // hollow_log:             quarkCompatId + 'hollow_' + woodType + logSuffix,
-                // },
+                    post:                   quarkCompatId + woodType + '_post',
+                    stripped_post:          quarkCompatId + 'stripped_' + woodType + '_post',
+                    hollow_log:             quarkCompatId + 'hollow_' + woodType + logSuffix,
+                },
                 create: {
                     window:                 createCompatId + woodType + '_window',
                     window_pane:            createCompatId + woodType + '_window_pane',
@@ -153,14 +159,14 @@ function constructWoodTypes() {
                 },
                 supplementaries: {
                     sign_post:              supplementariesCompatId + 'way_sign_' + woodType,
-                    item_shelf:             suppSquaredCompatId + 'item_shelf_' + woodType,
+                    // item_shelf:             suppSquaredCompatId + 'item_shelf_' + woodType,
                 },
                 // immersive_weathering: {
                     // bark:                   immersiveWeatheringCompatId + woodType + barkSuffix
                 // },
-                snowy_spirit: {
-                    sled:                   snowySpiritCompatId + 'sled_' + woodType
-                },
+                // snowy_spirit: {
+                    // sled:                   snowySpiritCompatId + 'sled_' + woodType
+                // },
                 another_furniture: {
                     flower_box:             anotherFurnitureCompatId + woodType + '_flower_box',
                     shelf:                  anotherFurnitureCompatId + woodType + '_shelf',
@@ -173,10 +179,13 @@ function constructWoodTypes() {
                 backpacked: {
                     backpack_shelf:         backpackedCompatId + woodType + '_backpack_shelf'
                 },
-                decorative_blocks: {
-                    support:                decorativeBlocksCompatId + woodType + '_support',
-                    seat:                   decorativeBlocksCompatId + woodType + '_seat',
-                    palisade:               decorativeBlocksCompatId + woodType + '_palisade',
+                // decorative_blocks: {
+                    // support:                decorativeBlocksCompatId + woodType + '_support',
+                    // seat:                   decorativeBlocksCompatId + woodType + '_seat',
+                    // palisade:               decorativeBlocksCompatId + woodType + '_palisade',
+                // }
+                nomansland: {
+                    trimmed_planks:         noMansLandCompatId + 'trimmed_' + woodType + '_planks',
                 }
             }
 
@@ -215,6 +224,8 @@ function constructWoodTypes() {
                 }
                 case 'petrified': {
                     // woodTypeObj.quark.hollow_log        = 'everycomp:q/darkerdepths/hollow_petrified_log'
+                    woodTypeObj.woodworks.bookshelf     = 'darkerdepths:petrified_bookshelf'
+                    break
                 }
                 case 'runewood': case 'soulwood': {
                     woodTypeObj.woodworks.boards        = mod + ':' + woodType + '_boards'
@@ -235,8 +246,11 @@ function constructWoodTypes() {
                 case 'goety': {
                     woodTypeObj.woodworks.chest         = mod + ':' + woodType + '_chest'
                     woodTypeObj.woodworks.trapped_chest = mod + ':trapped_' + woodType + '_chest'
-                    woodTypeObj.woodworks.bookshelf = mod + ':' + woodType + '_bookshelf'
+                    woodTypeObj.woodworks.bookshelf     = mod + ':' + woodType + '_bookshelf'
                     break
+                }
+                case 'nomansland': {
+                    woodTypeObj.woodworks.bookshelf     = mod + ':' + woodType + '_bookshelf'
                 }
             }
 

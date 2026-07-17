@@ -1,9 +1,24 @@
-/** @param {import('@package/dev/latvian/mods/kubejs/generator').$KubeDataGenerator} e  */
+ServerEvents.registry('neoforge:biome_modifier', e => {
+    const blacklist = new Set([
+        'almostunified',
+        'balm',
+        'fabric_biome_api_v1',
+        'zeta',
+        'snowundertrees',
+        'platform',
+    ])
+    e.getRegistries().access().lookupOrThrow('neoforge:biome_modifier').listElementIds().toArray().forEach(element => {
+        const modifier = element.location().toString()
+        console.log(modifier)
+        const [mod, id] = modifier.split(':')
+        if (!blacklist.has(mod)) {
+            e.create(modifier, 'none')
+        }
+    })
+})
+
+/** @param {$KubeDataGenerator} e  */
 function worldgen_Core(e) {
-    // e.getRegistries().access().lookupOrThrow('neoforge:biome_modifier').listElementIds().toArray().forEach(element => {
-        // const modifier = element.location().toString()
-        // console.log(modifier)
-    // })
 
     const biomeModifiersToRemove = [
         'abundant_atmosphere:add_flowers_cherry_bushbuds',
@@ -12,6 +27,7 @@ function worldgen_Core(e) {
         'abundant_atmosphere:add_flowers_umbra_bushbuds',
         'abundant_atmosphere:add_patch_catsbane',
         'abundant_atmosphere:add_patch_cave_crud',
+        'abundant_atmosphere:add_patch_leaf_pile_large',
         'abundant_atmosphere:add_patch_leaf_pile',
         'abundant_atmosphere:add_patch_puffball',
         'abundant_atmosphere:add_patch_rust_moss',
@@ -19,6 +35,10 @@ function worldgen_Core(e) {
         'abundant_atmosphere:remove_ashroot',
         'abundant_atmosphere:remove_patch_rust_moss',
         'almostunified:worldgen',
+        'architects_palette:ekanite_cluster',
+        'architects_palette:grounded_monazite_cluster',
+        'architects_palette:hanging_monazite_cluster',
+        'architects_palette:heliodor_cluster',
         'atmospheric:add_feature/wooded_badlands_vegetation',
         'atmospheric:add_feature/yucca_tree_desert',
         'atmospheric:add_feature/yucca_tree_windswept_savanna',
@@ -29,6 +49,10 @@ function worldgen_Core(e) {
         'autumnity:add_spawn/turkey',
         'autumnity:remove_spawn/chicken',
         'balm:balm',
+        'botania:add_mystical_flowers',
+        'botania:add_shimmering_mushrooms',
+        'botania:remove_mystical_flowers',
+        'botania:remove_shimmering_mushrooms',
         'bountifulfares:apple_placed',
         'bountifulfares:chamomile_placed',
         'bountifulfares:honeysuckle_placed',
@@ -84,6 +108,25 @@ function worldgen_Core(e) {
         'create:striated_ores_nether',
         'create:striated_ores_overworld',
         'create:zinc_ore',
+        'creaturefeature:beauty',
+        'creaturefeature:blitz',
+        'creaturefeature:canary_go_away',
+        'creaturefeature:canary',
+        'creaturefeature:dreamweaver',
+        'creaturefeature:eeper',
+        'creaturefeature:fend_sunflower',
+        'creaturefeature:fend',
+        'creaturefeature:fiend',
+        'creaturefeature:friend',
+        'creaturefeature:machination',
+        'creaturefeature:minds',
+        'creaturefeature:minedflayer',
+        'creaturefeature:nothing',
+        'creaturefeature:runaway',
+        'creaturefeature:sinister_go_away',
+        'creaturefeature:sinister',
+        'creaturefeature:vertigo_dark',
+        'creaturefeature:vertigo',
         'darkerdepths:add_glowshroom_forest_spawns',
         'darkerdepths:add_glowshroom_forest_underground_decoration',
         'darkerdepths:add_glowshroom_forest_vegetal_features',
@@ -97,6 +140,17 @@ function worldgen_Core(e) {
         'darkerdepths:add_sandy_catacombs_spawns',
         'darkerdepths:add_sandy_catacombs_underground_decoration',
         'darkerdepths:add_sandy_catacombs_vegetal_features',
+        'eidolon_repraised:illwood_gen',
+        'eidolon_repraised:lead_ore',
+        'eidolon_repraised:silver_ore',
+        'eidolon_repraised:spawn_banana_slug',
+        'eidolon_repraised:spawn_brown_slug',
+        'eidolon_repraised:spawn_raven',
+        'eidolon_repraised:spawn_slimy_slug',
+        'eidolon_repraised:spawn_wraith',
+        'eidolon_repraised:spawn_zombie_brute',
+        'embers:add_golem_spawn',
+        'envelope:spawn_pigeon',
         'environmental:add_feature/bird_of_paradise',
         'environmental:add_feature/bluebell',
         'environmental:add_feature/cartwheel',
@@ -139,16 +193,70 @@ function worldgen_Core(e) {
         'farmersdelight:wild_potatoes',
         'farmersdelight:wild_rice',
         'farmersdelight:wild_tomatoes',
+        'farmersrespite:wild_coffee',
+        'farmersrespite:wild_tea',
+        'galosphere:add_crystal_canyons_features',
+        'galosphere:add_crystal_canyons_spawns',
+        'galosphere:add_large_silver_ores',
+        'galosphere:add_lichen_caves_features',
+        'galosphere:add_lichen_caves_spawns',
+        'galosphere:add_pink_salt_caves_features',
+        'galosphere:add_pink_salt_caves_modifications',
+        'galosphere:add_pink_salt_caves_spawns',
+        'galosphere:add_silver_ores',
         'incubation:add_feature/chicken_nest',
         'incubation:add_feature/duck_nest',
         'incubation:add_feature/turkey_nest',
-        'neapolitan:add_feature/adzuki_sprouts',
-        'neapolitan:add_feature/banana_plant/common',
-        'neapolitan:add_feature/banana_plant/rare',
-        'neapolitan:add_feature/banana_plant/uncommon',
-        'neapolitan:add_feature/mint_pond',
-        'neapolitan:add_feature/strawberry_bush',
-        'neapolitan:add_feature/vanilla_vine',
+        'malum:azure_runewood_tree',
+        'malum:blazing_quartz_ore',
+        'malum:brilliant_ore',
+        'malum:cthonic_gold_ore',
+        'malum:deepslate_quartz_geode',
+        'malum:natural_quartz_ore',
+        'malum:quartz_geode',
+        'malum:rare_azure_runewood_tree',
+        'malum:rare_runewood_tree',
+        'malum:runewood_tree',
+        'malum:soulstone_ore',
+        'minersdelight:wild_cave_carrot',
+        'naturalist:add_animals',
+        'naturalist:remove_farm_animals_savanna',
+        'naturalist:remove_farm_animals_swamp',
+        'naturalist:remove_forest_pigs',
+        'netherexp:blotted_netherrack',
+        'netherexp:damp_siltmarram',
+        'netherexp:dry_siltmarram',
+        'netherexp:effects/brighter_nether_fog/crimson_forest',
+        'netherexp:effects/brighter_nether_fog/nether_wastes',
+        'netherexp:effects/brighter_nether_fog/soul_sand_valley',
+        'netherexp:effects/brighter_nether_fog/warped_forest',
+        'netherexp:effects/soul_sand_valley',
+        'netherexp:moist_siltmarram',
+        'netherexp:netherrack_speleothem',
+        'netherexp:pyroclast_crusts_small',
+        'netherexp:pyroclast_crusts',
+        'netherexp:remove_nether_carvers',
+        'netherexp:silt_flint_ore',
+        'netherexp:silt_replacement',
+        'netherexp:soul_sand_valley/apparition',
+        'netherexp:soul_sand_valley/bone_pike',
+        'netherexp:soul_sand_valley/ecto_slab',
+        'netherexp:soul_sand_valley/ecto_soul_sand',
+        'netherexp:soul_sand_valley/ectoplasm_lake',
+        'netherexp:soul_sand_valley/fossil_fuel_ore',
+        'netherexp:soul_sand_valley/fossil_ore',
+        'netherexp:soul_sand_valley/hanging_mound',
+        'netherexp:soul_sand_valley/mound',
+        'netherexp:soul_sand_valley/ore_soul_magma',
+        'netherexp:soul_sand_valley/pale_soul_slate_surface',
+        'netherexp:soul_sand_valley/pale_soul_slate',
+        'netherexp:soul_sand_valley/soul_swirls_ceiling',
+        'netherexp:soul_sand_valley/soul_swirls_floor',
+        'netherexp:soul_sand_valley/vessel',
+        'netherexp:spawn_costs/soul_sand_valley/apparition',
+        'netherexp:spawn_costs/soul_sand_valley/ecto_slab',
+        'netherexp:spawn_costs/soul_sand_valley/stray',
+        'netherexp:spawn_costs/soul_sand_valley/vessel',
         'nomansland:add_biome_trees/trees_cherry_grove',
         'nomansland:add_biome_trees/trees_forest_noise',
         'nomansland:add_biome_trees/trees_old_growth_birch',
@@ -156,6 +264,7 @@ function worldgen_Core(e) {
         'nomansland:add_biome_trees/trees_sunflower_plains',
         'nomansland:add_brown_mushroom_normal',
         'nomansland:add_brown_mushroom_old_growth',
+        'nomansland:add_buddy_fairy_ring',
         'nomansland:add_clover_patch_meadow',
         'nomansland:add_crag_rock_mycelium',
         'nomansland:add_crag_rock',
@@ -245,6 +354,7 @@ function worldgen_Core(e) {
         'nomansland:add_patch_water_mosaic',
         'nomansland:add_patch_waterlily',
         'nomansland:add_pond_stony_shore',
+        'nomansland:add_pots',
         'nomansland:add_red_mushroom_normal',
         'nomansland:add_shelf_mushroom_dark_forest',
         'nomansland:add_trees_water',
@@ -294,6 +404,7 @@ function worldgen_Core(e) {
         'nomansland:desert/remove_features',
         'nomansland:desert/remove_spawns',
         'nomansland:dripstone_caves/change_color',
+        'nomansland:dripstone_caves/change_music',
         'nomansland:dripstone_caves/change_particle',
         'nomansland:eroded_badlands/add_spawns',
         'nomansland:eroded_badlands/change_color',
@@ -322,6 +433,16 @@ function worldgen_Core(e) {
         'nomansland:ice_spikes/change_spawns',
         'nomansland:ice_spikes/remove_features',
         'nomansland:integration/field_mushroom_colony_patch',
+        'nomansland:integration/spawn_biomes/ant_gardens',
+        'nomansland:integration/spawn_biomes/cold_island',
+        'nomansland:integration/spawn_biomes/deep_warm_ocean',
+        'nomansland:integration/spawn_biomes/dodo_island',
+        'nomansland:integration/spawn_biomes/rocky_shore',
+        'nomansland:integration/spawn_biomes/sandy_island',
+        'nomansland:integration/spawn_biomes/seagrass_meadow',
+        'nomansland:integration/spawn_biomes/tide_pool',
+        'nomansland:integration/spawn_biomes/tropical_island',
+        'nomansland:integration/spawn_biomes/volcanic_island',
         'nomansland:jagged_peaks/change_color',
         'nomansland:jungle/add_spawns',
         'nomansland:jungle/change_color',
@@ -331,11 +452,13 @@ function worldgen_Core(e) {
         'nomansland:lukewarm_ocean/change_color',
         'nomansland:lukewarm_ocean/remove_features',
         'nomansland:lush_caves/change_color',
+        'nomansland:lush_caves/change_music',
         'nomansland:mangrove_swamp/change_color',
         'nomansland:meadow/change_color',
         'nomansland:meadow/change_spawns',
         'nomansland:mushroom_fields/add_spawns',
         'nomansland:mushroom_fields/change_color',
+        'nomansland:mushroom_fields/change_music',
         'nomansland:mushroom_fields/remove_features',
         'nomansland:ocean/change_color',
         'nomansland:ocean/remove_features',
@@ -356,7 +479,7 @@ function worldgen_Core(e) {
         'nomansland:plains/change_spawns',
         'nomansland:plains/remove_features',
         'nomansland:plains/remove_spawns',
-        'nomansland:remove_cattail',
+        'nomansland:remove_cattail_and_reeds',
         'nomansland:remove_everywhere',
         'nomansland:remove_from_snowy',
         'nomansland:remove_grass_sprouts',
@@ -445,15 +568,76 @@ function worldgen_Core(e) {
         'oreganized:add_sparse_datura',
         'oreganized:overworld_ores',
         'oreganized:savannah_ores',
-        'rusticdelight:add_wild_bell_peppers',
-        'rusticdelight:add_wild_coffee',
-        'rusticdelight:add_wild_cotton',
-        'snowundertrees:snow_under_trees',
+        'platform:impl',
+        'remix_aether:remove_features',
+        'scguns:anthralite_ore',
+        'scguns:cog_knight_biome_modifier',
+        'scguns:cog_minion_biome_modifier',
+        'scguns:dissident_biome_modifier',
+        'scguns:geothermal_vent',
+        'scguns:hive_biome_modifier',
+        'scguns:hornlin_biome_modifier',
+        'scguns:nether_sulfur_ore',
+        'scguns:phosphorite',
+        'scguns:praetor_biome_modifier',
+        'scguns:redcoat_biome_modifier',
+        'scguns:rich_phosphorite',
+        'scguns:sulfur_ore',
+        'scguns:sulfur_vent',
+        'scguns:sulfurhead_biome_modifier',
+        'scguns:supply_scamp_biome_modifier',
+        'scguns:trauma_unit_biome_modifier',
+        'scguns:vehement_coal_ore',
+        'scguns:zombified_hornlin_biome_modifier',
+        'soulfulnether:crimson_roses',
+        'spawn:add_angler_fish',
+        'spawn:add_barbed',
+        'spawn:add_barracuda',
+        'spawn:add_bluefish',
+        'spawn:add_clam',
+        'spawn:add_coastal_crab',
+        'spawn:add_dead_sea_star',
+        'spawn:add_dead_sea_urchin',
+        'spawn:add_dragon_reeds_mangrove_swamp',
+        'spawn:add_dragon_reeds_river',
+        'spawn:add_dragon_reeds_swamp',
+        'spawn:add_flies',
+        'spawn:add_flukeshroom',
+        'spawn:add_frequent_hamster',
+        'spawn:add_hamster',
+        'spawn:add_herring',
+        'spawn:add_item_in_a_bottle_beach',
+        'spawn:add_item_in_a_bottle_ocean',
+        'spawn:add_octopus',
+        'spawn:add_reefstone',
+        'spawn:add_sea_cow',
+        'spawn:add_sea_star',
+        'spawn:add_sea_urchin',
+        'spawn:add_seahorse',
+        'spawn:add_seal',
+        'spawn:add_small_anthill',
+        'spawn:add_snail',
+        'spawn:add_spider_crab',
+        'spawn:add_sunfish',
+        'spawn:add_tuna',
+        'spawn:add_windswept_grass',
+        'spawn:add_zombified_flower',
+        'spawn:replace_sunflowers',
+        'spawn:stranded_spawns',
         'supplementaries:basalt_ash',
         'supplementaries:cave_urns',
         'supplementaries:ocean_barnacles',
         'supplementaries:shore_barnacles',
         'supplementaries:wild_flax',
+        'twigs:add_azalea_flowers',
+        'twigs:add_land_sea_shells',
+        'twigs:add_ore_bloodstone',
+        'twigs:add_ore_rhyolite',
+        'twigs:add_ore_schist',
+        'twigs:add_pebbles',
+        'twigs:add_silt_strip',
+        'twigs:add_twigs',
+        'twigs:add_water_sea_shells',
         'upgrade_aquatic:add_carver/underwater_canyon',
         'upgrade_aquatic:add_feature/ammonite_ore',
         'upgrade_aquatic:add_feature/beachgrass',
@@ -482,7 +666,8 @@ function worldgen_Core(e) {
         'balm',
         'fabric_biome_api_v1',
         'zeta',
-        'snowundertrees'
+        'snowundertrees',
+        'platform',
     ])
     const loaded = new Set()
     biomeModifiersToRemove.forEach(modifier => {
@@ -517,8 +702,8 @@ function worldgen_Core(e) {
         ['minecraft:grass_block', 'minecraft:dirt', 'minecraft:stone', 'minecraft:terracotta'],
         ['minecraft:grass_block', 'minecraft:dirt', 'minecraft:stone', 'minecraft:terracotta']
     ), '#kubejs:has_feature/terracotta_cliff', RAW_GENERATION)
-    /*
 
+    /* NML Removes these already
     removeFeatures(e, [
         'minecraft:ore_granite_lower',
         'minecraft:ore_granite_upper',
@@ -529,6 +714,7 @@ function worldgen_Core(e) {
         'minecraft:ore_diorite_upper',
         'minecraft:ore_dirt',
     ], '#minecraft:is_overworld', UNDERGROUND_ORES)
+    */
 
     registerFeature(e, PLACED, 'minecraft:ore_gravel', {
         feature: 'minecraft:ore_gravel',
@@ -547,7 +733,7 @@ function worldgen_Core(e) {
         ]
     })
 
-
+    /*
     // ⚠️⚠️⚠️⚠️⚠️ Vanilla feature overrides ⚠️⚠️⚠️⚠️⚠️
     // remove maple from NML & replace pine with fir
     registerFeature(e, CONFIGURED, 'minecraft:trees_taiga', {
@@ -946,6 +1132,7 @@ function structures_Core(e) {
         repaletter: [],
     }
 
+    /* Won't be needed because of running python script now
     global.BLOCK_SWAPPER.forEach((replacesWith, replacesBlock) => {
         if (Block.getBlock(replacesWith) == null || !Block.getBlock(replacesBlock) == null) {
             console.error(`BLOCKSWAP ERROR - One of these blocks don't exist: ${replacesWith} : ${replacesBlock}`)
@@ -959,6 +1146,7 @@ function structures_Core(e) {
     })
 
     e.json('kubejs:blueprint/structure_repaletters/block_swapper', repaletterJson)
+    */
 
 
     global.STRUCTURE_BLOCK_SWAPPER.forEach((swapMap, structure) => {

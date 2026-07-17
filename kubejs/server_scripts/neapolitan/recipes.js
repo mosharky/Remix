@@ -1,10 +1,12 @@
 /** @param {$RecipesKubeEvent} e */
 function recipes_Neapolitan(e) {
-    e.remove({id: 'collectorsreap:food/chocolate_arils'})
+    // e.remove({id: 'collectorsreap:food/chocolate_arils'})
 
     e.replaceInput({}, 'neapolitan:chocolate_bar', 'create:bar_of_chocolate')
+    e.replaceOutput({}, 'neapolitan:chocolate_bar', 'create:bar_of_chocolate')
 
     // manually replacing 
+    /*
     e.recipes.create.filling('neapolitan:chocolate_strawberries',
         ['neapolitan:strawberries', Fluid.of('create:chocolate', 250)]
     ).id('neapolitan:mixed/chocolate_strawberries')
@@ -16,6 +18,7 @@ function recipes_Neapolitan(e) {
     e.recipes.create.filling('neapolitan:chocolate_spider_eye',
         ['minecraft:spider_eye', Fluid.of('create:chocolate', 50)]
     ).id('neapolitan:chocolate/chocolate_spider_eye')
+    */
 
     // e.recipes.farmersdelight.cooking(
     //     ['create:bar_of_chocolate', 'minecraft:sugar', 'minecraft:honey_bottle', 'minecraft:kelp'],

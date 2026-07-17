@@ -1,17 +1,15 @@
 /** @param {$LootModifier$Builder} all */
 function lootReplacements_Core(all) {
-    global.BLOCK_SWAPPER.forEach((value, key) => {
-        if (Item.exists(key) && Item.exists(value)) {
+    global.COMMON_SWAPPER.forEach((value, key) => {
+        if (value == 'minecraft:air') {
+            all.removeLoot(key)
+        } else {
             all.replaceLoot(key, value, true)
         }
     })
 
-    global.ITEM_SWAPPER.forEach((value, key) => {
-        all.replaceLoot(key, value, true)
-    })
-
     global.REMOVALS.set.forEach(removal => {
-        if (!global.ITEM_SWAPPER.has(removal) && !global.BLOCK_SWAPPER.has(removal)) {
+        if (!global.COMMON_SWAPPER.has(removal)) {
             all.removeLoot(removal)
         }
     })
@@ -19,7 +17,7 @@ function lootReplacements_Core(all) {
 
 /** @param {$LootModificationEvent} e */
 function lootTables_Core(e) {
-    e.addEntityModifier('minecraft:ravager').addLoot('kubejs:ravager_hide')
+    // e.addEntityModifier('minecraft:ravager').addLoot('kubejs:ravager_hide')
     // e.addEntityModifier('goety:ravager').addLoot('kubejs:ravager_hide')
     // e.addEntityModifier('goety:trampler').addLoot('kubejs:ravager_hide')
 }

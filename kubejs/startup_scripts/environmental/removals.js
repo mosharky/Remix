@@ -2,14 +2,24 @@ function removals_Environmental() {
     global.REMOVALS.add([
         // /environmental:.*pine.*/,
         /environmental:.*willow.*/,
-        /environmental:.*wisteria.*/,
+        // /environmental:.*wisteria.*/,
         'environmental:cattail',
         'environmental:cattail_fluff',
         'environmental:cattail_fluff_block',
         // /environmental:.*leaf_pile.*/,
         'environmental:bluebell',
         // /environmental:grass_thatch.*/,
-        'environmental:plum'
+        'environmental:plum',
+        // 'environmental:duck',
+        // 'environmental:cooked_duck',
+        'environmental:duck_egg',
+        'environmental:duck_spawn_egg',
+        'environmental:duck_egg_crate',
+        'environmental:duckweed',
+        'environmental:deer_spawn_egg',
+        'environmental:reindeer_spawn_egg',
+        'environmental:venison',
+        'environmental:cooked_venison',
     ])
 
     // structureSwapChest('environmental:log_cabin', 'windswept:pine')

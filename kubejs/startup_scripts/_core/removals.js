@@ -5,8 +5,8 @@ function removals_Core() {
     }
 
     global.REMOVALS.add([
-        'minecraft:short_dry_grass',
-        'minecraft:tall_dry_grass',
-        'minecraft:leaf_litter',
+        // 'minecraft:short_dry_grass',
+        // 'minecraft:tall_dry_grass',
+        // 'minecraft:leaf_litter',
     ])
 }

@@ -11,6 +11,7 @@ function entityTags_Atmospheric(e) {
 
 /** @param {$TagKubeEvent} e */
 function biomeTags_Atmospheric(e) {
+    e.removeAll('atmospheric:spawns_yellow_rabbits')
     e.add('c:is_hot/overworld', [
         '#atmospheric:is_dunes',
         '#atmospheric:is_rainforest',
@@ -29,15 +30,8 @@ function biomeTags_Atmospheric(e) {
         'natures_spirit:drylands',
         'natures_spirit:arid_highlands',
     ])
-    e.add('atmospheric:spawns_yellow_rabbits', [
-        'natures_spirit:lively_dunes',
-        'natures_spirit:blooming_dunes',
-        'natures_spirit:stratified_desert',
-        'natures_spirit:scorched_dunes',
-        'natures_spirit:drylands',
-        'natures_spirit:arid_highlands',
-    ])
 
+    /*
     e.add('kubejs:has_feature/atmospheric_aspen_parkland_foliage', [
         'natures_spirit:aspen_forest'
     ])
@@ -135,4 +129,5 @@ function biomeTags_Atmospheric(e) {
     e.add('kubejs:has_feature/atmospheric_trees_rainforest', [
         'natures_spirit:tropical_woods',
     ])
+    */
 }

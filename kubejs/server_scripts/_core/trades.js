@@ -1,6 +1,6 @@
 MoreJS.playerStartTrading(e => {
-    /*
     // ⚠️ AUTO CONVERTING ⚠️ (an attempt)
+    /*
     if (global.DEBUG_MODE) console.log('TRADING WITH: ' + e.getMerchant().getClass().getName())
     e.forEachOffers((o, i) => {
         let currencyItems = ['numismaticoverhaul:bronze_coin', 'numismaticoverhaul:silver_coin', 'numismaticoverhaul:gold_coin']

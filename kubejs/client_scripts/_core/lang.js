@@ -5,12 +5,12 @@ ClientEvents.lang('en_us', e => {
     }
 
     // Quark
-    // rename('quark:rope', 'Rigid Rope')
+    rename('quark:rope', 'Rigid Rope')
 
     // Farmer's Delight
-    // TODO: this aint working
-    // rename('farmersdelight:rope', 'Netting')
-    // rename('farmersdelight:wheat_dough', 'Dough')
+    rename('farmersdelight:rope', 'Netting')
+    rename('farmersdelight:wheat_dough', 'Dough')
+    e.add('farmersdelight', 'farmersdelight.jei.cooking', 'Cooking')
 
     // Nature's Spirit
     /*
@@ -30,14 +30,6 @@ ClientEvents.lang('en_us', e => {
     // Collector's Reap
     // e.add('collectorsreap', 'item.collectorsreap.dragon_fruit_seeds', 'Pink Dragon Fruit Seeds')
 
-    // Darker Depths
-    // rename('darkerdepths:ash_block', 'Darkslate Ash Block')
-    // rename('darkerdepths:ash', 'Darkslate Ash')
-
-    // Doom and Gloom missing lang
-    // e.add('doom_and_gloom', 'entity.doom_and_gloom.holler', 'Holler')
-    // e.add('doom_and_gloom', 'entity.minecraft.villager.gravetender', 'Gravetender')
-
     // AE2 missing lang
     // e.add('ae2', 'entity.minecraft.villager.fluix_researcher', 'Fluix Researcher')
 
@@ -54,6 +46,22 @@ ClientEvents.lang('en_us', e => {
     // rename('bountifulfares:plum_leaves', 'Fruitful Plum Leaves')
     // rename('bountifulfares:plum_sapling', 'Fruitful Plum Sapling')
 
+    /*
     // No Man's Land
-    // rename('nomansland:oat_grass', 'Lush Oat Grass')
+    for (const blockSet of Object.values(global.WOOD_TYPES.nomansland.pine)) {
+        for (const block of Object.values(blockSet)) {
+            let name = Item.of(block).displayName.string.replace('[', '').replace(']', '')
+            if (block != undefined) rename(block, name.replace('Pine', 'Larch'))
+        }
+    }
+    */
+
+
+    // rename('nomansland:stripped_pine_palisade', 'Stripped Larch Palisade')
+    // rename('nomansland:pine_palisade', 'Larch Palisade')
+    // rename('nomansland:stripped_spiked_pine_palisade', 'Stripped Larch Palisade')
+    // rename('nomansland:spiked_pine_palisade', 'Larch Palisade')
+    // rename('nomansland:pine_seat', 'Larch Seat')
+
+    rename('nomansland:pancake', 'Maple-Glazed Pancake')
 })

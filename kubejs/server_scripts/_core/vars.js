@@ -3,7 +3,7 @@
 // JSDoc IntelliSense
 /**
  * Base KJS events
- * @typedef {import("@package/dev/latvian/mods/kubejs/server/tag").$TagKubeEvent} $TagKubeEvent
+ * @typedef {import("@side-only/server/events").TagEvent<any>} $TagKubeEvent
  * @typedef {import("@package/dev/latvian/mods/kubejs/recipe").$RecipesKubeEvent} $RecipesKubeEvent
  * @typedef {import("@package/dev/latvian/mods/kubejs/generator").$KubeDataGenerator} $KubeDataGenerator
  * LootJS events/builder
@@ -12,13 +12,12 @@
  * MoreJS events
 */
 
-// Loading classes
-const $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
-
 let OVERWORLD_BIOMES
 ServerEvents.tags('worldgen/biome', e => {
     OVERWORLD_BIOMES = e.get('minecraft:is_overworld').getObjectIds()
 })
+
+// let AKASHIC_TOME = 'akashictome:tome[akashictome:tool_content=[{components:{"akashictome:defined_mod":"cobblepedia","patchouli:book":"cobblepedia:cobblepedia"},count:1,id:"patchouli:guide_book"},{components:{"akashictome:defined_mod":"malum"},count:1,id:"malum:encyclopedia_arcana"},{components:{"akashictome:defined_mod":"starcatcher"},count:1,id:"starcatcher:starcatcher_guide"},{components:{"akashictome:defined_mod":"pastel"},count:1,id:"pastel:guidebook"},{components:{"akashictome:defined_mod":"embers"},count:1,id:"embers:ancient_codex"}]]'
 
 // Numismatic Overhaul stuff shortened
 const SELL_STACK = 'numismaticoverhaul:sell_stack'
@@ -113,4 +112,12 @@ function autoImmersiveEnchanting(e, enchantment, levels) {
         }
     }
     e.json(`immersiveenchanting:enchantment_costs/${modId}/${enchantmentId}`, enchantmentObj)
+}
+
+// Turns an item id into readable text
+function prettyItem(item) {
+    let modName = Platform.getMods()[item.split(':')[0]].name
+    let itemName = Item.of(item).getDisplayName().getString().replace('[', '"').replace(']', '"')
+
+    return `${modName}'s ${itemName}`
 }
