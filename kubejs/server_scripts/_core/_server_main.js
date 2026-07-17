@@ -11,12 +11,14 @@ ServerEvents.tags('item', e => {
     itemTags_Core(e)
     itemTags_Neapolitan(e)
     itemTags_Naturalist(e)
+    itemTags_FieldGuide(e)
 })
 
 ServerEvents.tags('block', e => {
     blockTags_Core(e)
     // blockTags_SnowRealMagic(e)
     // blockTags_BountifulFares(e)
+    blockTags_FieldGuide(e)
 })
 
 ServerEvents.tags('entity_type', e => {
@@ -27,6 +29,7 @@ ServerEvents.tags('entity_type', e => {
     // entityTags_Supplementaries(e)
     // entityTags_FtbChunks(e)
     // entityTags_NumismaticOverhaul(e)
+    entityTags_FieldGuide(e)
 })
 
 ServerEvents.tags('worldgen/biome', e => {
@@ -133,11 +136,6 @@ LootJS.modifiers(e => {
 
     lootTables_Core(e)
     lootTables_SootyChimneys(e)
-})
-
-
-EntityEvents.spawned(e => {
-    entitySpawned_Core(e)
 })
 
 

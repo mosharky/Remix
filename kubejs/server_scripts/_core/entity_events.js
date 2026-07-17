@@ -1,5 +1,10 @@
-/**  @param {$EntitySpawnedEventJS_} e */
-function entitySpawned_Core(e) {
+// Entity events
+EntityEvents.checkSpawn(global.ENTITY_REMOVALS, e => {
+    console.log(`Preventing spawn of ${e.entity.type} at ${e.entity.x}, ${e.entity.y}, ${e.entity.z}`)
+    e.success(false)
+})
+
+EntityEvents.spawned(e => {
     // TEST WITH:
     // /summon zombie ~ ~1 ~ {PersistenceRequired:1,ArmorItems:[{Count:1,id:"caverns_and_chasms:silver_boots"},{Count:1,id:"caverns_and_chasms:silver_leggings"},{Count:1,id:"caverns_and_chasms:silver_chestplate"},{Count:1,id:"caverns_and_chasms:silver_helmet"}]}
     if (e.entity.type == 'minecraft:skeleton' || e.entity.type == 'minecraft:zombie') {
@@ -22,4 +27,30 @@ function entitySpawned_Core(e) {
             e.entity.offHandItem = Item.of(global.ITEM_SWAPPER.get(`${Item.of(e.entity.offHandItem).getId()}`))
         }
     }
-}    
+})
+
+
+// Player events
+global.COMMON_SWAPPER.forEach((replaceWith, toReplace) => {
+    PlayerEvents.inventoryChanged(toReplace, e => {
+        const slot = e.player.inventory.find(toReplace)
+        const stack = e.player.inventory.getStackInSlot(slot)
+        if (!global.DEBUG_MODE) {
+            e.player.inventory.setStackInSlot(slot, Item.of(replaceWith, stack.count))
+            e.player.tell([
+                Text.gray('An item in your inventory, '),
+                Text.red(prettyItem(toReplace)),
+                Text.gray(' has been replaced with '),
+                Text.green(prettyItem(replaceWith)),
+                Text.gray('!')
+            ])
+        }
+    })
+})
+
+PlayerEvents.loggedIn(e => {
+    // if (!e.player.stages.has('starter_items')) {
+        // e.player.stages.add('starter_items')
+        // e.player.addItem(AKASHIC_TOME)
+    // }
+})

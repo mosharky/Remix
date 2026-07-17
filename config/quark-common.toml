@@ -1350,7 +1350,7 @@
 	Foxhound = false
 	Shiba = false
 	Stonelings = true
-	Toretoise = true
+	Toretoise = false
 	Wraith = false
 
 	[mobs.crabs]

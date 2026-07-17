@@ -71,6 +71,7 @@ function constructWoodTypes() {
                         anotherFurnitureCompatId    = 'another_furniture:'
                         backpackedCompatId          = 'backpacked:'
                         decorativeBlocksCompatId    = 'decorative_blocks:'
+                        noMansLandCompatId          = 'nomansland:'
                     }
                     break
                 }

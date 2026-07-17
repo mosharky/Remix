@@ -268,7 +268,8 @@ function removals_Quark() {
         'quark:wraith',
         'quark:foxhound',
         'quark:shiba',
-        'quark:crab'
+        'quark:crab',
+        'quark:toretoise',
     )
 
     // Carpets

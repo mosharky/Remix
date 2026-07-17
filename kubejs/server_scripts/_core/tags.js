@@ -6,7 +6,7 @@ function itemTags_Core(e) {
 
 /** @param {$TagKubeEvent} e */
 function blockTags_Core(e) {
-
+    e.add('kubejs:disabled', Array.from(global.REMOVALS.blocks))
 }
 
 /** @param {$TagKubeEvent} e */
