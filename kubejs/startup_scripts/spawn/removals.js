@@ -1,6 +1,8 @@
 function removals_Spawn() {
     global.REMOVALS.add([
-        /spawn:.*snail.*/
+        /spawn:.*snail.*/,
+        'spawn:escargot',
+        'spawn:potted_sweet_berries',
     ])
 
     global.ENTITY_REMOVALS.push(
