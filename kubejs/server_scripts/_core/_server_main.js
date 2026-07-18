@@ -103,27 +103,25 @@ ServerEvents.generateData('after_mods', e => {
     // moonlightTrades_Supplementaries(e)
     // moonlightTrades_Sawmill(e)
 
-    /*
     worldgen_Core(e)
     worldgen_Atmospheric(e)
     worldgen_Autumnity(e)
     worldgen_Environmental(e)
     worldgen_Neapolitan(e)
     worldgen_CavernsAndChasms(e)
-    worldgen_Galosphere(e)
+    // worldgen_Galosphere(e)
     // worldgen_MyNethersDelight(e)
     // worldgen_NaturesSpirit(e)
-    worldgen_Oreganized(e)
+    // worldgen_Oreganized(e)
     // worldgen_SnowySpirit(e)
-    worldgen_FarmersDelight(e)
+    // worldgen_FarmersDelight(e)
     // worldgen_BountifulFares(e)
-    worldgen_NoMansLand(e)
+    // worldgen_NoMansLand(e)
     // worldgen_ArtsAndCrafts(e)
-    worldgen_Embers(e)
-    worldgen_Malum(e)
+    // worldgen_Embers(e)
+    // worldgen_Malum(e)
 
     structures_Core(e)
-    */
 })
 
 LootJS.modifiers(e => {
