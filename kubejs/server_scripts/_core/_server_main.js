@@ -47,6 +47,7 @@ ServerEvents.tags('worldgen/biome', e => {
     biomeTags_Malum(e)
     biomeTags_Incision(e)
     */
+    biomeTags_Spawn(e)
 
     // these changes need to load way later
     biomeTags_Core(e)
