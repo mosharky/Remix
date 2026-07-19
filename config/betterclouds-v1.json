@@ -29,7 +29,7 @@
 	"selectedNoisePreset": 2,
 	"cloudOverride": true,
 	"useIrisFBO": true,
-	"selectedPreset": 0,
+	"selectedPreset": 1,
 	"presets": [
 		{
 			"upscale_resolution_factor": 1.0,
