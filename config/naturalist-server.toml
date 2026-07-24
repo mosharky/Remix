@@ -18,8 +18,8 @@
 	lion_removed = false
 	lizard_removed = false
 	rhino_removed = false
-	snail_removed = false
+	snail_removed = true
 	snake_removed = false
-	tortoise_removed = false
+	tortoise_removed = true
 	vulture_removed = false
-	zebra_removed = false
+	zebra_removed = true

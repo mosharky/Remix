@@ -1,8 +1,9 @@
 /** @param {$TagKubeEvent} e  */
 function biomeTags_NoMansLand(e) {
-    e.remove('nomansland:feature_addition/has_cave_weeds', /pastel:.*/)
-    e.remove('nomansland:is_cragland', 'minecraft:sparse_jungle')
+    // e.remove('nomansland:feature_addition/has_cave_weeds', /pastel:.*/)
+    // e.remove('nomansland:is_cragland', 'minecraft:sparse_jungle')
 
+    /*
     e.add('nomansland:feature_addition/has_swamp_foliage', [
         'atmospheric:rainforest_basin',
     ])
@@ -10,7 +11,8 @@ function biomeTags_NoMansLand(e) {
         '#natures_spirit:is_tropical',
         '#atmospheric:is_rainforest',
     ])
-
+    */
+   
     e.add('kubejs:has_feature/grass_sprouts', [
         '#kubejs:classic_soil'
     ])

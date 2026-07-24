@@ -1,9 +1,10 @@
 /** @param {$KubeDataGenerator} e  */
 function worldgen_BountifulFares(e) {
-    removeBiomeModifier(e, 'bountifulfares:palm_placed')
-    removeBiomeModifier(e, 'bountifulfares:plum_placed')
-    removeBiomeModifier(e, 'bountifulfares:walnut_placed')
+    // removeBiomeModifier(e, 'bountifulfares:palm_placed')
+    // removeBiomeModifier(e, 'bountifulfares:plum_placed')
+    // removeBiomeModifier(e, 'bountifulfares:walnut_placed')
 
+    /*
     // reduce chances
     registerFeature(e, PLACED, 'bountifulfares:patch_grassy_dirt', {
         feature: 'bountifulfares:patch_grassy_dirt',
@@ -47,4 +48,5 @@ function worldgen_BountifulFares(e) {
             wouldSurvive('bountifulfares:orange_sapling')
         ]
     })
+    */
 }

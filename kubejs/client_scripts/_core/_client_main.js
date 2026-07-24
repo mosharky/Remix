@@ -14,10 +14,19 @@ RecipeViewerEvents.removeEntries('item', e => {
     })
 })
 
+RecipeViewerEvents.removeEntriesCompletely('item', e => {
+    if (!global.DEBUG_MODE) {
+        e.remove(global.REMOVALS.arr.concat([
+            /excavated_variants:.*/,
+        ]))
+    }
+})
+
 RecipeViewerEvents.addInformation('item', e => {
 })
 
 ClientEvents.generateAssets('after_mods', e => {
     clientData_EMI(e)
+    clientData_EMIxx(e)
     clientData_Quark(e)
 })

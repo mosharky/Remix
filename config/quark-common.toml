@@ -96,7 +96,7 @@
 [building]
 	"Celebratory Lamps" = false
 	"Compressed Blocks" = false
-	"Duskbound Blocks" = false
+	"Duskbound Blocks" = true
 	"Framed Glass" = true
 	"Glass Item Frame" = true
 	"Gold Bars" = false
@@ -1350,7 +1350,7 @@
 	Foxhound = false
 	Shiba = false
 	Stonelings = true
-	Toretoise = true
+	Toretoise = false
 	Wraith = false
 
 	[mobs.crabs]
@@ -1658,7 +1658,7 @@
 	#Big Stone Clusters for Granite, Diorite, and Andesite, like Quark pre-1.18
 	"Vanilla Stone Clusters" = false
 	#Allows placing variant blocks automatically via a selector menu triggered from a keybind
-	"Variant Selector" = true
+	"Variant Selector" = false
 	"Villager Rerolling Rework" = false
 
 	[experimental.adjustable_chat]

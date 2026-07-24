@@ -1,5 +1,6 @@
 /** @param {$TagKubeEvent} e */
 function entityTags_Environmental(e) {
+    /*
     e.add('environmental:scares_deer', [
         // TODO: Add mobs from Alex's Mobs when it's added
     ])
@@ -29,6 +30,7 @@ function entityTags_Environmental(e) {
         'minecraft:lily_pad',
         'natures_spirit:cattail'
     ])
+    */
 
     e.add('environmental:yak_food', [
         'supplementaries:flax'
@@ -37,6 +39,10 @@ function entityTags_Environmental(e) {
 
 /** @param {$TagKubeEvent} e */
 function biomeTags_Environmental(e) {
+    e.removeAll('environmental:spawns_muddy_rabbits')
+    e.removeAll('environmental:spawns_chestnut_deer')
+    e.removeAll('environmental:spawns_gray_deer')
+
     e.add('environmental:has_structure/log_cabin', '#windswept:is_pine_barrens')
 
     e.add('kubejs:has_feature/environmental_dwarf_spruce', '#windswept:is_pine_barrens')
@@ -66,7 +72,6 @@ function biomeTags_Environmental(e) {
     ])
 
     e.add('environmental:has_feature/violet', [
-        'minecraft:forest',
         'minecraft:flower_forest',
         'minecraft:birch_forest',
         'minecraft:meadow',
@@ -82,51 +87,6 @@ function biomeTags_Environmental(e) {
         'environmental:blossom_woods',
         'environmental:blossom_valleys',
         'atmospheric:laurel_forest',
-    ])
-
-    e.add('environmental:spawns_chestnut_deer', [
-        'windswept:chestnut_forest',
-        'windswept:snowy_chestnut_forest',
-        '#natures_spirit:is_autumn',
-        'natures_spirit:wisteria_forest',
-        'natures_spirit:sugi_forest',
-        'natures_spirit:windswept_sugi_forest',
-        'minecraft:flower_forest',
-        'minecraft:birch_forest',
-        'minecraft:cherry_grove'
-    ])
-
-    e.add('environmental:spawns_gray_deer', [
-        '#windswept:is_pine_barrens',
-        '#minecraft:is_taiga',
-        'minecraft:grove',
-        'minecraft:snowy_slopes',
-        '#natures_spirit:is_alpine',
-        'natures_spirit:boreal_taiga',
-        'natures_spirit:fir_forest',
-        'natures_spirit:snowy_fir_forest',
-    ])
-
-    e.add('environmental:has_spawn/duck', [
-        'natures_spirit:bamboo_wetlands',
-        'atmospheric:rainforest_basin',
-        'atmospheric:sparse_rainforest_basin'
-    ])
-
-    e.add('environmental:has_spawn/muddy_pig', [
-        'natures_spirit:bamboo_wetlands',
-        'atmospheric:rainforest_basin',
-        'atmospheric:sparse_rainforest_basin'
-    ])
-
-    e.add('environmental:has_spawn/reindeer', [
-        'windswept:snowy_chestnut_forest',
-        'windswept:snowy_pine_barrens',
-        '#natures_spirit:is_alpine',
-        'natures_spirit:sleeted_slopes',
-        'natures_spirit:snowcapped_red_peaks',
-        'natures_spirit:snowy_fir_forest',
-        'natures_spirit:tundra'
     ])
 
     e.add('environmental:has_spawn/slabfish', [
@@ -146,35 +106,13 @@ function biomeTags_Environmental(e) {
         'natures_spirit:alpine_highlands',
         'natures_spirit:sleeted_slopes',
         'natures_spirit:tundra',
-    ])
-
-    e.add('environmental:spawns_gray_rabbits', [
-        '#windswept:is_pine_barrens',
-        '#windswept:is_chestnut_forest',
-        'natures_spirit:aspen_forest',
-        'natures_spirit:fir_forest',
-        'natures_spirit:sugi_forest',
-        'natures_spirit:windswept_sugi_forest',
-        'natures_spirit:woody_highlands',
-        'natures_spirit:shrubland',
-        'natures_spirit:shrubby_highlands',
-        'natures_spirit:chaparral',
-        'natures_spirit:tundra',
-    ])
-
-    e.add('environmental:spawns_muddy_rabbits', [
-        '#c:is_swamp'
+        'nomansland:lavender_field',
     ])
 
     e.add('kubejs:has_feature/environmental_delphiniums', [
         'minecraft:flower_forest',
         'natures_spirit:floral_ridges',
         'natures_spirit:wisteria_forest',
-    ])
-
-    e.add('kubejs:has_feature/environmental_duckweed_swamp', [
-        'minecraft:swamp',
-        'natures_spirit:marsh'
     ])
 
     e.add('kubejs:has_feature/environmental_flower_white_lotus', [

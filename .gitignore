@@ -35,6 +35,7 @@ config/emi-accelerator/stack-cache.emic
 config/emi-accelerator/reload-timings.json
 config/catalogue_favourites.txt
 /config/spark/
+config/almostunified/debug.json
 
 # mods
 # mods/.connector/
@@ -69,7 +70,7 @@ shaderpacks/*EuphoriaPatches*
 /.lazyyyyy/
 /cache/
 /.cache/
-/mod_data/
+# /mod_data/
 /.mixin.out/
 /xaero/
 /ESM/
@@ -87,6 +88,7 @@ shaderpacks/*EuphoriaPatches*
 /.sable/
 /debug/
 /blueprint-online-image-cache/
+/villagerpacks/
 
 # root files
 knownkeys.txt
@@ -116,6 +118,7 @@ command_history.txt
 imgui.ini
 ponders_watched.json
 ponders_watched_azimuth.json
+user-prefs.json
 
 # dev environment stuff
 /.probe/
@@ -125,6 +128,9 @@ ponders_watched_azimuth.json
 /py_scripts/__pycache__/
 /py_scripts/py_scripts.log
 /py_scripts/generated/
+mod_data/__pycache__/
+mod_data/mod_data.log
+mod_data/generated/
 
 # launcher-related
 .curseclient
@@ -141,4 +147,3 @@ minecraftinstance.json
 # !kubejs/assets/special-*.zip
 # kubejs/data/*.zip
 # !kubejs/data/special-*.zip
-user-prefs.json
