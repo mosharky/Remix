@@ -145,7 +145,7 @@ function constructWoodTypes() {
                     chiseled_bookshelf:     woodworksCompatId + 'chiseled_' + woodType + '_bookshelf',
                 },
                 quark: {
-                    vertical_slab:          verticalSlabCompatId + woodType + plankSuffix + '_vertical_slab',
+                    // vertical_slab:          verticalSlabCompatId + woodType + plankSuffix + '_vertical_slab',
                     // vertical_planks:        quarkCompatId + 'vertical_' + woodType + '_planks',
                     post:                   quarkCompatId + woodType + '_post',
                     stripped_post:          quarkCompatId + 'stripped_' + woodType + '_post',

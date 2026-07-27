@@ -12,6 +12,7 @@ ServerEvents.tags('item', e => {
     itemTags_Neapolitan(e)
     itemTags_Naturalist(e)
     itemTags_FieldGuide(e)
+    itemTags_ClutterNoMore(e)
 })
 
 ServerEvents.tags('block', e => {
