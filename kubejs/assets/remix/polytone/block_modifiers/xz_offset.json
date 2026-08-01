@@ -1,7 +1,5 @@
 {
   "targets": [
-    "environmental:dwarf_spruce",
-    "environmental:dwarf_spruce_plant",
     "soulfulnether:hanging_lichoss",
     "soulfulnether:ember_roots"
   ],

@@ -7,8 +7,8 @@
   "creature_spawn_probability": 0.25,
   "downfall": 0.0,
   "effects": {
-    "foliage_color": 11665355,
-    "grass_color": 11665355,
+    "foliage_color": 12116647,
+    "grass_color": 13761723,
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,

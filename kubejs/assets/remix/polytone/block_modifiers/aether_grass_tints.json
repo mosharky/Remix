@@ -1,7 +1,9 @@
 {
   "targets": [
     "remix_core:short_skygrass",
-    "remix_core:skygrass_sprouts"
+    "remix_core:skygrass_sprouts",
+    "remix_core:spiring_fern",
+    "remix_core:spiring_fern_plant"
   ],
   "colormap": {
     "biomes": {
