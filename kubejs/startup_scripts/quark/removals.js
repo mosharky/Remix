@@ -1,14 +1,15 @@
 function removals_Quark() {
     global.REMOVALS.add([
-        /quark:.*(dirt_brick|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|cobblestone_brick|limestone|jasper|andesite_brick|dripstone_brick).*/,
+        /quark:.*(dirt_brick|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|cobblestone_brick|limestone|jasper|andesite_brick|dripstone_brick|stool).*/,
         /quark:.*(crab|foxhound|shiba|wraith).*/,
         /quark:.*ancient(?!_tome|_fruit).*/,
         /quark:.*azalea(?!_hedge).*/,
         /quark:vertical.*planks/,
-        /quark:.*(andesite|granite|diorite|dripstone(?!_block)|calcite)(?!_vertical_slab)(?:_.+)?/,
-        /quark:polished_(dripstone|calcite).*/,
+        /quark:.*vertical_slab/,
+        // /quark:.*(andesite|granite|diorite|dripstone(?!_block)|calcite)(?!_vertical_slab)(?:_.+)?/,
+        /quark:.*(andesite|granite|diorite|dripstone|calcite).*/,
+        // /quark:polished_(dripstone|calcite).*/,
         /quark:.*blue_nether_bricks.*/,
-        /quark:.*(stool|furnace).*/,
         /quark:(?!.*soul_sandstone).*sandstone_bricks.*/,
         'quark:stone_lamp',
         'quark:stone_brick_lamp',
@@ -240,8 +241,8 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:carved_mud_bricks', 'environmental:chiseled_mud_bricks')
     global.BLOCK_SWAPPER.set('quark:stone_lamp', 'supplementaries:stone_lamp')
     global.BLOCK_SWAPPER.set('quark:stone_brick_lamp', 'supplementaries:stone_lamp')
-    global.BLOCK_SWAPPER.set('quark:deepslate_furnace', 'minecraft:furnace')
-    global.BLOCK_SWAPPER.set('quark:blackstone_furnace', 'minecraft:furnace')
+    // global.BLOCK_SWAPPER.set('quark:deepslate_furnace', 'minecraft:furnace')
+    // global.BLOCK_SWAPPER.set('quark:blackstone_furnace', 'minecraft:furnace')
 
     // Storage blocks
     // global.BLOCK_SWAPPER.set('quark:cocoa_beans_sack', 'packedup:cocoa_bean_bag')

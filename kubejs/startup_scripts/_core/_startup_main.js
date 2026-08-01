@@ -39,7 +39,7 @@ function postInit() {
     // removals_NaturesSpirit()
     removals_Neapolitan()
     removals_Oreganized()
-    // removals_Quark()
+    removals_Quark()
     // removals_Railways()
     // removals_Relics()
     // removals_ScGuns()

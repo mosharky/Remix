@@ -5,7 +5,7 @@
 	# Allows scrolling the mouse wheel to modify options using a slider
 	# when hovering over the slider.
 	# Default: true
-	"Mouse Scroll Wheel Affects Sliders" = true
+	"Mouse Scroll Wheel Affects Sliders" = false
 	# If enabled, a custom background texture will be used in menus where possible.
 	# The texture used is specified by the Custom Background Texture option below.
 	# Default: false

@@ -51,10 +51,6 @@ function clientData_EMIxx(e) {
     createTagGroup('dramaticdoors:short_wooden_doors')
     createTagGroup('dramaticdoors:tall_wooden_doors')
     */
-    // custom tags
-    createTagGroup('kubejs:tms')
-    createTagGroup('kubejs:trs')
-
     // Items
     createItemGroup(['caverns_and_chasms:trail_potion'])
     createItemGroup(['caverns_and_chasms:tether_potion'])
