@@ -1146,7 +1146,7 @@ function structures_Core(e) {
         })
     })
 
-    e.json('kubejs:blueprint/structure_repaletters/block_swapper', repaletterJson)
+    // e.json('kubejs:blueprint/structure_repaletters/block_swapper', repaletterJson)
 
 
     global.STRUCTURE_BLOCK_SWAPPER.forEach((swapMap, structure) => {
