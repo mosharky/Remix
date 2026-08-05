@@ -155,6 +155,16 @@
 		#Syntax is 'damagetype:rate'. Specifies a separate damage rate for depleting the scales.
 		damageRates = []
 
+	[parameters.dawnstone_tools]
+		#If true, Dawnstone tools use normal durability instead of consuming Ember from jars and cartridges.
+		use_durability = false
+
+	[parameters.kineticActuator]
+		#The conversion ratio from Create speed to mechanical power (set to 0 to effectively disable the Kinetic Actuator).
+		powerRatio = 1.0
+		#The base SU impact of the Kinetic Actuator.
+		stressImpact = 8.0
+
 #Miscellaneous settings
 [misc]
 	#Codex entries need to be completed before the next one unlocks.

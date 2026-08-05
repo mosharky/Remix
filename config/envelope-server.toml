@@ -30,6 +30,15 @@
 	# Default: 0.0
 	# Range: 0.0 ~ 1.0
 	damage_evasion_chance_while_delivering = 0.0
+	#Pigeon searches for nearby dropped seeds (envelope:pigeon_food) and eats them.
+	eats_seeds = true
+	#Pigeon will convert into a Charred Pigeon when it stays in the ultrawarm dimension for some time.
+	#Default: true
+	convert_into_charred = true
+	#Time (in ticks) Pigeon needs to stay in the ultrawarm dimension to convert into Charred Pigeon.
+	# Default: 300
+	# Range: > 0
+	convert_into_charred_ticks = 300
 
 [pigeonhole]
 	#Chance of waste level increasing when pigeon exits the block.
@@ -54,6 +63,11 @@
 	#Letter screen pauses singleplayer game.
 	# Default: false
 	pause = false
+	#Letter will burn and disappear when used on `envelope:burning` blocks. Doesn't apply to Sealed Letters.
+	# Default: true
+	burning = true
+	#Letter will become tattered if a Fox picks it up.
+	fox_tattering = true
 
 [package]
 	#Holding Sneak while using the Package will unpack and destroy it immediately, instead of opening the menu.
@@ -100,24 +114,43 @@
 	request_duration_long = 4320
 
 	[service_addresses.equine_assurance_bureau]
-		#A notice letter would be sent out to all players occasionally.
+		#A notice letter will be occasionally sent to the player.
 		#Default: true
 		notice_sending_enabled = true
-		#Minimum time (in minutes) from the previous send after which another notice could be sent.
-		# Default: 120.0
-		# Range: 0.0 ~ 9999.0
-		notice_sending_base_interval_minutes = 120.0
-		#Additional time (in minutes) per the in-game day. More days played = less notices.
-		# Default: 1.0
-		# Range: 0.0 ~ 9999.0
-		notice_sending_additional_interval_per_day_minutes = 1.0
-		#Chance of notice letter being sent per tick, assuming that enough time has passed from previous send.
-		#Default: 0.0002 (about 4 minutes on average)
-		# Default: 2.0E-4
-		# Range: 0.0 ~ 1.0
-		notice_sending_chance_per_tick = 2.0E-4
 
 [debug]
-	#Enable debug features. Will affect performance negatively. Don't enable unless it's needed.
-	# Default: false.
+	#Enable debug features. Will negatively impact performance. Don't enable unless it's needed.
 	debug_mode = false
+
+[charred_pigeon]
+	#Charred Pigeons can spawn naturally in '#envelope:allows_charred_pigeon_spawns' biomes.
+	# Default: true
+	spawns_naturally = true
+	#Chance of a Charred Pigeon carrying mail when spawned.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	mail_chance = 0.2
+	#Seconds that the target will be ignited for when Charred Pigeon attacks them.
+	# Default: 3.0
+	# Range: 0.0 ~ 999.0
+	ignite_seconds = 3.0
+	#Charred Pigeon will convert into a regular Pigeon when it stays outside of the ultrawarm dimension for some time.
+	#Default: true
+	convert_into_regular = true
+	#Time (in ticks) Charred Pigeon needs to stay outside of the ultrawarm dimension to convert into a regular Pigeon.
+	# Default: 300
+	# Range: > 0
+	convert_into_regular_ticks = 300
+
+[misc]
+	#Villagers will feed nearby pigeons by throwing them seeds.
+	#Requires 'pigeon.eats_seeds' config option to be enabled.
+	#Default: true
+	villager_feeding_pigeons = true
+	#Only Nitwits can feed pigeons.
+	#Default: true
+	villager_feeding_pigeons_only_nitwits = true
+	#Chance of an Archimedes spawning when 'envelope:spawns_archimedes' mob is killed by 'envelope:spawns_archimedes' damage type (player explosion by default).
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	archimedes_chance = 0.05
