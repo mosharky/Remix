@@ -1,4 +1,4 @@
-/** @param {$LootModifier$Builder} builder */
-function lootRemovals_NoMansLand(builder) {
-    builder.removeLoot('nomansland:walnuts')
+/** @param {$LootTableList} all */
+function lootRemovals_NoMansLand(all) {
+    all.removeItem('nomansland:walnuts')
 }

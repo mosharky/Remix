@@ -1,4 +1,4 @@
-/** @param {$LootModifier$Builder} all */
+/** @param {$LootTableList} all */
 function lootRemovals_Environmental(all) {
-    all.removeLoot('environmental:plum')
+    all.removeItem('environmental:plum')
 }

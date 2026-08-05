@@ -9,6 +9,8 @@
  * LootJS events/builder
  * @typedef {import("@package/com/almostreliable/lootjs/loot").$LootModificationEvent} $LootModificationEvent
  * @typedef {import("@package/com/almostreliable/lootjs/loot/modifier").$LootModifier$Builder} $LootModifier$Builder
+ * @typedef {import("@package/com/almostreliable/lootjs/loot").$LootTableEvent} $LootTableEvent
+ * @typedef {import("@package/com/almostreliable/lootjs/loot/table").$LootTableList} $LootTableList
  * MoreJS events
 */
 

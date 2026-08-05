@@ -98,7 +98,7 @@ ServerEvents.loaded(e => {
     // e.server.gameRules.set('decorative_blocks:disableThatch', true)
     e.server.persistentData.gameRules = true
 })
-   
+
 ServerEvents.generateData('after_mods', e => {
     // numismaticTrades_Core(e)
     // moonlightTrades_Supplementaries(e)
@@ -125,17 +125,19 @@ ServerEvents.generateData('after_mods', e => {
     structures_Core(e)
 })
 
-LootJS.modifiers(e => {
-    // Replacements
-    const noBlocks = e.addTableModifier(/(?!.*:blocks\/).*/)
-    const all = e.addTableModifier(/.*/)
-    lootReplacements_Core(noBlocks)
-    
+LootJS.lootTables(e => {
+    lootTables_Core(e)
+    lootTables_SootyChimneys(e)
+    lootTables_Naturalist(e)
+    lootTables_Spawn(e)
+
+    const all = e.modifyLootTables(/.*/)
+    lootRemovals_Core(all)
     lootRemovals_Environmental(all)
     lootRemovals_NoMansLand(all)
 
-    lootTables_Core(e)
-    lootTables_SootyChimneys(e)
+    const noBlocks = e.modifyLootTables(/(?!.*:blocks\/).*/)
+    lootRemovals_Core_NoBlocks(noBlocks)
 })
 
 
