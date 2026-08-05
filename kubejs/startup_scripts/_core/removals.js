@@ -10,3 +10,11 @@ function removals_Core() {
         // 'minecraft:leaf_litter',
     ])
 }
+
+const $SpawnEggItem = Java.loadClass('net.minecraft.world.item.SpawnEggItem')
+function removals_Core_Final() {
+    global.ENTITY_REMOVALS.forEach(entity => {
+        const spawnEgg = $SpawnEggItem.byId(entity)
+        if (spawnEgg != null) global.REMOVALS.add(spawnEgg)
+    })
+}

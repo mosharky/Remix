@@ -57,12 +57,9 @@ function postInit() {
     removals_Naturalist()
     removals_AbnormalsDelight()
     removals_Spawn()
+    
+    removals_Core_Final()
 
-    global.ENTITY_REMOVALS.forEach(entity => {
-        const [mod, id] = entity.split(':')
-        let spawnEgg = `${mod}:${id}_spawn_egg`
-        global.REMOVALS.add(spawnEgg)
-    })
 
     // Changing blockswap config with KubeJS!
     // processBlockswapConfig()
