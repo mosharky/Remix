@@ -1,3 +1,4 @@
+/** @param {$RemoveEntriesKubeEvent} e  */
 function hide_Core(e) {
     // Hide all enchanted books that are not max level
     Registry.access().wrapRegistry('enchantment').getEntrySet().forEach(entry => {
@@ -9,6 +10,7 @@ function hide_Core(e) {
     })
 }
 
+/** @param {$RemoveEntriesKubeEvent} e  */
 function hideCompletely_Core(e) {
     if (!global.DEBUG_MODE) {
         e.remove(global.REMOVALS.arr.concat([
