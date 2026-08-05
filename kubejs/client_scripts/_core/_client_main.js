@@ -27,6 +27,6 @@ RecipeViewerEvents.addInformation('item', e => {
 
 ClientEvents.generateAssets('after_mods', e => {
     clientData_EMI(e)
-    clientData_EMIxx(e)
+    clientData_REMI(e)
     clientData_Quark(e)
 })
