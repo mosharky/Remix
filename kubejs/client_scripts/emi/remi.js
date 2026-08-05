@@ -1,16 +1,16 @@
 // EMI++ (EMI Plus Plus)
 /** @param {$KubeAssetGenerator} e */
-function clientData_EMIxx(e) {
+function clientData_REMI(e) {
     function createTagGroup(tag) {
         e.json(`kubejs:stack_groups/${tag.split(':')[1]}`, {
-            type: 'emixx:tag',
+            type: 'remi:tag',
             tag: tag
         })
     }
 
     function createItemGroup(itemsArray) {
         let obj = { 
-            type: 'emixx:group', 
+            type: 'remi:group', 
             contents: [] 
         }
         itemsArray.forEach(item => {
