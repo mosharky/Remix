@@ -17,6 +17,9 @@ function removals_Naturalist() {
         'naturalist:anglerfish',
         'naturalist:cooked_anglerfish',
         'naturalist:anglerfish_bucket',
+        'naturalist:ant',
+        'naturalist:queen_ant',
+        'naturalist:ant_hill',
     ])
 
     global.ITEM_SWAPPER.set('naturalist:snail_shell', 'autumnity:snail_shell_piece')
@@ -38,5 +41,6 @@ function removals_Naturalist() {
         'naturalist:rat',
         // bugs
         'naturalist:snail',
+        'naturalist:ant',
     )
 }

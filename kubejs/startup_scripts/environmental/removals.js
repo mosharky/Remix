@@ -13,14 +13,17 @@ function removals_Environmental() {
         // 'environmental:duck',
         // 'environmental:cooked_duck',
         'environmental:duck_egg',
-        'environmental:duck_spawn_egg',
-        'environmental:duck_egg_crate',
+        // 'environmental:duck_egg_crate',
         'environmental:duckweed',
-        'environmental:deer_spawn_egg',
-        'environmental:reindeer_spawn_egg',
         'environmental:venison',
         'environmental:cooked_venison',
     ])
+
+    global.ENTITY_REMOVALS.push(
+        'environmental:duck',
+        'environmental:reindeer',
+        'environmental:deer',
+    )
 
     // structureSwapChest('environmental:log_cabin', 'windswept:pine')
 

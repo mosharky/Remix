@@ -8,6 +8,11 @@ function recipes_Core(e) {
     e.replaceInput({}, '#c:dough', '#c:foods/dough')
     e.replaceInput({}, '#c:doughs', '#c:foods/dough')
 
+    // milk tags
+    e.replaceInput({}, 'minecraft:milk_bucket', '#c:milk')
+    e.replaceInput({}, '#c:drinks/milk', '#c:milk')
+    e.replaceInput({}, '#c:buckets/milk', '#c:milk')
+
     // duplicates
     // e.remove({ id: 'minecraft:lodestone' })
     // e.remove({ id: 'vanillabackport:pumpkin_pie' })
@@ -15,8 +20,11 @@ function recipes_Core(e) {
     // e.remove({ id: 'neapolitan:cake' })
     // e.remove({ id: 'vanillabackport:cake' })
 
-    // no more ez bread
-    // e.remove({ id: 'minecraft:bread' })
+    // cooking overhaul
+    e.remove({ id: 'minecraft:bread' })
+    e.remove({ id: 'minecraft:pumpkin_pie' })
+    e.remove({ id: 'minecraft:cake' })
+    shaped_EasyCookie(e, 'minecraft:cookie', 'neapolitan:chocolate_bar', true)
 
     // Logs into chests
     for (const [mod, woodTypes] of Object.entries(global.WOOD_TYPES)) {

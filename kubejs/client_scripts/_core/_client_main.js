@@ -4,12 +4,15 @@ ItemEvents.modifyTooltips(e => {
 })
 
 RecipeViewerEvents.removeEntries('item', e => {
-    hide_Core(e)
-    hide_Quark(e)
+    hideItem_Core(e)
 })
 
 RecipeViewerEvents.removeEntriesCompletely('item', e => {
-    hideCompletely_Core(e)
+    hideItemCompletely_Core(e)
+})
+
+RecipeViewerEvents.removeEntriesCompletely('fluid', e => {
+    hideFluidCompletely_Core(e)
 })
 
 RecipeViewerEvents.addInformation('item', e => {

@@ -13,6 +13,7 @@ ServerEvents.tags('item', e => {
     itemTags_Naturalist(e)
     itemTags_FieldGuide(e)
     itemTags_ClutterNoMore(e)
+    itemTags_Aether(e)
 })
 
 ServerEvents.tags('block', e => {
@@ -72,20 +73,27 @@ ServerEvents.recipes(e => {
     recipes_SootyChimneys(e)
     recipes_Supplementaries(e)
     recipes_Woodworks(e)
-    // recipes_BountifulFares(e)
+    recipes_BountifulFares(e)
     // recipes_NaturesSpirit(e)
     recipes_Create(e)
     recipes_NoMansLand(e)
-    // recipes_Autumnity(e)
+    recipes_Autumnity(e)
     recipes_Embers(e)
     recipes_Naturalist(e)
     // recipes_Everycomp(e)
+    recipes_Aether(e)
+    recipes_AbundantAtmosphere(e)
+    recipes_MinersDelight(e)
+    recipes_AbnormalsDelight(e)
+    recipes_Spawn(e)
 
     // Fully removing any recipe tied to items in REMOVALS
     global.REMOVALS.set.forEach(removal => {
         e.remove({ input: removal })
         e.remove({ output: removal })
     })
+
+    console.log(Item.of('quark:seed_pouch').toNBT())
 })
 
 
@@ -95,7 +103,10 @@ ServerEvents.loaded(e => {
     e.server.gameRules.set('playersSleepingPercentage', 1)
     e.server.gameRules.set('spawnRadius', 0)
     e.server.gameRules.set('disableElytraMovementCheck', true)
-    // e.server.gameRules.set('decorative_blocks:disableThatch', true)
+    if (global.DEBUG_MODE) {
+        e.server.gameRules.set('doDaylightCycle', false)
+        e.server.gameRules.set('doWeatherCycle', false)
+    }
     e.server.persistentData.gameRules = true
 })
 

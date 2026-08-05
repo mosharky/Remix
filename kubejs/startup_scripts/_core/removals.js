@@ -5,10 +5,13 @@ function removals_Core() {
     }
 
     global.REMOVALS.add([
+        'minecraft:sunflower'  // spawn has a replacement block
         // 'minecraft:short_dry_grass',
         // 'minecraft:tall_dry_grass',
         // 'minecraft:leaf_litter',
     ])
+
+    global.BLOCK_SWAPPER.set('minecraft:sunflower', 'spawn:sunflower')
 }
 
 const $SpawnEggItem = Java.loadClass('net.minecraft.world.item.SpawnEggItem')

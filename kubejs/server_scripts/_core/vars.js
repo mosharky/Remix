@@ -123,3 +123,46 @@ function prettyItem(item) {
 
     return `${modName}'s ${itemName}`
 }
+
+
+
+
+
+
+
+
+
+// ===================== RECIPE FUNCTIONS =====================
+
+
+/**
+ * @param {$RecipesKubeEvent} e 
+ * @param {String} output 
+ * @param {String} mainIngredient 
+ * @param {Boolean} outputSameAsRecipeId - if the output's item id is the same as the recipe id
+ */
+function shaped_EasyCake(e, output, mainIngredient, outputSameAsRecipeId) {
+    if (outputSameAsRecipeId) e.remove({ id: output })
+    return e.shaped(output, [
+        'ABA',
+        'CDC',
+        'EEE'
+    ], {
+        A: mainIngredient,
+        B: '#c:milk',
+        C: 'minecraft:sugar',
+        D: '#c:eggs',
+        E: '#c:flour'
+    })
+}
+
+/**
+ * @param {$RecipesKubeEvent} e 
+ * @param {String} output 
+ * @param {String} mainIngredient 
+ * @param {Boolean} outputSameAsRecipeId - if the output's item id is the same as the recipe id
+ */
+function shaped_EasyCookie(e, output, mainIngredient, outputSameAsRecipeId) {
+    if (outputSameAsRecipeId) e.remove({ id: output })
+    return e.shaped(Item.of(output, 8), ['ABA'], { A: '#c:flour', B: mainIngredient })
+}

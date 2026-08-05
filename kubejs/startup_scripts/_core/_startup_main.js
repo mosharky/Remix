@@ -57,6 +57,7 @@ function postInit() {
     removals_Naturalist()
     removals_AbnormalsDelight()
     removals_Spawn()
+    removals_TwilightForest()
     
     removals_Core_Final()
 
@@ -79,14 +80,16 @@ StartupEvents.postInit(e => {
 
 
 ItemEvents.modification(e => {
-    // itemModification_Core(e)
+    itemModification_Core(e)
     // itemModification_AlexsCaves(e)
     // itemModification_AlexsMobs(e)
-    // itemModification_Atmospheric(e)
-    // itemModification_BerryGood(e)
+    itemModification_Atmospheric(e)
+    itemModification_BerryGood(e)
     // itemModification_CollectorsReap(e)
-    // itemModification_Incubation(e)
-    // itemModification_Neapolitan(e)
+    itemModification_Incubation(e)
+    itemModification_Neapolitan(e)
     // itemModification_Respiteful(e)
     // itemModification_UnusualEnd(e)
+    itemModification_BountifulFares(e)
+    itemModification_Autumnity(e)
 })

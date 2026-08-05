@@ -1,22 +1,25 @@
 /** @param {$RecipesKubeEvent} e */
 function recipes_FarmersDelight(e) {
-
     // FD dough > create
-    // e.recipes.create.splashing('farmersdelight:wheat_dough', 'bountifulfares:flour')
-    // e.recipes.create.mixing('farmersdelight:wheat_dough', ['bountifulfares:flour', Fluid.of('minecraft:water', 1000)])
-    e.recipes.create.mixing('farmersdelight:pie_crust', ['3x farmersdelight:wheat_dough', Fluid.of('minecraft:milk', 250)])
+    e.recipes.create.splashing('farmersdelight:wheat_dough', 'bountifulfares:flour')
+    e.recipes.create.mixing('farmersdelight:wheat_dough', ['bountifulfares:flour', Fluid.of('minecraft:water', 250)])
+
+    // flour to dough recipes
+    e.remove({ id: 'farmersdelight:wheat_dough_from_water' })
+    e.remove({ id: 'farmersdelight:wheat_dough_from_egg' })
+    e.shaped('8x farmersdelight:wheat_dough', ['AAA', 'ABA', 'AAA'], { A: '#c:flour', B: '#c:eggs' })
 
     e.replaceInput({}, 'farmersdelight:wheat_dough', '#c:foods/dough')
-    e.replaceInput({}, 'farmersdelight:rope', 'supplementaries:rope')
-    e.replaceOutput({}, 'farmersdelight:rope', 'supplementaries:rope')
-
-    // e.remove({ id: 'farmersdelight:wheat_dough_from_water' })
 
     // dough / bread instead of wheat
     e.replaceInput({ id: 'neapolitan:banana_bread' }, 'minecraft:wheat', '#c:foods/dough')
     e.replaceInput({ id: 'abnormals_delight:pumpkin_bread' }, 'minecraft:wheat', '#c:foods/dough')
 
-    e.stonecutting('farmersdelight:rope', 'supplementaries:rope')
+    shaped_EasyCookie(e, 'farmersdelight:sweet_berry_cookie', 'minecraft:sweet_berries', true)
+    shaped_EasyCookie(e, 'farmersdelight:honey_cookie', 'minecraft:honey_bottle', true)
+
+    // duplicate recipes
+    e.remove({ id: 'farmersdelight:cake_from_milk_bottle' })
 
     if (Platform.isLoaded('immersive_weathering')) {
         e.replaceInput({}, 'farmersdelight:tree_bark', '#immersive_weathering:bark')

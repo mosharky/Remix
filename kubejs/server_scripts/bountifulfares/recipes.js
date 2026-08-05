@@ -8,20 +8,22 @@ function recipes_BountifulFares(e) {
     ], 'minecraft:wheat')
 
     // coconut
-    e.replaceInput({}, 'bountifulfares:coconut', 'natures_spirit:coconut')
-    e.remove({ id: 'bountifulfares:coconut_half_from_coconut' })
-    e.recipes.farmersdelight.cutting('natures_spirit:coconut', '#c:tools/knife', '2x bountifulfares:coconut_half')
+    // e.replaceInput({}, 'bountifulfares:coconut', 'natures_spirit:coconut')
+    // e.remove({ id: 'bountifulfares:coconut_half_from_coconut' })
+    // e.recipes.farmersdelight.cutting('natures_spirit:coconut', '#c:tools/knife', '2x bountifulfares:coconut_half')
 
     // recipes should use flour!
-    e.replaceInput({ id: 'farmersdelight:wheat_dough_from_egg' }, 'minecraft:wheat', 'bountifulfares:flour')
-    e.replaceInput({ id: 'farmersdelight:pie_crust' }, 'minecraft:wheat', 'bountifulfares:flour')
-    e.replaceInput({ id: 'neapolitan:adzuki_bun' }, 'minecraft:wheat', 'bountifulfares:flour')
-    e.replaceInput({ id: 'nomansland:food/pear_cobbler' }, 'minecraft:wheat', 'bountifulfares:flour')
-    e.replaceInput({ id: 'minersdelight:nutritional_bar' }, 'minecraft:wheat', 'bountifulfares:flour')
-    e.replaceInput({ id: 'nomansdelight:crafting/pesto_pizza' }, 'minecraft:wheat', 'bountifulfares:flour')
-    e.replaceInput({ id: 'nomansdelight:crafting/nut_bun' }, 'minecraft:wheat', 'bountifulfares:flour')
+    const replaceWheatRecipes = [
+        'farmersdelight:pie_crust',
+        'neapolitan:adzuki_bun',
+        'nomansland:food/pear_cobbler',
+        'minersdelight:nutritional_bar',
+        'nomansdelight:crafting/pesto_pizza',
+        'nomansdelight:crafting/nut_bun',
+    ].forEach(recipe => e.replaceInput({ id: recipe }, 'minecraft:wheat', '#c:flour'))
+    e.replaceInput({ output: /.*(cake|gateau|tart|pie|scones|cookie)/ }, 'minecraft:wheat', '#c:flour')
 
-    e.replaceInput({ output: /.*(cake|gateau|tart|pie|scones|cookie)/ }, 'minecraft:wheat', 'bountifulfares:flour')
+    shaped_EasyCookie(e, 'bountifulfares:walnut_cookie', 'bountifulfares:walnut', true)
 
     // removing cringe milling recipes
     e.remove({ id: 'bountifulfares:coconut_coir_from_coconut_milling' })  // for natures spirit coconut recipe
@@ -38,10 +40,10 @@ function recipes_BountifulFares(e) {
         e.custom(json).id(recipe.getId())
     })
 
-    e.custom({
-        type: 'bountifulfares:milling',
-        ingredient: { item: 'natures_spirit:coconut' },
-        result: { id: 'bountifulfares:coconut_coir' },
-        result_count: 2
-    })
+    // e.custom({
+    //     type: 'bountifulfares:milling',
+    //     ingredient: { item: 'natures_spirit:coconut' },
+    //     result: { id: 'bountifulfares:coconut_coir' },
+    //     result_count: 2
+    // })
 }

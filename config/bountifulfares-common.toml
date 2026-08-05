@@ -1,7 +1,7 @@
 #Gristmill milling time, in seconds
 # Default: 4
 # Range: 1 ~ 10
-milling_time = 4
+milling_time = 10
 #Fermentation time, in seconds
 # Default: 300
 # Range: 1 ~ 600
@@ -21,11 +21,11 @@ flour_throwing_cooldown = 0
 #Foods with containers can be eaten on Ceramic Dishes
 container_foods_eatable_on_dish = false
 #Pumpkin Pie can be placed as a block
-placeable_pumpkin_pie = true
+placeable_pumpkin_pie = false
 #Cakes make eating sounds
 cake_eating_sounds = true
 #Sweet Berries cannot place Sweet Berry Bushes
-sweet_berry_pips = true
+sweet_berry_pips = false
 #Sniffers can dig up Hoary Seeds
 hoary_seeds = true
 #Sniffers can dig up Lapisberry Seeds

@@ -1,41 +1,20 @@
 /** @param {$RecipesKubeEvent} e */
 function recipes_Neapolitan(e) {
-    // e.remove({id: 'collectorsreap:food/chocolate_arils'})
+    e.replaceInput({}, 'neapolitan:milk_bottle', 'farmersdelight:milk_bottle')
+    e.remove({ id: 'neapolitan:cake' })
 
-    e.replaceInput({}, 'neapolitan:chocolate_bar', 'create:bar_of_chocolate')
-    e.replaceOutput({}, 'neapolitan:chocolate_bar', 'create:bar_of_chocolate')
+    shaped_EasyCake(e, 'neapolitan:vanilla_cake', 'neapolitan:dried_vanilla_pods', true)
+    shaped_EasyCake(e, 'neapolitan:chocolate_cake', 'neapolitan:dried_vanilla_pods', true)
+    shaped_EasyCake(e, 'neapolitan:strawberry_cake', 'neapolitan:strawberries', true)
+    shaped_EasyCake(e, 'neapolitan:banana_cake', 'neapolitan:banana', true)
+    shaped_EasyCake(e, 'neapolitan:mint_cake', 'neapolitan:mint_leaves', true)
+    shaped_EasyCake(e, 'neapolitan:adzuki_cake', 'neapolitan:roasted_adzuki_beans', true)
 
-    // manually replacing 
-    /*
-    e.recipes.create.filling('neapolitan:chocolate_strawberries',
-        ['neapolitan:strawberries', Fluid.of('create:chocolate', 250)]
-    ).id('neapolitan:mixed/chocolate_strawberries')
-
-    e.recipes.create.filling('neapolitan:vanilla_chocolate_fingers',
-        ['neapolitan:dried_vanilla_pods', Fluid.of('create:chocolate', 250)]
-    ).id('neapolitan:mixed/vanilla_chocolate_fingers')
-
-    e.recipes.create.filling('neapolitan:chocolate_spider_eye',
-        ['minecraft:spider_eye', Fluid.of('create:chocolate', 50)]
-    ).id('neapolitan:chocolate/chocolate_spider_eye')
-    */
-
-    // e.recipes.farmersdelight.cooking(
-    //     ['create:bar_of_chocolate', 'minecraft:sugar', 'minecraft:honey_bottle', 'minecraft:kelp'],
-    //     'collectorsreap:chocolate_gummy', 1.0, 200
-    // ).id('collectorsreap:gummy/chocolate')
-
-    /*
-    e.custom({
-        type: 'farmersrespite:brewing',
-        base: { count: 1000, fluid: 'minecraft:milk' },
-        cookingtime: 2400,
-        experience: 0.35,
-        ingredients: [
-            { item: 'create:bar_of_chocolate' },
-            { item: 'farmersrespite:coffee_beans' }
-        ],
-        result: { count: 1000, fluid: 'respiteful:mocha_coffee' }
-    }).id('respiteful:brewing/mocha_coffee')
-    */
+    const replaceCocoaBeansRecipes = [
+        'starcatcher_delight:cooking/chocolate_taiyaki',
+        'minecraft:cookie',
+        'atmospheric:orange_pudding',
+        'bountifulfares:tropical_medley',
+        'farmersdelight:chocolate_pie',
+    ].forEach(recipe => e.replaceInput({ id: recipe }, 'minecraft:cocoa_beans', '#c:foods/chocolate_bar'))
 }

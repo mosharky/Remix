@@ -30,6 +30,7 @@ function removals_Quark() {
         'quark:iron_rod',
         'quark:grate',
         'quark:carved_mud_bricks',
+        'quark:rope'
     ])
 
     global.ITEM_SWAPPER.set('quark:crab_leg', 'spawn:coastal_crab_claw')

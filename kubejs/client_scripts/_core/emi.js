@@ -1,5 +1,5 @@
 /** @param {$RemoveEntriesKubeEvent} e  */
-function hide_Core(e) {
+function hideItem_Core(e) {
     // Hide all enchanted books that are not max level
     Registry.access().wrapRegistry('enchantment').getEntrySet().forEach(entry => {
         const enchant = entry.getValue()
@@ -11,10 +11,19 @@ function hide_Core(e) {
 }
 
 /** @param {$RemoveEntriesKubeEvent} e  */
-function hideCompletely_Core(e) {
+function hideItemCompletely_Core(e) {
     if (!global.DEBUG_MODE) {
         e.remove(global.REMOVALS.arr.concat([
             /excavated_variants:.*/,
+        ]))
+    }
+}
+
+/** @param {$RemoveEntriesKubeEvent} e  */
+function hideFluidCompletely_Core(e) {
+    if (!global.DEBUG_MODE) {
+        e.remove(global.FLUID_REMOVALS.concat([
+            
         ]))
     }
 }

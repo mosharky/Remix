@@ -1,11 +1,13 @@
 // priority: 100
 
 /** 
- * @import {$ItemModificationKubeEvent} "dev.latvian.mods.kubejs.item.ItemModificationKubeEvent" 
+ * @typedef {import('@package/dev/latvian/mods/kubejs/item').$ItemModificationKubeEvent} $ItemModificationKubeEvent
 */
 
+global.DEBUG_MODE = false
 global.WOOD_TYPES = {}
 global.DISABLED_WOOD_TYPES = {}
+
 global.ITEM_SWAPPER = new Map()
 global.BLOCK_SWAPPER = new Map()
 global.ENTITY_SWAPPER = new Map()
@@ -19,7 +21,9 @@ global.BLOCKSWAP_CONFIG = {
     state_swapper: [],
     swapper: new Map()  // becomes an Object after processBlockswapConfig()
 }
+
 global.ENTITY_REMOVALS = []
+global.FLUID_REMOVALS = []
 global.REMOVALS = {
     set: new Set(),
     arr: [],
@@ -51,7 +55,7 @@ global.REMOVALS = {
         }
     }
 }
-global.DEBUG_MODE = false
+
 global.COLOURS = [
     'white',
     'orange',
