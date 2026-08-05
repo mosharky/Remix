@@ -64,4 +64,12 @@ ClientEvents.lang('en_us', e => {
     // rename('nomansland:pine_seat', 'Larch Seat')
 
     rename('nomansland:pancake', 'Maple-Glazed Pancake')
+
+
+    // Naturalist
+    rename('naturalist:clam_spawn_egg', 'Treasure Clam Spawn Egg')
+    e.renameEntity('naturalist:clam', 'Treasure Clam')
+    rename('naturalist:crab_spawn_egg', 'Hermit Crab Spawn Egg')
+    rename('naturalist:crab', 'Hermit Crab')
+    e.renameEntity('naturalist:crab', 'Hermit Crab')
 })
