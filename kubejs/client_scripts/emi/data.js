@@ -1,23 +1,56 @@
 /** @param {$KubeAssetGenerator} e */
 function clientData_EMI(e) {
-    e.json('emi:category/properties/emi', {
-        'emi:info':                     { order: -1001 },
-        'minecraft:crafting':           { order: -1000 },
-        'minecraft:smelting':           { order: -950 },
-        'minecraft:blasting':           { order: -940 },
-        'minecraft:smoking':            { order: -930 },
-        'minecraft:campfire_cooking':   { order: -920 },
-        'minecraft:stonecutting':       { order: -800 },
-        'emi:world_interaction':        { order: -600 },
-        'minecraft:smithing':           { order: -625 },
-        'minecraft:brewing':            { order: -650 },
-        // After JEI
-        'emi:anvil_repairing':          { order: 951 },
-        'emi:grinding':                 { order: 952 },
-        'emi:fuel':                     { order: 953 },
-        'emi:composting':               { order: 954 },
-        'emi:tag':                      { order: 1000 }
-    })
+    // Higher order = later
+    // Modded recipes are order 0 by default
+    const propertiesJson = {}
+    const beforeDefault = [
+        'emi:info',
+        'minecraft:crafting',
+        'minecraft:smelting',
+        'minecraft:blasting',
+        'minecraft:smoking',
+        'minecraft:campfire_cooking',
+        'clayworks:baking',
+        'minecraft:stonecutting',
+        'emi:world_interaction',
+        'minecraft:smithing',
+        'minecraft:brewing',
+        'farmersdelight:cutting',
+        'farmersdelight:cooking',
+        'minersdelight:copper_pot_cooking',
+        'malum:spirit_infusion',
+        'malum:spirit_transmutation',
+        'malum:spirit_focusing',
+        'malum:runeworking',
+        'malum:weeping_well',
+        'eidolon_repraised:crucible',
+        'eidolon_repraised:worktable',
+        'eidolon_repraised:rituals',
+    ]
+    const afterDefault = [
+        'create:automatic_shapeless',
+        'create:automatic_packing',
+        'create:automatic_brewing',
+        'create:automatic_shaped',
+        'emi:anvil_repairing',
+        'malum:spirit_repair',
+        'embers:dawnstone_anvil',
+        'emi:grinding',
+        'emi:fuel',
+        'emi:composting',
+        'emi_loot:mob_drops',
+        'emi_loot:chest_loot',
+        'emi_loot:gameplay_drops',
+        'emi_loot:archaeology_drops',
+        'emi_loot:block_drops',
+        'remi:item_tags',
+        'remi:block_tags',
+        'remi:fluid_tags',
+        'remi:entity_type_tags',
+    ]
+    for (let i = 0; i < beforeDefault.length; i++) propertiesJson[beforeDefault[i]] = { order: i - 1000 }
+    for (let i = 0; i < afterDefault.length; i++) propertiesJson[afterDefault[i]] = { order: i + 1000 }
+    e.json('emi:category/properties/emi', propertiesJson)
 }
 
 
@@ -32,12 +65,12 @@ function clientData_REMI(e) {
     }
 
     function createItemGroup(itemsArray) {
-        let obj = { 
-            type: 'remi:group', 
-            contents: [] 
+        let obj = {
+            type: 'remi:group',
+            contents: []
         }
         itemsArray.forEach(item => {
-            let contentObj = { type: '', id: '' } 
+            let contentObj = { type: '', id: '' }
             if (item.charAt(0) == '#') contentObj.type = 'tag'  // idk if this would even work
             else contentObj.type = 'item'
             contentObj.id = item

@@ -14,7 +14,7 @@ function hideItem_Core(e) {
 function hideItemCompletely_Core(e) {
     if (!global.DEBUG_MODE) {
         e.remove(global.REMOVALS.arr.concat([
-            /excavated_variants:.*/,
+            // /excavated_variants:.*/,
         ]))
     }
 }

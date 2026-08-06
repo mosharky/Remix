@@ -9,6 +9,7 @@ RecipeViewerEvents.removeEntries('item', e => {
 
 RecipeViewerEvents.removeEntriesCompletely('item', e => {
     hideItemCompletely_Core(e)
+    hideItemCompletely_BountifulFares(e)
 })
 
 RecipeViewerEvents.removeEntriesCompletely('fluid', e => {
