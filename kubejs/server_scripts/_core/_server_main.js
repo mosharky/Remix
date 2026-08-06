@@ -92,8 +92,6 @@ ServerEvents.recipes(e => {
         e.remove({ input: removal })
         e.remove({ output: removal })
     })
-
-    console.log(Item.of('quark:seed_pouch').toNBT())
 })
 
 

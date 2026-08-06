@@ -1,18 +1,16 @@
 function removals_Quark() {
     global.REMOVALS.add([
-        /quark:.*(dirt_brick|chest|ladder|bookshelf|leaf_carpet|thatch|blossom|cobblestone_brick|limestone|jasper|andesite_brick|dripstone_brick|stool).*/,
+        /quark:.*(chest|ladder|bookshelf|leaf_carpet|thatch|blossom|stool|corundum|midori|framed_glass|iron_plate).*/,
+        /quark:.*(dirt_brick|cobblestone_brick|dripstone_brick|andesite_brick|blackstone_brick|blue_nether_brick|sandstone_brick|netherrack_brick).*/,
+        /quark:.*(limestone|jasper|shale|permafrost).*/,
+        // /quark:(?!.*soul_sandstone).*sandstone_bricks.*/,
+        /quark:.*(vertical_slab|_shard|lamp)/,
         /quark:.*(crab|foxhound|shiba|wraith).*/,
         /quark:.*ancient(?!_tome|_fruit).*/,
         /quark:.*azalea(?!_hedge).*/,
         /quark:vertical.*planks/,
-        /quark:.*vertical_slab/,
-        // /quark:.*(andesite|granite|diorite|dripstone(?!_block)|calcite)(?!_vertical_slab)(?:_.+)?/,
-        /quark:.*(andesite|granite|diorite|dripstone|calcite).*/,
-        // /quark:polished_(dripstone|calcite).*/,
-        /quark:.*blue_nether_bricks.*/,
-        /quark:(?!.*soul_sandstone).*sandstone_bricks.*/,
-        'quark:stone_lamp',
-        'quark:stone_brick_lamp',
+        /quark:.*(andesite|granite|diorite|dripstone|calcite|blackstone).*/,
+        /quark:raw_.*_brick.*/,
         'quark:nether_brick_fence_gate',
         'quark:gold_bars',
         'quark:chute',
@@ -29,13 +27,26 @@ function removals_Quark() {
         'quark:pipe',
         'quark:iron_rod',
         'quark:grate',
+        'quark:mud_brick_lattice',
+        'quark:mud_pillar',
         'quark:carved_mud_bricks',
-        'quark:rope'
+        'quark:rope',
+        'quark:hammer',
+        /quark:glow_shroom.*/,
+        'quark:glow_lichen_growth',
+        'quark:iron_pillar',
+        'quark:crate',
+        'quark:cut_vine',
+        'quark:soul_bead',
+        'quark:paper_lantern',
+        'quark:bamboo_mat',
+        'quark:bamboo_mat_carpet',
     ])
 
     global.ITEM_SWAPPER.set('quark:crab_leg', 'spawn:coastal_crab_claw')
     global.ITEM_SWAPPER.set('quark:crab_shell', 'spawn:coastal_crab_claw')
 
+    /*
     global.COLOURS.forEach(color => {
         global.BLOCK_SWAPPER.set(`quark:${color}_stool`, `create:${color}_seat`)
     })
@@ -83,6 +94,7 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:trapped_nether_brick_chest', 'woodworks:trapped_crimson_chest')
     global.BLOCK_SWAPPER.set('quark:trapped_purpur_chest', 'woodworks:trapped_crimson_chest')
     global.BLOCK_SWAPPER.set('quark:trapped_prismarine_chest', 'woodworks:trapped_warped_chest')
+    */
 
     // Corundum
     /*
@@ -103,6 +115,7 @@ function removals_Quark() {
     switchCorundum('yellow', 'galosphere:glinted_lumiere_cluster', 'galosphere:lumiere_block', 'pastel:citrine_glass_pane', 'galosphere:lumiere_lamp')
     */
 
+    /*
     const swapStone = (stone, extras) => {
         global.BLOCK_SWAPPER.set(`quark:${stone}_bricks`, `caverns_and_chasms:${stone}_bricks`)
         global.BLOCK_SWAPPER.set(`quark:${stone}_bricks_stairs`, `caverns_and_chasms:${stone}_brick_stairs`)
@@ -167,6 +180,7 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:jasper_bricks_vertical_slab', 'stonezone:q/caverns_and_chasms/polished_rhyolite_vertical_slab')
     global.BLOCK_SWAPPER.set('quark:jasper_bricks_stairs', 'caverns_and_chasms:rhyolite_brick_stairs')
     global.BLOCK_SWAPPER.set('quark:chiseled_jasper_bricks', 'caverns_and_chasms:chiseled_rhyolite_bricks')
+    */
 
     // Shale -> Caverns & Chasms schist
     /*
@@ -189,11 +203,13 @@ function removals_Quark() {
     */
 
     // Blue nether brick
+    /*
     global.BLOCK_SWAPPER.set('quark:blue_nether_bricks', 'netherdescent:blue_nether_bricks')
     global.BLOCK_SWAPPER.set('quark:blue_nether_bricks_wall', 'netherdescent:blue_nether_brick_wall')
     global.BLOCK_SWAPPER.set('quark:blue_nether_bricks_slab', 'netherdescent:blue_nether_brick_slab')
     // global.BLOCK_SWAPPER.set('quark:blue_nether_bricks_vertical_slab', 'netherdescent:blue_nether_brick_slab')
     global.BLOCK_SWAPPER.set('quark:blue_nether_bricks_stairs', 'netherdescent:blue_nether_brick_stairs')
+    */
 
     /*
     global.BLOCK_SWAPPER.set('quark:blackstone_bricks', 'minecraft:polished_blackstone_bricks')
@@ -208,6 +224,7 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:netherrack_bricks_wall', 'minecraft:nether_brick_wall')
     */
 
+    /*
     global.BLOCK_SWAPPER.set('quark:sandstone_bricks', 'blockbox:sandstone_bricks')
     global.BLOCK_SWAPPER.set('quark:sandstone_bricks_slab', 'blockbox:sandstone_brick_slab')
     global.BLOCK_SWAPPER.set('quark:sandstone_bricks_stairs', 'blockbox:sandstone_brick_stairs')
@@ -215,6 +232,7 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:sandstone_bricks_wall', 'minecraft:sandstone_wall')
     global.BLOCK_SWAPPER.set('quark:red_sandstone_bricks', 'blockbox:red_sandstone_bricks')
     global.BLOCK_SWAPPER.set('quark:red_sandstone_bricks_wall', 'minecraft:red_sandstone_wall')
+    */
 
     /*
     global.BLOCK_SWAPPER.set('quark:soul_sandstone', 'minecraft:soul_sand')
@@ -239,6 +257,7 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:chiseled_myalite_bricks', 'minecraft:amethyst_cluster')
     */
 
+    /*
     global.BLOCK_SWAPPER.set('quark:carved_mud_bricks', 'environmental:chiseled_mud_bricks')
     global.BLOCK_SWAPPER.set('quark:stone_lamp', 'supplementaries:stone_lamp')
     global.BLOCK_SWAPPER.set('quark:stone_brick_lamp', 'supplementaries:stone_lamp')
@@ -338,4 +357,5 @@ function removals_Quark() {
     global.BLOCK_SWAPPER.set('quark:vertical_blossom_planks', 'environmental:plum_boards')
     global.BLOCK_SWAPPER.set('quark:vertical_azalea_planks', 'caverns_and_chasms:azalea_boards')
     global.BLOCK_SWAPPER.set('quark:vertical_ancient_planks', 'environmental:wisteria_boards')
+    */
 }

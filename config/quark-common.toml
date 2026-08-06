@@ -95,9 +95,9 @@
 
 [building]
 	"Celebratory Lamps" = false
-	"Compressed Blocks" = false
+	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
-	"Framed Glass" = true
+	"Framed Glass" = false
 	"Glass Item Frame" = true
 	"Gold Bars" = false
 	Grate = false
@@ -112,7 +112,7 @@
 	"More Potted Plants" = false
 	"Nether Brick Fence Gate" = false
 	"Rainbow Lamps" = false
-	"Raw Metal Bricks" = true
+	"Raw Metal Bricks" = false
 	Rope = false
 	"Shear Vines" = false
 	Shingles = true
@@ -140,22 +140,22 @@
 		"Blaze Lantern Fuel Time" = 24000
 		#Allowed values: [0,)
 		"Stick Block Fuel Time" = 900
-		"Enable Charcoal Block" = true
+		"Enable Charcoal Block" = false
 		"Enable Sugar Cane Block" = true
 		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
+		"Enable Apple Crate" = false
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
 		"Enable Golden Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
-		"Enable Gunpowder Sack" = true
-		"Enable Berry Sack" = true
-		"Enable Glow Berry Sack" = true
+		"Enable Gunpowder Sack" = false
+		"Enable Berry Sack" = false
+		"Enable Glow Berry Sack" = false
 		"Enable Blaze Lantern" = true
 		"Enable Bonded Leather" = true
 		"Enable Bonded Rabbit Hide" = true
@@ -179,7 +179,7 @@
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
-		"Enable Bamboo Mats" = true
+		"Enable Bamboo Mats" = false
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
@@ -537,7 +537,7 @@
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
-	"Utility Recipes" = true
+	"Utility Recipes" = false
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
 	"Zombie Villagers On Normal" = true

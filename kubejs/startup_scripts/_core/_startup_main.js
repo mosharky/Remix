@@ -58,6 +58,10 @@ function postInit() {
     removals_AbnormalsDelight()
     removals_Spawn()
     removals_TwilightForest()
+    removals_AbundantAtmosphere()
+    removals_ArchitectsPalette()
+    removals_AnotherFurniture()
+    removals_Twigs()
     
     removals_Core_Final()
 

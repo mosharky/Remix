@@ -45,7 +45,7 @@ function removals_NoMansLand() {
     global.BLOCK_SWAPPER.set('nomansland:mossy_cobblestone_brick_wall', 'caverns_and_chasms:mossy_cobblestone_brick_wall')
     // Bookshelves
     for (const [woodType, woodTypeObj] of Object.entries(global.WOOD_TYPES.minecraft)) {
-        if (woodType != 'oak') {
+        if (woodType != 'oak' && woodType != 'pale_oak') {
             global.BLOCK_SWAPPER.set('nomansland:' + woodType + '_bookshelf', woodTypeObj.woodworks.bookshelf)
         }
     }

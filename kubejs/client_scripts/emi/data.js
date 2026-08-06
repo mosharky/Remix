@@ -79,6 +79,6 @@ function clientData_REMI(e) {
     createItemGroup(['caverns_and_chasms:tether_potion'])
     createItemGroup(['caverns_and_chasms:impact_potion'])
     // createItemGroup(['aetherworks:potion_gem'])
-    createItemGroup(['quark:seed_pouch'])
+    // createItemGroup(['quark:seed_pouch'])
     createItemGroup(['supplementaries:bamboo_spikes'])
 }

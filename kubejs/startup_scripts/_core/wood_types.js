@@ -160,6 +160,7 @@ function constructWoodTypes() {
                 },
                 supplementaries: {
                     sign_post:              supplementariesCompatId + 'way_sign_' + woodType,
+                    cannon_boat:            supplementariesCompatId + 'cannon_boat_' + woodType,
                     // item_shelf:             suppSquaredCompatId + 'item_shelf_' + woodType,
                 },
                 // immersive_weathering: {
@@ -169,7 +170,7 @@ function constructWoodTypes() {
                     // sled:                   snowySpiritCompatId + 'sled_' + woodType
                 // },
                 another_furniture: {
-                    flower_box:             anotherFurnitureCompatId + woodType + '_flower_box',
+                    // flower_box:             anotherFurnitureCompatId + woodType + '_flower_box',
                     shelf:                  anotherFurnitureCompatId + woodType + '_shelf',
                     shutter:                anotherFurnitureCompatId + woodType + '_shutter',
                     bench:                  anotherFurnitureCompatId + woodType + '_bench',
@@ -177,14 +178,9 @@ function constructWoodTypes() {
                     drawer:                 anotherFurnitureCompatId + woodType + '_drawer',
                     chair:                  anotherFurnitureCompatId + woodType + '_chair'
                 },
-                backpacked: {
-                    backpack_shelf:         backpackedCompatId + woodType + '_backpack_shelf'
-                },
-                // decorative_blocks: {
-                    // support:                decorativeBlocksCompatId + woodType + '_support',
-                    // seat:                   decorativeBlocksCompatId + woodType + '_seat',
-                    // palisade:               decorativeBlocksCompatId + woodType + '_palisade',
-                // }
+                // backpacked: {
+                    // backpack_shelf:         backpackedCompatId + woodType + '_backpack_shelf'
+                // },
                 nomansland: {
                     trimmed_planks:         noMansLandCompatId + 'trimmed_' + woodType + '_planks',
                 }
@@ -201,6 +197,17 @@ function constructWoodTypes() {
                 woodTypeObj.minecraft.stripped_wood     = mod + ':stripped_' + woodType + '_hyphae'
             }
 
+            // Raft fallback
+            if (!Item.exists(woodTypeObj.minecraft.boat)) {
+                woodTypeObj.minecraft.boat              = mod + ':' + woodType + '_raft'
+            }
+            if (!Item.exists(woodTypeObj.minecraft.chest_boat)) {
+                woodTypeObj.minecraft.chest_boat        = mod + ':' + woodType + '_chest_raft'
+            }
+            if (!Item.exists(woodTypeObj.minecraft.cannon_boat)) {
+                woodTypeObj.minecraft.cannon_boat       = supplementariesCompatId + 'cannon_raft_' + woodType
+            }
+
 
             // Adjusting for edge cases
             switch (woodType) {
@@ -215,8 +222,6 @@ function constructWoodTypes() {
                 case 'bamboo': {
                     woodTypeObj.woodworks.chest         = 'woodworks:bamboo_closet'
                     woodTypeObj.woodworks.trapped_chest = 'woodworks:trapped_bamboo_closet'
-                    woodTypeObj.minecraft.boat          = 'minecraft:bamboo_raft'
-                    woodTypeObj.minecraft.chest_boat    = 'minecraft:bamboo_chest_raft'
                     break
                 }
                 case 'poise': {

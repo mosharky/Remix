@@ -149,7 +149,7 @@ const woodTypesToConstruct = {
         cherry: true,
         crimson: true,
         warped: true,
-        // pale_oak: false,  // vanilla backport's mod id changed
+        pale_oak: true,  // vanilla backport's mod id changed
     },
     dungeonsdelight: {
         wormwood: true
@@ -165,10 +165,7 @@ const woodTypesToConstruct = {
         ancient: false,
         blossom: false,
     },
-    cobblemon: {
-        apricorn: true,
-        saccharine: true,
-    },
+    /*
     pastel: {
         black: true,
         blue: true,
@@ -188,17 +185,20 @@ const woodTypesToConstruct = {
         yellow: true,
         weeping_gala: true,
     },
+    */
     environmental: {
         willow: false,
-        pine: true,
+        pine: false,
         plum: true,
         wisteria: true,
     },
+    /*
     enderscape: {
         veiled: true,
         celestial: true,
         murublight: true,
     },
+    */
     atmospheric: {
         rosewood: true,
         morado: true,
@@ -222,13 +222,17 @@ const woodTypesToConstruct = {
         runewood: true,
         soulwood: true,
     },
+    /*
     infernalexp: {
         luminous: true,
     },
+    */
+    /*
     netherdescent: {
         wailing: true,
         embur: true,
         arisian: true,
         sythian: true,
     }
+    */
 }
