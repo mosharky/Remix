@@ -8,6 +8,6 @@
 	#Determines if custom biomes are enabled
 	biomes = true
 	#Determines if Eroded Basalt Jungles are enabled & generate
-	eroded_basalt_jungle = true
+	eroded_basalt_jungle = false
 	#Determines if Geothermal Gardens are enabled & generate
 	geothermal_garden = true
