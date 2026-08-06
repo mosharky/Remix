@@ -54,6 +54,7 @@ function constructWoodTypes() {
             let backpackedCompatId              = `everycomp:bp/${mod}/`
             let decorativeBlocksCompatId        = `everycomp:db/${mod}/`
             let noMansLandCompatId              = `everycomp:nml/${mod}/`
+            let bountifulFaresCompatId          = `everycomp:bf/${mod}/`
 
             switch (mod) {
                 case 'minecraft': {
@@ -72,6 +73,7 @@ function constructWoodTypes() {
                         backpackedCompatId          = 'backpacked:'
                         decorativeBlocksCompatId    = 'decorative_blocks:'
                         noMansLandCompatId          = 'nomansland:'
+                        bountifulFaresCompatId      = 'bountifulfares:'
                     }
                     break
                 }
@@ -107,11 +109,13 @@ function constructWoodTypes() {
                 }
                 case 'natures_spirit': {
                     farmersDelightCompatId = 'natures_delight:'
+                    bountifulFaresCompatId = mod + ':'
                     break
                 }
                 case 'nomansland': {
                     noMansLandCompatId = mod + ':'
                     farmersDelightCompatId = mod + ':'
+                    bountifulFaresCompatId = mod + ':'
                 }
             }
 
@@ -159,7 +163,7 @@ function constructWoodTypes() {
                     cabinet:                farmersDelightCompatId + woodType + '_cabinet',
                 },
                 supplementaries: {
-                    sign_post:              supplementariesCompatId + 'way_sign_' + woodType,
+                    way_sign:               supplementariesCompatId + 'way_sign_' + woodType,
                     cannon_boat:            supplementariesCompatId + 'cannon_boat_' + woodType,
                     // item_shelf:             suppSquaredCompatId + 'item_shelf_' + woodType,
                 },
@@ -183,6 +187,10 @@ function constructWoodTypes() {
                 // },
                 nomansland: {
                     trimmed_planks:         noMansLandCompatId + 'trimmed_' + woodType + '_planks',
+                },
+                bountifulfares: {
+                    pickets:           bountifulFaresCompatId + woodType + '_pickets',
+                    trellis:           bountifulFaresCompatId + woodType + '_trellis',
                 }
             }
 
@@ -204,8 +212,8 @@ function constructWoodTypes() {
             if (!Item.exists(woodTypeObj.minecraft.chest_boat)) {
                 woodTypeObj.minecraft.chest_boat        = mod + ':' + woodType + '_chest_raft'
             }
-            if (!Item.exists(woodTypeObj.minecraft.cannon_boat)) {
-                woodTypeObj.minecraft.cannon_boat       = supplementariesCompatId + 'cannon_raft_' + woodType
+            if (!Item.exists(woodTypeObj.supplementaries.cannon_boat)) {
+                woodTypeObj.supplementaries.cannon_boat = supplementariesCompatId + 'cannon_raft_' + woodType
             }
 
 

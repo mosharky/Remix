@@ -132,6 +132,8 @@ ServerEvents.generateData('after_mods', e => {
     // worldgen_Malum(e)
 
     structures_Core(e)
+
+    data_ClutterNoMore(e)
 })
 
 LootJS.lootTables(e => {

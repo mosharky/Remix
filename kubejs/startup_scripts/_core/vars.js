@@ -151,54 +151,17 @@ const woodTypesToConstruct = {
         warped: true,
         pale_oak: true,  // vanilla backport's mod id changed
     },
-    dungeonsdelight: {
-        wormwood: true
+    abundant_atmosphere: {
+        red_bamboo: true,
+        ashroot: true,
+        gourdrot: true,
     },
-    caverns_and_chasms: {
-        azalea: true,
+    aether: {
+        skyroot: true,
     },
-    darkerdepths: {
-        petrified: true,
+    architects_palette: {
+        twisted: true,
     },
-    quark: {
-        azalea: false,
-        ancient: false,
-        blossom: false,
-    },
-    /*
-    pastel: {
-        black: true,
-        blue: true,
-        brown: true,
-        cyan: true,
-        gray: true,
-        green: true,
-        light_blue: true,
-        light_gray: true,
-        lime: true,
-        magenta: true,
-        orange: true,
-        pink: true,
-        purple: true,
-        red: true,
-        white: true,
-        yellow: true,
-        weeping_gala: true,
-    },
-    */
-    environmental: {
-        willow: false,
-        pine: false,
-        plum: true,
-        wisteria: true,
-    },
-    /*
-    enderscape: {
-        veiled: true,
-        celestial: true,
-        murublight: true,
-    },
-    */
     atmospheric: {
         rosewood: true,
         morado: true,
@@ -208,31 +171,69 @@ const woodTypesToConstruct = {
         kousa: true,
         grimwood: true,
     },
+    autumnity: {
+        maple: false,
+    },
+    botania: {
+        livingwood: true,
+        dreamwood: true,
+    },
+    bountifulfares: {
+        hoary: true,
+        walnut: false,
+    },
+    caverns_and_chasms: {
+        azalea: true,
+    },
+    darkerdepths: {
+        petrified: true,
+    },
+    eidolon_repraised: {
+        illwood: true,
+    },
+    environmental: {
+        willow: false,
+        pine: false,
+        plum: true,
+        wisteria: true,
+    },
+    malum: {
+        runewood: true,
+        soulwood: true,
+    },
+    netherexp: {
+        claret: true,
+    },
     nomansland: {
         pine: true,
         maple: true,
         walnut: true,
         willow: true,
     },
+    quark: {
+        azalea: false,
+        ancient: false,
+        blossom: false,
+    },
+    soulfulnether: {
+        fright: true,
+    },
     spawn: {
         rotten: true,
         date: true,
     },
-    malum: {
-        runewood: true,
-        soulwood: true,
+    twilightforest: {
+        twilight_oak: false,
+        canopy: false,
+        mangrove: false,
+        dark: false,
+        time: false,
+        transformation: false,
+        mining: false,
+        sorting: false,
     },
-    /*
-    infernalexp: {
-        luminous: true,
+    upgrade_aquatic: {
+        driftwood: true,
+        river: true,
     },
-    */
-    /*
-    netherdescent: {
-        wailing: true,
-        embur: true,
-        arisian: true,
-        sythian: true,
-    }
-    */
 }

@@ -12,7 +12,8 @@
         "bountifulfares:walnut",
         "environmental:willow",
         "environmental:pine",
-        "twilightforest:.*"
+        "twilightforest:.*",
+        "bountifulfares:walnut"
     ]
 
 [leavestype]
@@ -25,7 +26,8 @@
         "environmental:willow",
         "environmental:pine",
         "twilightforest:.*",
-        "spawn:date"
+        "spawn:date",
+        "bountifulfares:walnut"
     ]
 
 [block]
