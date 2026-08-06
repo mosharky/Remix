@@ -4,7 +4,7 @@
 	#NEVER disables both ores. ALWAYS generates both ores.
 	#AUTO disables each Embers ore when another mod adds a matching ore feature to an Overworld biome.
 	#Allowed Values: NEVER, ALWAYS, AUTO
-	generate_ores = "AUTO"
+	generate_ores = "NEVER"
 
 #Settings for machine/item/misc parameters
 [parameters]
