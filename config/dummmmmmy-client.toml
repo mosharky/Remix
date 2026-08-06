@@ -3,11 +3,11 @@
 	# Default: 0.75
 	# Range: 0.0 ~ 2.0
 	animation_intensity = 0.75
-	#Show hay particles when dealing damage
-	hay_particles = true
 	#Skin used by the dummy
 	#Allowed Values: DEFAULT, ORIGINAL, ALTERNATIVE, DUNGEONS
 	texture = "DEFAULT"
+	#Show hay particles when dealing damage
+	hay_particles = true
 
 [damage_numbers]
 	#Floating damage numbers popping off the dummy every time it's hit
