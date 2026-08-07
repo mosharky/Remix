@@ -1,6 +1,8 @@
 // priority: -1
 
 Platform.setModName('kubejs', 'Remix')
+Platform.setModName('eidolon_repraised', 'Eidolon')
+Platform.setModName('embers', 'Embers')
 // Platform.setModName('incision', 'Incision')
 
 function postInit() {
