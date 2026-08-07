@@ -6,5 +6,6 @@ function removals_Twigs() {
         /twigs:.*column/,
         'twigs:twig',
         'twigs:pebble',
+        /twigs:.*silt.*/,
     ])
 }
