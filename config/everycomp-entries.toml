@@ -222,6 +222,9 @@
 			dandelion_paper_lantern = true
 			torchflower_paper_lantern = true
 
+		[types.lantern.remix_core]
+			caelic_lantern = true
+
 		[types.leaves_type.abundant_atmosphere]
 			ashroot = true
 			gourdrot = true
