@@ -74,6 +74,8 @@
   "hidePageButtonWhenOnePage": false,
   "incrementalScrollbarFill": false,
   "searchWidgetAlignWithPanel": false,
+  "searchWidgetWidth": 0,
+  "searchWidgetLeftOffset": 0,
   "searchWidgetTopOffset": 0,
   "searchWidgetHorizontalPadding": 4,
   "searchWidgetVerticalPadding": 2,
