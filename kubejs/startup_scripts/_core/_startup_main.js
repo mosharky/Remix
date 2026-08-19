@@ -48,7 +48,7 @@ function postInit() {
     // removals_SnowySpirit()
     // removals_UnusualPrehistory()
     removals_UpgradeAquatic()
-    // removals_Windswept()
+    removals_Windswept()
     removals_Woodworks()
     // removals_EvenBetterNether()
     removals_BountifulFares()

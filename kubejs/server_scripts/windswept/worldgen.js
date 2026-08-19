@@ -4,10 +4,14 @@ function worldgen_Windswept(e) {
     removeBiomeModifier(e, 'windswept:add_feature/icicles')
 
     // Disable Lavendar and Tundra biomes
-    e.json('windswept:blueprint/modded_biome_slices/lavender', disableBiomeSliceJson)
-    e.json('windswept:blueprint/modded_biome_slices/tundra', disableBiomeSliceJson)
+    disableBlueprintBiome(e, 'windswept:chestnut')
+    disableBlueprintBiome(e, 'windswept:lavender')
+    disableBlueprintBiome(e, 'windswept:pine')
+    disableBlueprintBiome(e, 'windswept:savanna')
+    disableBlueprintBiome(e, 'windswept:tundra')
 
 
+    /*
     addFeatures(e, [
         copyPasteFeature(e, 'windswept', PLACED, 'windswept:large_white_rose'),
         copyPasteFeature(e, 'windswept', PLACED, 'windswept:lavender')
@@ -45,4 +49,5 @@ function worldgen_Windswept(e) {
         ]
     }), '#kubejs:has_feature/windswept_sparse_pine_tree',
         VEGETAL_DECORATION)
+    */
 }

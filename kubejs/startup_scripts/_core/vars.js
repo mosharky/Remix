@@ -236,4 +236,9 @@ const woodTypesToConstruct = {
         driftwood: true,
         river: true,
     },
+    windswept: {
+        holly: true,
+        chestnut: true,
+        pine: true,
+    }
 }

@@ -1,15 +1,16 @@
 function removals_Windswept() {
     global.REMOVALS.add([
-        'windswept:icicles',
+        // 'windswept:icicles',
         // /windswept:.*leaf_pile/,
-        'windswept:gingerbread_block',
-        'windswept:glazed_gingerbread_block',
-        'windswept:gingerbread_cookie_block',
-        /windswept:.*gingerbread_brick.*/,
+        // 'windswept:gingerbread_block',
+        // 'windswept:glazed_gingerbread_block',
+        // 'windswept:gingerbread_cookie_block',
+        // /windswept:.*gingerbread_brick.*/,
     ])
 
-    global.ITEM_SWAPPER.set('windswept:icicles', 'immersive_weathering:icicle')
+    // global.ITEM_SWAPPER.set('windswept:icicles', 'immersive_weathering:icicle')
 
+    /*
     global.STATE_SWAPPER.push(
         {
             new: {
@@ -80,4 +81,5 @@ function removals_Windswept() {
             }
         }
     )
+    */
 }
