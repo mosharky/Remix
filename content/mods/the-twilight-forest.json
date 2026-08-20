@@ -1,0 +1,22 @@
+{
+  "name": "The Twilight Forest",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "227639",
+      "slug": "the-twilight-forest",
+      "versionId": "7797302",
+      "versionNumber": "Twilight Forest - MC 1.21.1 - 4.8.3345",
+      "filename": "twilightforest-1.21.1-4.8.3345-universal.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/7797/302/twilightforest-1.21.1-4.8.3345-universal.jar",
+      "sha1": "9cfd4154928433e2f1f6cfc3deb48c284debb580",
+      "fileSize": 27154121
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

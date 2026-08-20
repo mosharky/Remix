@@ -1,5 +1,0 @@
-{
-	"x_axis": "biome_id",
-	"y_axis": "1-(POS_Y+64)/384",
-	"biome_id_mapper": "remix:aether_grass_color"
-}

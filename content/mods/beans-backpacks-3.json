@@ -1,0 +1,23 @@
+{
+  "name": "Beans Backpacks",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "o4TtgIhD",
+      "slug": "beans-backpacks-3",
+      "versionId": "3YicPDQe",
+      "versionNumber": "mc-21-n-0.13.5-beta",
+      "filename": "beansbackpacks-1.21-n-0.13.5-beta.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/o4TtgIhD/versions/3YicPDQe/beansbackpacks-1.21-n-0.13.5-beta.jar",
+      "sha1": "1e0a716d7c05318b3a03622f7d2f667b8372e583",
+      "sha512": "039504ebd5c040da512b954eb3da759d11969e8ce53a02c8981eb357d33dbbaa6b215bcf61d8a479ae2045cdafb346188169b17ff7a054f41c66ca6cbab826a1",
+      "fileSize": 1711949
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

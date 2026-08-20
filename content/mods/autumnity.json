@@ -1,0 +1,23 @@
+{
+  "name": "Autumnity",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "cRh6MJ6n",
+      "slug": "autumnity",
+      "versionId": "9jUNvDKx",
+      "versionNumber": "6.0.1",
+      "filename": "autumnity-1.21.1-6.0.1.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/cRh6MJ6n/versions/9jUNvDKx/autumnity-1.21.1-6.0.1.jar",
+      "sha1": "3863fa0d77f89955b04ecaad9a3a9c91f76937d8",
+      "sha512": "6d7afea7903b494465742e1def892edc35a86cd29d0c0c90f0b46249ecf63dd62bc52d44b71dc216a06972cd4d33ee956bfd73cea2f8a3a798ddf68c1d232327",
+      "fileSize": 1261462
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

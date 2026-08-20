@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "hanging=false": [
+      {
+        "model": "soulfulnether:block/ember_roots_1",
+        "weight": 1
+      },
+      {
+        "model": "soulfulnether:block/ember_roots_2",
+        "weight": 1
+      }
+    ],
+    "hanging=true": [
+      {
+        "model": "soulfulnether:block/ember_roots_1",
+        "x": 180,
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "soulfulnether:block/ember_roots_2",
+        "x": 180,
+        "y": 180,
+        "weight": 1
+      }
+    ]
+  }
+}

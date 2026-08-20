@@ -1,0 +1,24 @@
+{
+  "name": "oωo (owo-lib)",
+  "side": "auto",
+  "explicit": false,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "532610",
+      "slug": "owo-lib",
+      "versionId": "6785734",
+      "versionNumber": "[1.21.1] oωo - neo - 0.12.15.5-beta.1+1.21",
+      "filename": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/6785/734/owo-lib-neoforge-0.12.15.5-beta.1%2b1.21.jar",
+      "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed",
+      "fileSize": 1221583
+    }
+  },
+  "dependents": [
+    "255308"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

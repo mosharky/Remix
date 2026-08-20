@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": {
+            "type": "minecraft:block_column",
+            "config": {
+              "direction": "down",
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "prioritize_tip": true,
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": 6,
+                    "max_inclusive": 8
+                  },
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "soulfulnether:hanging_lichoss",
+                      "Properties": {
+                        "bottom": "false"
+                      }
+                    }
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "soulfulnether:hanging_lichoss",
+                      "Properties": {
+                        "bottom": "true"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "offset": [0, 1, 0],
+                "blocks": "soulfulnether:lichoss_block"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": {
+            "type": "minecraft:block_column",
+            "config": {
+              "direction": "down",
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "prioritize_tip": true,
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": 1,
+                    "max_inclusive": 4
+                  },
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "soulfulnether:hanging_lichoss",
+                      "Properties": {
+                        "bottom": "false"
+                      }
+                    }
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "soulfulnether:hanging_lichoss",
+                      "Properties": {
+                        "bottom": "true"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "offset": [0, 1, 0],
+                "blocks": "soulfulnether:lichoss_block"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "soulfulnether:lichoss_carpet",
+                  "Properties": {
+                    "hanging": "true"
+                  }
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "soulfulnether:ember_roots",
+                  "Properties": {
+                    "hanging": "true"
+                  }
+                }
+              },
+              {
+                "weight": 0,
+                "data": {
+                  "Name": "air"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [0, 1, 0],
+            "blocks": "soulfulnether:lichoss_block"
+          }
+        }
+      ]
+    }
+  }
+}

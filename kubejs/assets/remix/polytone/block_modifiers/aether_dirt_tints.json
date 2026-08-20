@@ -1,9 +1,0 @@
-{
-  "targets": [
-    "aether:aether_dirt"
-  ],
-  "colormap": {
-    "0": "remix:aether/aether_dirt_color"
-  },
-  "tinted_breaking_particles": true
-}

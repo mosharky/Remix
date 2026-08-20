@@ -1,0 +1,48 @@
+{
+  "type": "soulfulnether:feature_column",
+  "config": {
+    "base_y_offset": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0,
+      "max_inclusive": 0
+    },
+    "layers": [
+      {
+        "y_offset": 0,
+        "feature": {
+          "feature": {
+            "type": "elysium_api:structure_stamp",
+            "config": {
+              "origin_offset": -1,
+              "origin_type": "anchored",
+              "templates": [
+                { "data": "remix_aether:ruin/pillars/1", "weight": 1 },
+                { "data": "remix_aether:ruin/pillars/2", "weight": 1 },
+                { "data": "remix_aether:ruin/pillars/3", "weight": 1 },
+                { "data": "remix_aether:ruin/pillars/4", "weight": 1 }
+              ],
+              "processors": "remix_aether:ruin/basic"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "y_offset": 0,
+        "feature": {
+          "feature": "remix_aether:patch/holystone_pebbles_dense",
+          "placement": []
+        },
+        "offset_by_base_offset": false
+      },
+      {
+        "y_offset": 0,
+        "feature": {
+          "feature": "remix_aether:ruin/suspicious_gravel_patch",
+          "placement": []
+        },
+        "offset_by_base_offset": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "elysium_api:structure_stamp",
+
+  "config": {
+    "templates": [
+      {
+        "data": "remix_aether:trees/loftbark/normal/1",
+        "weight": 1
+      },
+      {
+        "data": "remix_aether:trees/loftbark/normal/2",
+        "weight": 1
+      },
+      {
+        "data": "remix_aether:trees/loftbark/normal/3",
+        "weight": 1
+      },
+      {
+        "data": "remix_aether:trees/loftbark/normal/4",
+        "weight": 1
+      }
+    ],
+    "origin_type": "anchored",
+    "processors": "remix_aether:loftbark/normal",
+    "liquid_settings": "apply_waterlogging"
+  }
+}

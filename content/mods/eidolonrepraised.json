@@ -1,0 +1,23 @@
+{
+  "name": "Eidolon:Repraised",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "eWX2m1eM",
+      "slug": "eidolonrepraised",
+      "versionId": "e82la8yu",
+      "versionNumber": "0.5.0.2",
+      "filename": "eidolon_repraised-1.21.1-0.5.0.2.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/eWX2m1eM/versions/e82la8yu/eidolon_repraised-1.21.1-0.5.0.2.jar",
+      "sha1": "1f05ffd2f9fa672dc2ecff3c32de092cdbcde989",
+      "sha512": "4aa685d63f1ed3eaa56c1a066aefdec066ff42cf9de987873f57f3827abdb46e633fd1aa33e8aab229e3ac7d4b3ef36d242b8e0706c9193c0dbbf689d9562982",
+      "fileSize": 4050310
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

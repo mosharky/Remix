@@ -1,0 +1,23 @@
+{
+  "name": "Buzzier Bees",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "b7vOFSIp",
+      "slug": "buzzier-bees",
+      "versionId": "Y12rtT96",
+      "versionNumber": "7.0.1",
+      "filename": "buzzier_bees-1.21.1-7.0.1.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/b7vOFSIp/versions/Y12rtT96/buzzier_bees-1.21.1-7.0.1.jar",
+      "sha1": "4f81fb00557fa5bcca5fb732b02b7921b9e11731",
+      "sha512": "eac6e3ab7b25d23f6dd4676a35a68912e89ad03fe2cac1688065747a05bf04d08466fc9013131478ec0824600c6738b652dc269125c16a0d22e057d15c3fd2cf",
+      "fileSize": 592651
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

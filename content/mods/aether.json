@@ -1,0 +1,22 @@
+{
+  "name": "The Aether",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "255308",
+      "slug": "aether",
+      "versionId": "7043502",
+      "versionNumber": "The Aether - 1.21.1-1.5.10-neoforge",
+      "filename": "aether-1.21.1-1.5.10-neoforge.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/7043/502/aether-1.21.1-1.5.10-neoforge.jar",
+      "sha1": "5b5592989c6d2aabf80a9f100e18c258813db497",
+      "fileSize": 40223909
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

@@ -1,0 +1,36 @@
+{
+  "processors": [
+    {
+      "processor_type": "elysium_api:protect_non_replaceable",
+      "blacklist": "minecraft:gravel"
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "minecraft:chests/end_city_treasure"
+            },
+            "input_predicate": {
+              "block": "minecraft:suspicious_gravel",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 3
+    }
+  ]
+}

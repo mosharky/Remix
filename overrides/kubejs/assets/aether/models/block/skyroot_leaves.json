@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "aether:block/natural/skyroot_leaves_gray"
+  }
+}

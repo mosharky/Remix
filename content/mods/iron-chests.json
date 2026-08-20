@@ -1,0 +1,23 @@
+{
+  "name": "Iron Chests",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "P3iIrPH3",
+      "slug": "iron-chests",
+      "versionId": "Res1o1zf",
+      "versionNumber": "1.21-neoforge-16.0.7",
+      "filename": "ironchest-1.21-neoforge-16.0.7.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/P3iIrPH3/versions/Res1o1zf/ironchest-1.21-neoforge-16.0.7.jar",
+      "sha1": "7064b4ea349f37d95a6448c3179dc0a2cad0c162",
+      "sha512": "8cd23bf931f3334e1d9c1b0a5fac0e92b022039c4cd01ee0ee95e74310a91588b72a350fb45bf542a242ab2fa271d182721b53a618cf841dd8c56f78ca0e1a97",
+      "fileSize": 305975
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

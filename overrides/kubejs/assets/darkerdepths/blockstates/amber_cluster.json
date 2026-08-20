@@ -1,0 +1,29 @@
+{
+	"variants": {
+		"facing=down": {
+			"model": "remix:block/skyroot_branch",
+			"x": 180
+		},
+		"facing=up": {
+			"model": "remix:block/skyroot_branch"
+		},
+		"facing=west": {
+			"model": "remix:block/skyroot_branch",
+			"x": 90,
+			"y": 270
+		},
+		"facing=east": {
+			"model": "remix:block/skyroot_branch",
+			"x": 90,
+			"y": 90
+		},
+		"facing=south": {
+			"model": "remix:block/skyroot_branch",
+			"x": 270
+		},
+		"facing=north": {
+			"model": "remix:block/skyroot_branch",
+			"x": 90
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Starcatcher",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "h2jXvxNR",
+      "slug": "starcatcher",
+      "versionId": "gDYg666K",
+      "versionNumber": "3.0.6-NEOFORGE-1.21.1",
+      "filename": "starcatcher-3.0.6-NEOFORGE-1.21.1.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/h2jXvxNR/versions/gDYg666K/starcatcher-3.0.6-NEOFORGE-1.21.1.jar",
+      "sha1": "52c83ec5675fa8dca0664c5fb33c871b570ec082",
+      "sha512": "a4b08ead81b34f27bde2407c0603dad3d11f8b7e9f5f4234c98a2a1f7b6268bc53d8d549ee39b4e3c7761b8e3410203b8522d2e599f13059933b427cb07a309b",
+      "fileSize": 3880369
+    }
+  },
+  "dependents": [
+    "NCXwQVxD"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

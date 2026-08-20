@@ -1,0 +1,21 @@
+{
+  "type": "lithostitched:weighted_selector",
+  "config": {
+    "features": [
+      {
+        "data": {
+          "feature": "nomansland:fallen_tree",
+          "placement": []
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "feature": "remix_aether:fallen_tree_gustmoss",
+          "placement": []
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

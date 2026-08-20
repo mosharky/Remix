@@ -1,0 +1,22 @@
+{
+  "name": "Sinytra Connector",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "890127",
+      "slug": "sinytra-connector",
+      "versionId": "7634148",
+      "versionNumber": "Connector 2.0.0 beta 14",
+      "filename": "connector-2.0.0-beta.14+1.21.1-full.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/7634/148/connector-2.0.0-beta.14%2b1.21.1-full.jar",
+      "sha1": "8ec2b9acc1881a15d7ae625e3bc3821a2d1af4e1",
+      "fileSize": 4526785
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

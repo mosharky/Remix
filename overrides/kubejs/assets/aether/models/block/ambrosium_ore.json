@@ -1,0 +1,40 @@
+{
+  "parent": "block/block",
+  "render_type": "cutout_mipped",
+  "textures": {
+    "down": "aether:block/natural/ambrosium_ore",
+    "up": "aether:block/natural/ambrosium_ore",
+    "north": "aether:block/natural/ambrosium_ore",
+    "south": "aether:block/natural/ambrosium_ore",
+    "west": "aether:block/natural/ambrosium_ore",
+    "east": "aether:block/natural/ambrosium_ore",
+    "overlay": "aether:block/natural/ambrosium_ore_overlay",
+    "particle": "aether:block/natural/ambrosium_ore"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "texture": "#down", "cullface": "down" },
+        "up": { "texture": "#up", "cullface": "up" },
+        "north": { "texture": "#north", "cullface": "north" },
+        "south": { "texture": "#south", "cullface": "south" },
+        "west": { "texture": "#west", "cullface": "west" },
+        "east": { "texture": "#east", "cullface": "east" }
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "texture": "#overlay", "neoforge_data": { "block_light": 15, "sky_light": 15 }, "cullface": "down" },
+        "up": { "texture": "#overlay", "neoforge_data": { "block_light": 15, "sky_light": 15 }, "cullface": "up" },
+        "north": { "texture": "#overlay", "neoforge_data": { "block_light": 15, "sky_light": 15 }, "cullface": "north" },
+        "south": { "texture": "#overlay", "neoforge_data": { "block_light": 15, "sky_light": 15 }, "cullface": "south" },
+        "west": { "texture": "#overlay", "neoforge_data": { "block_light": 15, "sky_light": 15 }, "cullface": "west" },
+        "east": { "texture": "#overlay", "neoforge_data": { "block_light": 15, "sky_light": 15 }, "cullface": "east" }
+      }
+    }
+  ]
+}

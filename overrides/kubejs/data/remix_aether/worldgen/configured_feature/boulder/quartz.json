@@ -1,0 +1,80 @@
+{
+  "type": "nomansland:boulder",
+  "config": {
+    "decorators": [
+      {
+        "type": "nomansland:cluster_on_stone",
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "nomansland:small_quartzite_bud"
+          }
+        },
+        "probability": 0.05,
+        "limit": 12
+      },
+      {
+        "type": "nomansland:cluster_on_stone",
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "nomansland:medium_quartzite_bud"
+          }
+        },
+        "probability": 0.05,
+        "limit": 12
+      },
+      {
+        "type": "nomansland:cluster_on_stone",
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "nomansland:large_quartzite_bud"
+          }
+        },
+        "probability": 0.05,
+        "limit": 12
+      },
+      {
+        "type": "nomansland:cluster_on_stone",
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "nomansland:quartzite_cluster"
+          }
+        },
+        "probability": 0.05,
+        "limit": 12
+      }
+    ],
+    "block_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "nomansland:quartzite"
+          },
+          "weight": 265
+        },
+        {
+          "data": {
+            "Name": "nomansland:budding_quartzite"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "num_cubes": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 4
+    },
+    "cube_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 4
+    },
+    "cube_height_decrease": 1,
+    "num_eroded_blocks": 1
+  }
+}
