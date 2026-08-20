@@ -510,7 +510,7 @@
     },
     {
       "path": "content/mods/owo-lib.json",
-      "sha1": "f5a669695d0c3bd7d879fb5884ab945b6df7bb32"
+      "sha1": "103e03f12e5be6e12dadbda41480b215145736f7"
     },
     {
       "path": "content/mods/patchouli.json",
@@ -705,10 +705,6 @@
       "sha1": "5ffd17f08b8e3756cb88582aafcc8f00baa09eec"
     },
     {
-      "path": "overrides/.gitattributes",
-      "sha1": "d6abea48e97f7d6f27b9a8a2bdcb3337b90f7885"
-    },
-    {
       "path": "overrides/.github/agents/kubejs-explore.agent.md",
       "sha1": "eaa9f0ff7b4bf36382f88dc7c33247de52c6ac05"
     },
@@ -723,14 +719,6 @@
     {
       "path": "overrides/.gitignore",
       "sha1": "9ef1fa7b7c80fd0661243a11e081f80112d6b2a0"
-    },
-    {
-      "path": "overrides/.gitmodules",
-      "sha1": "2d67a5cdfbcccff5b0617d3213542b09b2ca13eb"
-    },
-    {
-      "path": "overrides/.packwizignore",
-      "sha1": "93586ccfdc57f0d621bc3390f001963df1e7c175"
     },
     {
       "path": "overrides/.qmenu_opened.marker",
