@@ -1,7 +1,6 @@
 {
     "files.exclude": {
-        "mods/**/.index/": true,
-        "mods/**/.connector/": true,
+        "mods/": true,
         "config/almostunified/**/debug.json": true,
         "config/*.bak": true,
         "**/config/jei/world/": true,
@@ -103,13 +102,11 @@
         "**/.probe": true,
         "config/axiom/*": true,
         "config/sodium-options.json": true,
-        "py_scripts/__pycache__/": true,
-        "py_scripts/py_scripts.log": false,
-        "py_scripts/generated/": true,
         "config/sodium-fingerprint.json": true,
         "config/fml.toml": false,
         ".vscode/probejs.code-snippets": true,
-        ".github/agents/": false
+        ".github/agents/": false,
+        "mod_data/__pycache__": true
     },
     "editor.tabSize": 4
 }
