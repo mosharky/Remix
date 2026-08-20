@@ -8,13 +8,13 @@
     "modrinth": {
       "id": "l0h5MtkA",
       "slug": "windswept",
-      "versionId": "dowXvnvu",
-      "versionNumber": "4.0.0",
-      "filename": "windswept-1.21.1-4.0.0.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/l0h5MtkA/versions/dowXvnvu/windswept-1.21.1-4.0.0.jar",
-      "sha1": "aaf08772a2895b9f08e5d0019c41306674c60344",
-      "sha512": "72d7e44f464deeee49332426f6de58695cee5f955e997bd347435e630f88c3f2784a5dca72cb2121d2ed33572ddbed61cfc2d02e44ca66f8d3275a4e9520747a",
-      "fileSize": 10348573
+      "versionId": "VcG2K669",
+      "versionNumber": "4.0.1",
+      "filename": "windswept-1.21.1-4.0.1.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/l0h5MtkA/versions/VcG2K669/windswept-1.21.1-4.0.1.jar",
+      "sha1": "2164bb7e255986995353b552c10a91876f15a141",
+      "sha512": "af7970fd5696a259cf055e48b00d05fd4ab7a27ca7c4909de8c9a4423671d6df6669a28b06dfb274ff93018cca5ca6691f6ef1c0c18d5884397f72504536e133",
+      "fileSize": 10380063
     }
   },
   "dependents": [

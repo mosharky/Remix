@@ -75,9 +75,6 @@
 			myalite = true
 			permafrost = true
 
-		[types.stone_type.supplementaries]
-			brittlestone = true
-
 		[types.stone_type.twigs]
 			schist = true
 			rhyolite = true
@@ -221,7 +218,7 @@
 			glowshroom_lantern = true
 
 		[types.lantern.netherexp]
-			ancient_lantern = true
+			treacherous_lantern = true
 
 		[types.lantern.twigs]
 			paper_lantern = true
@@ -444,6 +441,9 @@
 			bookshelf = true
 			chiseled_bookshelf = true
 			ladder = true
+
+		[entries.wood_type.envelope]
+			pigeonhole = true
 
 		[entries.leaves_type.quark]
 			hedge = true

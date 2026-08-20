@@ -8,13 +8,13 @@
     "modrinth": {
       "id": "6YTvv3aI",
       "slug": "elysium-api",
-      "versionId": "EIhZq8hW",
-      "versionNumber": "1.21.1-2.0.0-BETA.6",
-      "filename": "ElysiumAPI-1.21.1-2.0.0-BETA.6.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/6YTvv3aI/versions/EIhZq8hW/ElysiumAPI-1.21.1-2.0.0-BETA.6.jar",
-      "sha1": "044905efedf919eeeb7d773399013b190b7d42fe",
-      "sha512": "c80337548739bd4db187d13999dd01666c6b74e62df756065387efdb1c40655f4ecb04943d285c4f29ba66ba6bab6f38ab23b720530ca8d7184f65162862b45c",
-      "fileSize": 434613
+      "versionId": "9AGJWXpG",
+      "versionNumber": "1.21.1-2.0.0",
+      "filename": "ElysiumAPI-1.21.1-2.0.0.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/6YTvv3aI/versions/9AGJWXpG/ElysiumAPI-1.21.1-2.0.0.jar",
+      "sha1": "a90de8404d65f2ca98c4e88f2e0a2e353f4711cd",
+      "sha512": "d04741aab1dc2fc5999466cbaad7772e6f5c536a9886b6a0904d5b7e01beb0bf498c176f2cba810f616ba4a51fbc791381c227a5c502c80ae4e12094019c41de",
+      "fileSize": 307466
     }
   },
   "dependents": [

@@ -8,13 +8,13 @@
     "modrinth": {
       "id": "v3UlehfS",
       "slug": "jadens-nether-expansion",
-      "versionId": "6qRP74x9",
-      "versionNumber": "2.4.0-BETA.7",
-      "filename": "Jadens-Nether-Expansion-2.4.0-BETA.7.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/v3UlehfS/versions/6qRP74x9/Jadens-Nether-Expansion-2.4.0-BETA.7.jar",
-      "sha1": "cdf4837c096200c012c6e1a59ce89fca073c6d16",
-      "sha512": "356fe53d9e4cf25580514d537a59eeeb67a6c366a5964264ab72684c4b2665b5ee09077448a6b0fe1f95fe823fae21a145a74351794c45dc348eb80b681829eb",
-      "fileSize": 27156031
+      "versionId": "bZ0xoKv3",
+      "versionNumber": "2.4.0",
+      "filename": "Jadens-Nether-Expansion-2.4.0.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/v3UlehfS/versions/bZ0xoKv3/Jadens-Nether-Expansion-2.4.0.jar",
+      "sha1": "735d455a334231bd92e63866c41c70d683a2a61e",
+      "sha512": "e8e4b5170346a2dd7b0378a3f6ef15898efcfcf59d41ef61ae25f03492ff9148e7effed6300b711d672ed6774fe44c8017abccd1d1e54c034b4018e47f509bf9",
+      "fileSize": 19069025
     }
   },
   "dependents": [],
