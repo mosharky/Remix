@@ -730,7 +730,7 @@
     },
     {
       "path": "overrides/.vscode/settings.json",
-      "sha1": "10e480316dca24ca8146654c83e593b2799fd13d"
+      "sha1": "b42e5a6f10e358b4a7e0f12a19af94399e96d6ef"
     },
     {
       "path": "overrides/cache/c2me-dfc/classes/DfcCompiled_0.class",
@@ -2358,7 +2358,7 @@
     },
     {
       "path": "overrides/kubejs/client_scripts/_core/_client_main.js",
-      "sha1": "e752e050d0d75b9a173f487d519de3aa7423161a"
+      "sha1": "3b89213a8815e5ad85ddb249cc39a2b1de037566"
     },
     {
       "path": "overrides/kubejs/client_scripts/_core/emi.js",

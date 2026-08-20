@@ -105,8 +105,9 @@
         "config/sodium-fingerprint.json": true,
         "config/fml.toml": false,
         ".vscode/probejs.code-snippets": true,
-        ".github/agents/": false,
-        "mod_data/__pycache__": true
+        ".github/agents/": true,
+        "mod_data/__pycache__": true,
+        "ponders_watched_azimuth.json": true
     },
     "editor.tabSize": 4
 }
