@@ -158,7 +158,7 @@
 - [Starcatcher](https://modrinth.com/project/starcatcher) `3.0.6-NEOFORGE-1.21.1`
 - [Starcatcher's Delight](https://modrinth.com/project/starcatchers-delight) `3.0.1-NEOFORGE-1.21.1`
 - [Storage Labels](https://modrinth.com/project/labels) `1.21-2.1.1`
-- [Strut Your Stuff](https://modrinth.com/project/strut-your-stuff) `1.3.0`
+- [Strut Your Stuff (Struts)](https://modrinth.com/project/strut-your-stuff) `1.3.0`
 - [Supplementaries](https://modrinth.com/project/supplementaries) `1.21.1-3.9.1`
 - [Teal Lib](https://modrinth.com/project/teallib) `1.3.teal`
 - The Aether `The Aether - 1.21.1-1.5.10-neoforge` (curseforge)
