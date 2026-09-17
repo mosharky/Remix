@@ -62,7 +62,7 @@
     },
     {
       "path": "content/mods/architectury-api.json",
-      "sha1": "4c94aa358dc730c1d7af2e97122b2de01b60777c"
+      "sha1": "aa489f592d7b3d733fff32cc888e8e5589412b6c"
     },
     {
       "path": "content/mods/async-locator-refined.json",
@@ -594,7 +594,7 @@
     },
     {
       "path": "content/mods/sodiumleafculling-unofficial.json",
-      "sha1": "f6e7daa4573b619026ba492d697667fbdd1cf3a0"
+      "sha1": "52993b704cd9b6592c28b2a4af91f39e29fb1e75"
     },
     {
       "path": "content/mods/sooty-chimneys.json",
@@ -622,7 +622,7 @@
     },
     {
       "path": "content/mods/starcatchers-delight.json",
-      "sha1": "48c56efae3629be713c59de0b6ed62e681e5a3a8"
+      "sha1": "020234087e63735d76a1e7a7bde31b527321d897"
     },
     {
       "path": "content/mods/stone-zone.json",
@@ -689,6 +689,10 @@
       "sha1": "61364d5092f2be0da2cdbea3303311c60c072579"
     },
     {
+      "path": "content/mods/yama-copper-pressure-plates.json",
+      "sha1": "ff6187ea4ae5cdc0ce12f68145bc9928127c7f39"
+    },
+    {
       "path": "content/mods/yeetus-experimentus.json",
       "sha1": "8c529620a1db93fb263b95b3fd7dc455d1e98229"
     },
@@ -705,8 +709,24 @@
       "sha1": "5ffd17f08b8e3756cb88582aafcc8f00baa09eec"
     },
     {
+      "path": "overrides/.github/agents/kubejs-explore.agent.md",
+      "sha1": "eaa9f0ff7b4bf36382f88dc7c33247de52c6ac05"
+    },
+    {
+      "path": "overrides/.github/agents/kubejs-planner.agent.md",
+      "sha1": "b51dd3ddbd7a35718f2a80ea8a4f04bea2bb7014"
+    },
+    {
+      "path": "overrides/.github/agents/kubejs-survey.agent.md",
+      "sha1": "c60f98906b544712d04f5c64a1304287a0f61e14"
+    },
+    {
       "path": "overrides/.gitignore",
       "sha1": "0ba9e879a7907b30c8a4ae771834a77d70d6f1ed"
+    },
+    {
+      "path": "overrides/.vscode/probejs.code-snippets",
+      "sha1": "b16b30bbdd609a53100d6fdd7ba2045544270e32"
     },
     {
       "path": "overrides/.vscode/settings.json",
@@ -797,6 +817,10 @@
       "sha1": "99dad30392ca0165e3c4dff349f24bf0cbd7e8af"
     },
     {
+      "path": "overrides/config/almostunified/debug.json",
+      "sha1": "63c1d69bc0153384fa20aba9d01ef4bd4dcb2274"
+    },
+    {
       "path": "overrides/config/almostunified/duplicates.json",
       "sha1": "d31969d528c08fb4a6dc4006497bfd1159675024"
     },
@@ -863,6 +887,14 @@
     {
       "path": "overrides/config/autumnity-common.toml",
       "sha1": "cb47252b7662712845f95aefa5dc622150a71465"
+    },
+    {
+      "path": "overrides/config/axiom/.axiom.json.backup",
+      "sha1": "4ac7b43416e62195e16a35cada53529c51e025a7"
+    },
+    {
+      "path": "overrides/config/axiom/axiom.json",
+      "sha1": "4ac7b43416e62195e16a35cada53529c51e025a7"
     },
     {
       "path": "overrides/config/azimuth-client.toml",
@@ -939,6 +971,10 @@
     {
       "path": "overrides/config/buzzier_bees-common.toml",
       "sha1": "f6fcbe2864d16d2f297fa53715dab0134945608e"
+    },
+    {
+      "path": "overrides/config/c2me.toml",
+      "sha1": "c654c2ee97110b6f2dfe2d87222cca4ef6f70bbd"
     },
     {
       "path": "overrides/config/catalogue.properties",
@@ -1249,6 +1285,14 @@
       "sha1": "2d5f9410dcb10b99a28770bf57181f7464eea5b3"
     },
     {
+      "path": "overrides/config/flywheel-client.toml",
+      "sha1": "16e17067e3426d88c81a69d39e7afa6a0bed9c48"
+    },
+    {
+      "path": "overrides/config/fml.toml",
+      "sha1": "9fca24533100755c12e7d1a82f8c524d0a163ff6"
+    },
+    {
       "path": "overrides/config/fzzy_config/keybinds.toml",
       "sha1": "f808afa706d9a4934612b20e1efd513416a0e8f1"
     },
@@ -1409,6 +1453,10 @@
       "sha1": "514f313ccc148ad64ad67688450494d21a306dd3"
     },
     {
+      "path": "overrides/config/monolib-common.toml",
+      "sha1": "0a865cacf77e2ab18e2fe988b43ada7ca6824bb1"
+    },
+    {
       "path": "overrides/config/moonlight-client.toml",
       "sha1": "7b8c615b82b9162fef6161f8951a046e1c2e14cd"
     },
@@ -1565,6 +1613,10 @@
       "sha1": "5455463ee999b945c1cff8ae90f2b705e19fb86c"
     },
     {
+      "path": "overrides/config/sodium-options.json",
+      "sha1": "02647e6c86e9ab35d65b23ae2d25864c9bbc888b"
+    },
+    {
       "path": "overrides/config/sootychimneys-client.toml",
       "sha1": "d27056a89ff888d5dcf8fe57a5b8f116e7c86ae7"
     },
@@ -1578,7 +1630,7 @@
     },
     {
       "path": "overrides/config/sounds/chat.json",
-      "sha1": "15c520b830ee744fc49365d13410f8905b35eb9c"
+      "sha1": "67b30fc865afe420696d76849e527eba582f35a5"
     },
     {
       "path": "overrides/config/sounds/event.json",
@@ -1595,6 +1647,14 @@
     {
       "path": "overrides/config/sounds/world.json",
       "sha1": "8a152dee53a944ed55614ff7ad036eb354a6a809"
+    },
+    {
+      "path": "overrides/config/spark/config.json",
+      "sha1": "33b6644f61573b11848cde9419529737418e0207"
+    },
+    {
+      "path": "overrides/config/spark/tmp/about.txt",
+      "sha1": "a63da50166561c948dc39484f0d88990cdbe29a0"
     },
     {
       "path": "overrides/config/spawn-client.toml",
@@ -1705,8 +1765,20 @@
       "sha1": "22df4f5efcb58547957245fcde37666baf9e5f58"
     },
     {
+      "path": "overrides/data/fabricDefaultResourcePacks.dat",
+      "sha1": "6d75fb7f586bc144242bf76bcef51dfd2ac02e74"
+    },
+    {
+      "path": "overrides/data/scholar_loaded_built_in_resource_packs.dat",
+      "sha1": "99aeeaba0da46e2e09219c1e27f4eec0a13f36ba"
+    },
+    {
       "path": "overrides/defaultconfigs/biolith/general.json",
       "sha1": "67fc13adf7658431900e6a4a8c686644764dfb1e"
+    },
+    {
+      "path": "overrides/icon.png",
+      "sha1": "5d2a6285ab3b064c7a7eee4a8d7c4f4c281e32f6"
     },
     {
       "path": "overrides/kubejs/README.txt",
@@ -2227,6 +2299,10 @@
     {
       "path": "overrides/kubejs/config/probe-settings.json",
       "sha1": "c1cea7f13b7c61033664537731778caa0ce3555b"
+    },
+    {
+      "path": "overrides/kubejs/config/web_server.json",
+      "sha1": "20362ade311aa423811c22fbbaa3e084258dbd60"
     },
     {
       "path": "overrides/kubejs/data/aether/dimension/the_aether.json",
@@ -3347,6 +3423,18 @@
     {
       "path": "overrides/mods/soulfulnether-1.1.1.jar",
       "sha1": "91ef4e1f34bccbc6a20a9711726426c2b6a0add1"
+    },
+    {
+      "path": "overrides/options.txt",
+      "sha1": "c14f0833a0012d0e2c38cd1f37d98985fb877a13"
+    },
+    {
+      "path": "overrides/patchouli_data.json",
+      "sha1": "231380073231d2812497b2be8d12dd38fef3ead8"
+    },
+    {
+      "path": "overrides/ponders_watched_azimuth.json",
+      "sha1": "97d170e1550eee4afc0af065b78cda302a97674c"
     }
   ]
 }

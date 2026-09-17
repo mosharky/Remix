@@ -1,6 +1,6 @@
 # Remix
 
-**Minecraft 1.21.1 · neoforge 21.1.248**, 174 mods (3 dependencies)
+**Minecraft 1.21.1 · neoforge 21.1.248**, 175 mods (3 dependencies)
 
 ## Contents
 
@@ -149,14 +149,14 @@
 - Sinytra Connector `Connector 2.0.0 beta 17` (curseforge)
 - [Smooth Skies](https://modrinth.com/project/smooth-skies) `2.10.4`
 - [Sodium](https://modrinth.com/project/sodium) `mc1.21.1-0.8.13-beta.2-neoforge`
-- [SodiumLeafCulling-Unofficial](https://modrinth.com/project/sodiumleafculling-unofficial) `neoforge-1.21.1-2.0.0`
+- [Sodium Leaf Culling Unofficial](https://modrinth.com/project/sodiumleafculling-unofficial) `neoforge-1.21.1-2.0.0`
 - [Sooty Chimneys](https://modrinth.com/project/sooty-chimneys) `1.3.5`
 - [Sounds](https://modrinth.com/project/sound) `2.4.22+lts+1.21.1-neoforge`
 - [spark](https://modrinth.com/project/spark) `1.10.124-neoforge-1.21.1`
 - [Spawn](https://modrinth.com/project/spawn-mod) `4.0.7`
 - [Spyglass Improvements](https://modrinth.com/project/spyglass-improvements) `1.5.7+mc1.21+neoforge`
 - [Starcatcher](https://modrinth.com/project/starcatcher) `3.0.6-NEOFORGE-1.21.1`
-- [Starcatcher's Delight](https://modrinth.com/project/starcatchers-delight) `3.0.1-NEOFORGE-1.21.1`
+- [Starcatcher's Delight - Let's Do: Kaleidoscope edition](https://modrinth.com/project/starcatchers-delight) `3.0.1-NEOFORGE-1.21.1`
 - [Storage Labels](https://modrinth.com/project/labels) `1.21-2.1.1`
 - [Strut Your Stuff (Struts)](https://modrinth.com/project/strut-your-stuff) `1.3.0`
 - [Supplementaries](https://modrinth.com/project/supplementaries) `1.21.1-3.9.1`
@@ -173,6 +173,7 @@
 - [Woodworks](https://modrinth.com/project/woodworks) `4.0.2`
 - [WorldJS](https://modrinth.com/project/worldjs) `1.0.1`
 - [XP Stream](https://modrinth.com/project/xp-stream) `1.1.4`
+- [Yama Copper Pressure Plates](https://modrinth.com/project/yama-copper-pressure-plates) `1.2.0`
 - [Yeetus Experimentus](https://modrinth.com/project/yeetus-experimentus) `87.0.0`
 - [YetAnotherConfigLib (YACL)](https://modrinth.com/project/yacl) `3.8.2+1.21.1-neoforge`
 - [YUNG's API](https://modrinth.com/project/yungs-api) `1.21.1-NeoForge-5.1.7`
