@@ -1,0 +1,23 @@
+{
+  "name": "Yama Copper Pressure Plates",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "n4yuLs5i",
+      "slug": "yama-copper-pressure-plates",
+      "versionId": "4e2cK1Cg",
+      "versionNumber": "1.2.0",
+      "filename": "yama_copper_plates-neoforge-1.2.0.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/n4yuLs5i/versions/4e2cK1Cg/yama_copper_plates-neoforge-1.2.0.jar",
+      "sha1": "994100c79263c5724158e1fb5c506513380d9e63",
+      "sha512": "a1c6994af871ead79caa3b0be87a0904fc1d6f3643bb3d9701811c6543b29d2c10fdb68b45d9090d4bd0892f931a1e2ad43ec7241f88f996db286ed6db7671f5",
+      "fileSize": 59803
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

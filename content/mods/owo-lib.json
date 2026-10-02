@@ -3,23 +3,21 @@
   "side": "auto",
   "explicit": false,
   "disabled": false,
-  "preferred": "modrinth",
+  "preferred": "curseforge",
   "sources": {
-    "modrinth": {
-      "id": "ccKDOlHs",
+    "curseforge": {
+      "id": "532610",
       "slug": "owo-lib",
-      "versionId": "NMCHU6DZ",
-      "versionNumber": "0.12.15.5-beta.1+1.21",
+      "versionId": "6785734",
+      "versionNumber": "[1.21.1] oωo - neo - 0.12.15.5-beta.1+1.21",
       "filename": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-      "downloadUrl": "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/6785/734/owo-lib-neoforge-0.12.15.5-beta.1%2b1.21.jar",
       "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed",
-      "sha512": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
       "fileSize": 1221583
     }
   },
   "dependents": [
-    "jtmvUHXj",
-    "ySnjMzLg"
+    "255308"
   ],
   "clientSide": "required",
   "serverSide": "required"
