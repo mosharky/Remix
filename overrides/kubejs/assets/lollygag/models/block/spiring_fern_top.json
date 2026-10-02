@@ -2,6 +2,6 @@
   "parent": "minecraft:block/tinted_cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "remix_core:block/spiring_fern_top"
+    "cross": "lollygag:block/spiring_fern_top"
   }
 }

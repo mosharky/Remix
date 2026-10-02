@@ -142,7 +142,7 @@
     },
     {
       "path": "content/mods/caverns-and-chasms.json",
-      "sha1": "ccf0ded743826861a9ef3a333382868dc8c9d5a3"
+      "sha1": "82f508b9dac92201b375151d8cd27b6256a3aafc"
     },
     {
       "path": "content/mods/chalk-mod.json",
@@ -1078,7 +1078,7 @@
     },
     {
       "path": "overrides/config/caverns_and_chasms-client.toml",
-      "sha1": "e5a8836dc9dd8273bd47f1db8035906eff9f8ada"
+      "sha1": "d6148d61a76ab2aeff5653292ad3022e8c1c152a"
     },
     {
       "path": "overrides/config/caverns_and_chasms-common.toml",
@@ -1330,7 +1330,7 @@
     },
     {
       "path": "overrides/config/everycomp-entries.toml",
-      "sha1": "ac6657f31ad6ad0f54d0559ebea4dc6a9195a730"
+      "sha1": "2e0ec917bd6f0abbfe6d73ec62819d56e62c103f"
     },
     {
       "path": "overrides/config/everycomp-hazardous.toml",
@@ -2097,6 +2097,62 @@
       "sha1": "2d219dbd54d5d5b16a729a3200eef61ce9c86c57"
     },
     {
+      "path": "overrides/kubejs/assets/lollygag/models/block/spiring_fern.json",
+      "sha1": "9ebedf040a6f47e6706f292249f183ad10d65c5e"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/models/block/spiring_fern_bottom.json",
+      "sha1": "1d9cd6425b7d2285981a4025737856f84c84619a"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/models/block/spiring_fern_middle.json",
+      "sha1": "9c73243f04445e3206411b8fce2c982693df5926"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/models/block/spiring_fern_top.json",
+      "sha1": "ae8bce5ceaa36cb374513985cb3cb5b5e9358c32"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/fragile_holystone.png",
+      "sha1": "21d34b5f6e0fe406095f6fcf93fc447b7e743d59"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/holystone_pebbles.png",
+      "sha1": "6dd03d90800ee448b54f73ad77bb0810b74f9006"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/holystone_quartz_ore.png",
+      "sha1": "21d34b5f6e0fe406095f6fcf93fc447b7e743d59"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/holystone_silver_ore.png",
+      "sha1": "555587102cb8e5dcceba5fe5c024d039ff9de270"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern.png",
+      "sha1": "cd624ba51b05a95f53847f5c0aa19b56100dbb8d"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern_bottom.png",
+      "sha1": "0e8aa146f52ff2722e58fcdc1537b2e65d5d4bba"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern_bottom_overlay.png",
+      "sha1": "f0a105444876e84a0cdafc40962627acfd9c823b"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern_middle.png",
+      "sha1": "9aa6a32c2f158778d26fc3c15990bec8772d7d5b"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern_overlay.png",
+      "sha1": "9397b9bedb4011e19066897fd870b1abf6f1fe01"
+    },
+    {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern_top.png",
+      "sha1": "7979e79441f650a8d8e13368f57d127b31629b02"
+    },
+    {
       "path": "overrides/kubejs/assets/minecraft/textures/block/chiseled_tuff.png",
       "sha1": "c1c5c622ef5a2f5d898e36a643fc7fd64fed3256"
     },
@@ -2170,11 +2226,11 @@
     },
     {
       "path": "overrides/kubejs/assets/remix/polytone/block_modifiers/aether_grass_tints.json",
-      "sha1": "ddfed118976af1295027e9b75163c253f3b1517f"
+      "sha1": "abc1a2d76691bd3f686749111ce65a3beeacc84c"
     },
     {
       "path": "overrides/kubejs/assets/remix/polytone/block_modifiers/xyz_offset.json",
-      "sha1": "c817534921b68e8818057a7bf1437fd3c9f7ace0"
+      "sha1": "32a55f5dac807a2dba7696447f21e5b3219e6d63"
     },
     {
       "path": "overrides/kubejs/assets/remix/polytone/block_modifiers/xz_offset.json",
@@ -2239,62 +2295,6 @@
     {
       "path": "overrides/kubejs/assets/remix/textures/block/skyroot_log.png",
       "sha1": "0484dfa968f6f068220bfe685f8f1af1ee89e61b"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/models/block/spiring_fern.json",
-      "sha1": "12828eb58b55ef8a04ee79e80e3e917d5861112b"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/models/block/spiring_fern_bottom.json",
-      "sha1": "05174a38b4669e24af5293f2447b9b4f7c44bcf2"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/models/block/spiring_fern_middle.json",
-      "sha1": "05bea54aade3623645264cb1881ef975aa13b94e"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/models/block/spiring_fern_top.json",
-      "sha1": "70908343d4e543e28717d0082660ec42d930ae5a"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/fragile_holystone.png",
-      "sha1": "21d34b5f6e0fe406095f6fcf93fc447b7e743d59"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/holystone_pebbles.png",
-      "sha1": "6dd03d90800ee448b54f73ad77bb0810b74f9006"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/holystone_quartz_ore.png",
-      "sha1": "21d34b5f6e0fe406095f6fcf93fc447b7e743d59"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/holystone_silver_ore.png",
-      "sha1": "555587102cb8e5dcceba5fe5c024d039ff9de270"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/spiring_fern.png",
-      "sha1": "cd624ba51b05a95f53847f5c0aa19b56100dbb8d"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/spiring_fern_bottom.png",
-      "sha1": "0e8aa146f52ff2722e58fcdc1537b2e65d5d4bba"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/spiring_fern_bottom_overlay.png",
-      "sha1": "f0a105444876e84a0cdafc40962627acfd9c823b"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/spiring_fern_middle.png",
-      "sha1": "9aa6a32c2f158778d26fc3c15990bec8772d7d5b"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/spiring_fern_overlay.png",
-      "sha1": "9397b9bedb4011e19066897fd870b1abf6f1fe01"
-    },
-    {
-      "path": "overrides/kubejs/assets/remix_core/textures/block/spiring_fern_top.png",
-      "sha1": "7979e79441f650a8d8e13368f57d127b31629b02"
     },
     {
       "path": "overrides/kubejs/assets/soulfulnether/blockstates/ember_roots.json",
@@ -2786,19 +2786,19 @@
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/patch/holystone_pebbles.json",
-      "sha1": "d84030787e9f25495a47ef78f48015862c5cd924"
+      "sha1": "45ee4a77331c7c70fefb5a73aab097632fa7e71d"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/patch/holystone_pebbles_dense.json",
-      "sha1": "5af9b0188588112c07927e006adb2e3ca8492926"
+      "sha1": "e78b3426437e8dd98828a76086a7d182a2f19956"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/patch/skygrass.json",
-      "sha1": "a00d2cc82082181d02c33176d22e62895349cd89"
+      "sha1": "81112276d2dd5898957bb5c77af65fe34a046a02"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/patch/skygrass_sprouts.json",
-      "sha1": "c0a712b3d5b7f19e11eb4cbe31da0d093d9e45dd"
+      "sha1": "1bbe320532dc1a2a93470d2a70fe328ec08db7c8"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/patch/wispy_cave_growths.json",
@@ -13869,8 +13869,8 @@
       "sha1": "85724352bbb83d8df5204188617ff999c4ddf4fa"
     },
     {
-      "path": "overrides/mods/remix_core-1.0.0.jar",
-      "sha1": "7bd568bb415fe3c0700af8fe82c8e3adbe3b09a3"
+      "path": "overrides/mods/lollygag-1.0.0.jar",
+      "sha1": "25236ee6f0fe3e6dd67b4828292b54c7cf4194eb"
     },
     {
       "path": "overrides/mods/soulfulnether-1.1.1.jar",

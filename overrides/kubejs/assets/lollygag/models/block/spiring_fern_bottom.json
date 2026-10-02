@@ -2,8 +2,8 @@
     "ambientocclusion": false,
     "render_type": "minecraft:cutout",
     "textures": {
-        "cross": "remix_core:block/spiring_fern_overlay",
-        "crosstinted": "remix_core:block/spiring_fern",
+        "cross": "lollygag:block/spiring_fern_bottom_overlay",
+        "crosstinted": "lollygag:block/spiring_fern_bottom",
         "particle": "#crosstinted"
     },
     "elements": [

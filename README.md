@@ -37,7 +37,7 @@
 - [Bountiful Fares](https://modrinth.com/project/bountiful-fares) `3.0.12`
 - [Brewin' And Chewin'](https://modrinth.com/project/brewin-and-chewin) `4.5.0+1.21.1-neoforge`
 - [Buzzier Bees](https://modrinth.com/project/buzzier-bees) `7.0.1`
-- [Caverns & Chasms](https://modrinth.com/project/caverns-and-chasms) `3.0.0`
+- [Caverns & Chasms](https://modrinth.com/project/caverns-and-chasms) `3.0.1`
 - [Chalk](https://modrinth.com/project/chalk-mod) `1.6.12`
 - [Clayworks](https://modrinth.com/project/clayworks) `4.0.3`
 - [Cloth Config API](https://modrinth.com/project/cloth-config) `15.0.140+neoforge`
