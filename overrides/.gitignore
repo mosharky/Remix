@@ -89,6 +89,8 @@ shaderpacks/*EuphoriaPatches*
 /debug/
 /blueprint-online-image-cache/
 /villagerpacks/
+/vista_ffmpeg_bin/
+/vista_web_content_cache/
 
 # root files
 knownkeys.txt
@@ -119,6 +121,8 @@ imgui.ini
 ponders_watched.json
 ponders_watched_azimuth.json
 user-prefs.json
+temp_image_dump.png
+vista_ffmpeg_sources.json
 
 # dev environment stuff
 /.probe/
