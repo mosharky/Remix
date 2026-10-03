@@ -62,3 +62,4 @@ config/emi-accelerator/reload-timings.json
 config/asyncparticles/asyncparticles-mixin.properties
 config/fabric/indigo-renderer.properties
 vista_ffmpeg_sources.json
+overrides/.github/agents/
