@@ -63,3 +63,6 @@ config/asyncparticles/asyncparticles-mixin.properties
 config/fabric/indigo-renderer.properties
 vista_ffmpeg_sources.json
 overrides/.github/agents/
+.github/agents/kubejs-explore.agent.md
+.github/agents/kubejs-planner.agent.md
+.github/agents/kubejs-survey.agent.md

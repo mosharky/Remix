@@ -725,18 +725,6 @@
       "sha1": "5ffd17f08b8e3756cb88582aafcc8f00baa09eec"
     },
     {
-      "path": "overrides/.github/agents/kubejs-explore.agent.md",
-      "sha1": "eaa9f0ff7b4bf36382f88dc7c33247de52c6ac05"
-    },
-    {
-      "path": "overrides/.github/agents/kubejs-planner.agent.md",
-      "sha1": "b51dd3ddbd7a35718f2a80ea8a4f04bea2bb7014"
-    },
-    {
-      "path": "overrides/.github/agents/kubejs-survey.agent.md",
-      "sha1": "c60f98906b544712d04f5c64a1304287a0f61e14"
-    },
-    {
       "path": "overrides/.gitignore",
       "sha1": "5acdc8963556a055ae424ad86f48dc53452d3bbd"
     },
@@ -1034,7 +1022,7 @@
     },
     {
       "path": "overrides/config/betterclouds-v1.json",
-      "sha1": "3868b6a82a0a8e87e633f98482733461b108dfef"
+      "sha1": "ee420a50f992bd55b89732a3c5f6fe8df612f02c"
     },
     {
       "path": "overrides/config/bits_n_bobs-common.toml",
@@ -2438,7 +2426,7 @@
     },
     {
       "path": "overrides/kubejs/client_scripts/betterclouds/betterclouds.js",
-      "sha1": "e30a202a3a7e10f9edc9c7de38e6c198a2d3c467"
+      "sha1": "ad92d39e275a8fcd5b3e562ca4d7efbafe020fab"
     },
     {
       "path": "overrides/kubejs/client_scripts/bountifulfares/emi.js",

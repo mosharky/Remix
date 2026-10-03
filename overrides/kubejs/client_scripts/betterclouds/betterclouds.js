@@ -37,11 +37,11 @@ function dimensionalBetterClouds(dimension) {
 
     const aetherClouds = () => {
         config.selectedPreset = 0
-        config.selectedNoisePreset = 0
+        config.selectedNoisePreset = 2
         config.distance = 3.3
         config.fuzziness = 0.75
         config.yRange = 100
-        config.yOffset = -60
+        config.yOffset = 0.0
         config.spacing = 2.75
         config.sizeXZ = 20
         config.sizeY = 15
