@@ -1,0 +1,11 @@
+{
+  "targets": [
+    "aether:skyroot_leaves"
+  ],
+  "colormap": {
+    "biomes": {
+      "remix_aether:lofty_clearings": "remix:aether/lofty_clearings_foliage"
+    },
+    "default": "remix:aether/aether_foliage_color"
+  }
+}

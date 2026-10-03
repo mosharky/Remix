@@ -86,6 +86,10 @@
   "balm": {
     "jade": true
   },
+  "unusual_prehistory": {
+    "transmogrifier": true,
+    "egg_block": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

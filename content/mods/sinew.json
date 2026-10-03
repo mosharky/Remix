@@ -1,0 +1,22 @@
+{
+  "name": "Sinew",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "curseforge",
+  "sources": {
+    "curseforge": {
+      "id": "1686754",
+      "slug": "sinew",
+      "versionId": "9024569",
+      "versionNumber": "Sinew-1.21.1-1.2.13.jar",
+      "filename": "Sinew-1.21.1-1.2.13.jar",
+      "downloadUrl": "https://edge.forgecdn.net/files/9024/569/Sinew-1.21.1-1.2.13.jar",
+      "sha1": "c7c17c69515e2214cb8eded04b8b9860e2d5adda",
+      "fileSize": 160661
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}
