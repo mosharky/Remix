@@ -1,0 +1,23 @@
+{
+  "name": "Unusual Prehistory 2",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "KwCqEdeN",
+      "slug": "unusual-prehistory-2",
+      "versionId": "rK3pXSWK",
+      "versionNumber": "2.0.0-beta3",
+      "filename": "Unusual-Prehistory-2-1.21.1-2.0.0-beta3.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/KwCqEdeN/versions/rK3pXSWK/Unusual-Prehistory-2-1.21.1-2.0.0-beta3.jar",
+      "sha1": "f7118b30b4b18419b4e54194369b96a3af16990a",
+      "sha512": "d7e28439073e92c24fe8c53f33f556b06a62c6ea5fd4f70ab57c255f66c1676d4481936b2513ebced9265be71dd4c3b8e7b2293b0259a41126b668f3f93e2daa",
+      "fileSize": 1159076
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

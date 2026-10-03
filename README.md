@@ -1,6 +1,6 @@
 # Remix
 
-**Minecraft 1.21.1 · neoforge 21.1.248**, 175 mods (3 dependencies)
+**Minecraft 1.21.1 · neoforge 21.1.248**, 179 mods (3 dependencies)
 
 ## Contents
 
@@ -23,6 +23,7 @@
 - [Async Logger](https://modrinth.com/project/asynclogger) `2.2.2+1.21.1-neoforge`
 - [AsyncParticles](https://modrinth.com/project/asyncparticles) `21.1.4.0-beta.3`
 - [Atmospheric](https://modrinth.com/project/atmospheric) `7.0.1`
+- [ATMOSPHERICS](https://modrinth.com/project/atmospherics) `2.6.5.2`
 - [Autumnity](https://modrinth.com/project/autumnity) `6.0.1`
 - [Axiom](https://modrinth.com/project/axiom) `5.4.2`
 - [Azimuth API](https://modrinth.com/project/azimuth-api) `1.4.7`
@@ -128,6 +129,7 @@
 - [No Man's Land](https://modrinth.com/project/no-mans-land) `1.5.12`
 - [NoisiumForked](https://modrinth.com/project/noisiumforked) `2.7.0+mc1.21-1.21.1`
 - [Not Enough Recipe Book [NERB]](https://modrinth.com/project/notenoughrecipebook) `0.4.3`
+- [Opposing Force](https://modrinth.com/project/opposing-force) `3.0.0-beta4`
 - [Oreganized](https://modrinth.com/project/oreganized) `5.1.2`
 - [Patchouli](https://modrinth.com/project/patchouli) `1.21.1-93-neoforge`
 - [Placebo](https://modrinth.com/project/placebo) `1.21.1-9.9.2`
@@ -146,6 +148,7 @@
 - [Screenshot to Clipboard](https://modrinth.com/project/screenshot-to-clipboard) `1.0.10+neoforge`
 - [Searchables](https://modrinth.com/project/searchables) `1.0.2`
 - [ShatterLib | OctoLib](https://modrinth.com/project/shatterbyte-lib) `0.6.2`
+- Sinew `Sinew-1.21.1-1.2.13.jar` (curseforge)
 - Sinytra Connector `Connector 2.0.0 beta 17` (curseforge)
 - [Smooth Skies](https://modrinth.com/project/smooth-skies) `2.10.4`
 - [Sodium](https://modrinth.com/project/sodium) `mc1.21.1-0.8.13-beta.2-neoforge`
@@ -166,6 +169,7 @@
 - [Too Fast](https://modrinth.com/project/too-fast) `0.4.3.5`
 - [TooManyRecipeViewers](https://modrinth.com/project/tmrv) `0.9.0+mc.21.1`
 - [Twigs](https://modrinth.com/project/twigs) `1.21.1-3.1.2`
+- [Unusual Prehistory 2](https://modrinth.com/project/unusual-prehistory-2) `2.0.0-beta3`
 - [Upgrade Aquatic](https://modrinth.com/project/upgrade-aquatic) `7.0.1`
 - [Vanilla Backport](https://modrinth.com/project/vanillabackport) `1.1.7.10`
 - [Windswept](https://modrinth.com/project/windswept) `4.0.1`

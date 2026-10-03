@@ -29,6 +29,8 @@
   "moonTextureRotation": 0.0,
   "sunTextureEnabled": true,
   "sunsetFogEnabled": true,
+  "customSunsetColors": true,
+  "twilightSkyDarkening": 0.5,
   "fogTime": {
     "start": 0,
     "end": 24000
@@ -203,7 +205,6 @@
   "sandstormWeather": {
     "tumbleweedEnabled": true,
     "particlesEnabled": true,
-    "soundsEnabled": true,
     "clear": {
       "speedMult": 0.1,
       "tumbleweedSpeedMult": 1.0,
