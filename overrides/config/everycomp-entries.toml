@@ -228,7 +228,7 @@
 			dandelion_paper_lantern = true
 			torchflower_paper_lantern = true
 
-		[types.lantern.remix_core]
+		[types.lantern.lollygag]
 			caelic_lantern = true
 
 		[types.lantern.windswept]
@@ -330,7 +330,7 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.remix_core]
+		[types.leaves_type.lollygag]
 			dead = true
 			aspen = true
 			birch = true
