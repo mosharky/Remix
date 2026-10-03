@@ -1673,6 +1673,10 @@
       "sha1": "51c7f74dd347fb56058bb5ef1f551354879a5360"
     },
     {
+      "path": "overrides/config/remi/remi.json",
+      "sha1": "705b9bfd535e216505f62f542f656f7b8f2e9b7f"
+    },
+    {
       "path": "overrides/config/scguns-client.toml",
       "sha1": "a14240dfad7a5560b8f10572aac2659fe0be4963"
     },
@@ -13863,10 +13867,6 @@
     {
       "path": "overrides/mods/botania-neoforge-1.21.1-455-SNAPSHOT.jar",
       "sha1": "4a9c5ebde38e920c4cd46e9442ff6d731b72f4c2"
-    },
-    {
-      "path": "overrides/mods/emi_loot_fix-1.0.0.jar",
-      "sha1": "85724352bbb83d8df5204188617ff999c4ddf4fa"
     },
     {
       "path": "overrides/mods/lollygag-1.0.0.jar",
