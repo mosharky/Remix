@@ -518,7 +518,7 @@
     },
     {
       "path": "content/mods/owo-lib.json",
-      "sha1": "f5a669695d0c3bd7d879fb5884ab945b6df7bb32"
+      "sha1": "103e03f12e5be6e12dadbda41480b215145736f7"
     },
     {
       "path": "content/mods/patchouli.json",
@@ -902,11 +902,11 @@
     },
     {
       "path": "overrides/config/axiom/.axiom.json.backup",
-      "sha1": "01f462564701d97ec221807c7fb661ba9a00aff7"
+      "sha1": "d17ac56789357944e41eeb584dff5c8880151fda"
     },
     {
       "path": "overrides/config/axiom/axiom.json",
-      "sha1": "01f462564701d97ec221807c7fb661ba9a00aff7"
+      "sha1": "d17ac56789357944e41eeb584dff5c8880151fda"
     },
     {
       "path": "overrides/config/azimuth-client.toml",
@@ -2061,6 +2061,10 @@
       "sha1": "29219cc6438296f38e5b411e07a227e0595eaf17"
     },
     {
+      "path": "overrides/kubejs/assets/lollygag/textures/block/skyroot_branch.png",
+      "sha1": "429601d562371a6d09d9503120477ee2971ecba5"
+    },
+    {
       "path": "overrides/kubejs/assets/lollygag/textures/block/spiring_fern.png",
       "sha1": "cd624ba51b05a95f53847f5c0aa19b56100dbb8d"
     },
@@ -2586,7 +2590,7 @@
     },
     {
       "path": "overrides/kubejs/data/remix_aether/structure/tree/loftbark/normal/1.nbt",
-      "sha1": "1a359d54db41b3e5704b6593dc7eb75c22dc679b"
+      "sha1": "f7b1a9af893fe7e42a81dee5067c0dd5f7171fe1"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/structure/tree/loftbark/normal/2.nbt",
@@ -2778,7 +2782,7 @@
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/tree/loftbark/normal.json",
-      "sha1": "fae69f06225ef78a1b3175e98fe7f7d3055e1b29"
+      "sha1": "8a3c706a64356b914d9d92bc9b3128aad136172e"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/configured_feature/tree/template_tree.json",
@@ -2882,7 +2886,7 @@
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/processor_list/loftbark/normal.json",
-      "sha1": "72f3c10415e89f7f8f77422d6d3fea32cfaf89ab"
+      "sha1": "4209d641689afb37328f86844b2cb6d5361125a6"
     },
     {
       "path": "overrides/kubejs/data/remix_aether/worldgen/processor_list/ruin/basic.json",
@@ -3502,7 +3506,7 @@
     },
     {
       "path": "overrides/options.txt",
-      "sha1": "828a7d4fb4ffd9822be75445e1b0469a0ac4bbab"
+      "sha1": "4e9cae95f5d8a37789356779d6847eaf251e4132"
     },
     {
       "path": "overrides/patchouli_data.json",

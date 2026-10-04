@@ -16,14 +16,7 @@
               "origin_offset": -1,
               "origin_type": "anchored",
               "templates": [
-                { "data": "remix_aether:tree/loftbark/normal/1", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/2", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/3", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/4", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/5", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/6", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/7", "weight": 1 },
-                { "data": "remix_aether:tree/loftbark/normal/8", "weight": 1 }
+                { "data": "remix_aether:tree/loftbark/normal/1", "weight": 1 }
               ],
               "processors": "remix_aether:loftbark/normal"
             }
