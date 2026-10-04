@@ -10,7 +10,6 @@
   "tabIconSize": 16,
   "syncSelectedCreativeModeTab": true,
   "showCreativeTabNameInSearchbar": true,
-  "switchToSearchTabWhenSearching": true,
   "maxSidebarTabs": 0,
   "disabledCreativeModeTabs": [
     "minecraft:op_blocks"

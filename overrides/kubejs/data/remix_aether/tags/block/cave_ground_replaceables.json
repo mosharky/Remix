@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#c:stones",
+    "aether:aether_dirt"
+  ]
+}

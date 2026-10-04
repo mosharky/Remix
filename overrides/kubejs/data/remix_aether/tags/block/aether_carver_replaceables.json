@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "#aether:aether_island_blocks",
+    "aether:aether_island_blocks",
     "#minecraft:overworld_carver_replaceables"
   ]
 }

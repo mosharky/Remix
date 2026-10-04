@@ -1,6 +1,6 @@
 # Remix
 
-**Minecraft 1.21.1 · neoforge 21.1.248**, 179 mods (3 dependencies)
+**Minecraft 1.21.1 · neoforge 21.1.248**, 178 mods (3 dependencies)
 
 ## Contents
 
@@ -152,7 +152,6 @@
 - Sinytra Connector `Connector 2.0.0 beta 17` (curseforge)
 - [Smooth Skies](https://modrinth.com/project/smooth-skies) `2.10.4`
 - [Sodium](https://modrinth.com/project/sodium) `mc1.21.1-0.8.13-beta.2-neoforge`
-- [Sodium Leaf Culling Unofficial](https://modrinth.com/project/sodiumleafculling-unofficial) `neoforge-1.21.1-2.0.0`
 - [Sooty Chimneys](https://modrinth.com/project/sooty-chimneys) `1.3.5`
 - [Sounds](https://modrinth.com/project/sound) `2.4.22+lts+1.21.1-neoforge`
 - [spark](https://modrinth.com/project/spark) `1.10.124-neoforge-1.21.1`
